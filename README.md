@@ -19,6 +19,9 @@
 - [Fetched Data](./data/): Github Action runs once per hour to fetch new prices
 - [Price Data Transformation](./data-transformation/): Github Action aggregates and transforms data to easily use in Frontend
 
+Feeds: [https://raw.githubusercontent.com/web3nao/mocuda/main/data/feeds.json](https://raw.githubusercontent.com/web3nao/mocuda/main/data/feeds.json)
+Example ETHUSD: [https://raw.githubusercontent.com/web3nao/mocuda/main/data/feeds/ETHUSD.json](https://raw.githubusercontent.com/web3nao/mocuda/main/data/feeds/ETHUSD.json)
+
 ### Data Source: `subgraph-ocu`
 
 Forked Subgraph by Maker Oracles: updated to work with latest `graphcli`. Indexes all Events and Function calls related to the Oracles Smart Contracts. Has no history of price data.
