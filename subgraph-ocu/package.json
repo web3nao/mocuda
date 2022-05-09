@@ -1,0 +1,19 @@
+{
+  "name": "maker-oracles-subgraph",
+  "version": "0.1.0",
+  "repository": "https://github.com/web3nao/makerdao-ocu",
+  "license": "MIT",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ urbanisierung/makerdao-ocu",
+    "create-local": "graph create --node http://localhost:8020/ urbanisierung/makerdao-ocu",
+    "remove-local": "graph remove --node http://localhost:8020/ urbanisierung/makerdao-ocu",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 urbanisierung/makerdao-ocu"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "0.29.1",
+    "@graphprotocol/graph-ts": "0.26.0",
+    "@protofire/subgraph-toolkit": "0.1.1"
+  }
+}

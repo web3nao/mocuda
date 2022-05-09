@@ -1,0 +1,23 @@
+specVersion: 0.0.2
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum
+    name: OCU_ETH_USD
+    network: mainnet
+    source:
+      abi: OCU_ETH_USD
+      startBlock: 8925057
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - LogMedianPrice
+      abis:
+        - name: OCU_ETH_USD
+          file: OCU_ETH_USD/abis/OCU_ETH_USD.json
+      eventHandlers:
+        - event: LogMedianPrice(uint256,uint256)
+          handler: handleLogMedianPrice
+      file: OCU_ETH_USD/OCU_ETH_USD.wasm

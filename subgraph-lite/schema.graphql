@@ -1,0 +1,19 @@
+type LogMedianPrice @entity {
+  id: ID!
+  val: BigInt! # uint256
+  age: BigInt! # uint256
+  type: String! # string
+}
+
+# type Whitelist @entity {
+#   id: ID!
+#   type: String! # string
+#   kiss: Boolean! # bool
+# }
+
+type EventCounter @entity {
+  id: ID!
+  count: Int!
+  first: BigInt!
+  latest: BigInt!
+}

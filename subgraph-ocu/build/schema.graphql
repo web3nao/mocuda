@@ -1,0 +1,46 @@
+type OSMPrice @entity {
+  id: ID!
+  updatedTimeStamp: BigInt
+  updatedBlockNumber: BigInt
+  transactionHash: Bytes
+  medianizer: MedianizerPrice
+  curValue: BigInt
+  nextValue: BigInt
+  nextTimestamp: BigInt
+  consumers: [OSMConsumer!] @derivedFrom(field: "osm")
+}
+
+type MedianizerPrice @entity {
+  id: ID!
+  updatedTimeStamp: BigInt
+  updatedBlockNumber: BigInt
+  transactionHash: Bytes
+  name: String
+  curValue: BigInt
+  feeds: [Feed!]! @derivedFrom(field: "medianizer")
+  osm: [OSMPrice!] @derivedFrom(field: "medianizer")
+  consumers: [MedianizerConsumer!] @derivedFrom(field: "medianizer")
+}
+
+type Feed @entity {
+  id: ID!
+  medianizer: MedianizerPrice
+  updatedTimeStamp: BigInt
+  curValue: BigInt
+  active: Boolean
+  v: Int
+  r: Bytes
+  s: Bytes
+}
+
+type MedianizerConsumer @entity {
+  id: ID!
+  address: Bytes
+  medianizer: MedianizerPrice
+}
+
+type OSMConsumer @entity {
+  id: ID!
+  address: Bytes
+  osm: OSMPrice
+}

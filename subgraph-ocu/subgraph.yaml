@@ -1,0 +1,102 @@
+specVersion: 0.0.2
+description: Maker Oracles
+repository: https://github.com/web3nao/makerdao-ocu-subgraph
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: MakerOSM
+    network: mainnet
+    source:
+      abi: OSM
+      startBlock: 8925057
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - OSMPrice
+      abis:
+        - name: OSM
+          file: ./abis/OSM.json
+      eventHandlers:
+        - event: LogValue(bytes32)
+          handler: handleLogValue
+        # - event: LogNote(indexed bytes4,indexed address,indexed bytes32,indexed bytes32,bytes)
+        #   topic0: "0xf29c29c400000000000000000000000000000000000000000000000000000000"
+        #   handler: handleKissNote
+      file: ./src/osmMapping.ts
+  - kind: ethereum/contract
+    name: MakerMedianizer
+    network: mainnet
+    source:
+      abi: Medianizer
+      startBlock: 8925057
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - MedianizerPrice
+        - Feed
+      abis:
+        - name: Medianizer
+          file: ./abis/Medianizer.json
+      eventHandlers:
+        - event: LogMedianPrice(uint256,uint256)
+          handler: handleMedianPrice
+      file: ./src/medianizerMapping.ts
+templates:
+  - name: MakerOSMTemplate
+    kind: ethereum/contract
+    network: mainnet
+    source:
+      abi: OSM
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      file: ./src/osmMapping.ts
+      entities:
+        - OSMPrice
+        - OSMConsumer
+      abis:
+        - name: OSM
+          file: ./abis/OSM.json
+      callHandlers:
+        - function: kiss(address)
+          handler: handleKiss
+        - function: kiss(address[])
+          handler: handleKisses
+        - function: diss(address)
+          handler: handleDiss
+        - function: diss(address[])
+          handler: handleDisses
+  - name: MakerMedianizer
+    kind: ethereum/contract
+    network: mainnet
+    source:
+      abi: Medianizer
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      file: ./src/medianizerMapping.ts
+      entities:
+        - MedianizerPrice
+        - Feed
+        - MedianizerConsumer
+      abis:
+        - name: Medianizer
+          file: ./abis/Medianizer.json
+      callHandlers:
+        - function: poke(uint256[],uint256[],uint8[],bytes32[],bytes32[])
+          handler: handlePoke
+        - function: kiss(address)
+          handler: handleKiss
+        - function: kiss(address[])
+          handler: handleKisses
+        - function: diss(address)
+          handler: handleDiss
+        - function: diss(address[])
+          handler: handleDisses
