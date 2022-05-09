@@ -18,6 +18,7 @@
 - [Spire Binary](./spire/): executable to fetch prices
 - [Fetched Data](./data/): Github Action runs once per hour to fetch new prices
 - [Price Data Transformation](./data-transformation/): Github Action aggregates and transforms data to easily use in Frontend
+- TODO: upload to filebase: see https://docs.filebase.com/configurations/third-party-configurations/backup-client-configurations/s3-uploader-for-github-actions
 
 Feeds: [https://raw.githubusercontent.com/web3nao/mocuda/main/data/feeds.json](https://raw.githubusercontent.com/web3nao/mocuda/main/data/feeds.json)
 Example ETHUSD: [https://raw.githubusercontent.com/web3nao/mocuda/main/data/feeds/ETHUSD.json](https://raw.githubusercontent.com/web3nao/mocuda/main/data/feeds/ETHUSD.json)
