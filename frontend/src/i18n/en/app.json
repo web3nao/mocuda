@@ -1,0 +1,14 @@
+{
+	"title": "mocuda",
+	"navbar": {
+		"home": "Home"
+	},
+	"pages": {
+		"feeds": {
+			"titles": {
+				"feeds": "Feeds",
+				"pairs": "Pairs"
+			}
+		}
+	}
+}
