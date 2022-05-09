@@ -1,0 +1,50 @@
+name: Listen to libp2p and pull prices
+
+# on:
+#   push:
+#     branches:
+#       - "*"
+#     tags-ignore:
+#       - "*"
+
+on:
+  schedule:
+    - cron: "30 * * * *"
+
+jobs:
+  resources:
+    name: Listen to libp2p and pull prices
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout Repository
+
+      - name: Start spire agent
+        run: |
+          ./spire/bin/spire agent -c ./spire/config/config.json &
+          sleep 10
+          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices.json &
+          sleep 10
+          cat ./data/prices.json
+
+      - name: "Install Dependencies"
+        working-directory: ./data-transformation
+        run: yarn install
+
+      - name: "Transform Data"
+        working-directory: ./data-transformation
+        run: yarn start
+
+      - name: Push updated data
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: data/*.json
+          commit-msg: chore(data) update prices
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push updated feed data
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: data/feeds/*.json
+          commit-msg: chore(data) update prices
+          github-token: ${{ secrets.GITHUB_TOKEN }}
