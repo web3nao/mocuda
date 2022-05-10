@@ -14,7 +14,7 @@
 		"@chakra-ui/react": "^2.0.0-next.4",
 		"@emotion/react": "^11",
 		"@emotion/styled": "^11",
-		"@web3nao/http-configs": "^0.0.14",
+		"@web3nao/http-configs": "^0.0.15",
 		"framer-motion": "^6.3.3",
 		"i18next": "^21.7.1",
 		"i18next-xhr-backend": "^3.2.2",

@@ -7,7 +7,8 @@
 		"feeds": {
 			"titles": {
 				"feeds": "Feeds",
-				"pairs": "Pairs"
+				"pairs": "Pairs",
+				"eventCounters": "Subgraph Lite: Event Counters"
 			}
 		}
 	}

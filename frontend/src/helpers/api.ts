@@ -14,7 +14,19 @@ export type HttpBase = 'origin' | 'test'
 export interface RequestPayload {
 	base?: HttpBase
 	url: string
-	method: 'get' | 'post' | 'put' | 'delete' | 'patch'
+	method:
+		| 'get'
+		| 'GET'
+		| 'post'
+		| 'POST'
+		| 'put'
+		| 'PUT'
+		| 'delete'
+		| 'DELETE'
+		| 'patch'
+		| 'PATCH'
+		| 'head'
+		| 'HEAD'
 	headers?: { [key: string]: string }
 	type?: 'json' | 'text' | 'form' | 'none'
 	responseType?: 'json' | 'text' | 'form' | 'none'
@@ -56,7 +68,7 @@ export async function request(payload: RequestPayload): Promise<any> {
 	const url = base ? `${base}/${payload.url}` : payload.url
 	const start = performance.now()
 	const response = await fetch(url, {
-		method: payload.method,
+		method: payload.method.toUpperCase(),
 		headers,
 		body,
 	})
