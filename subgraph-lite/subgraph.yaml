@@ -22,34 +22,4 @@ dataSources:
       eventHandlers:
         - event: LogMedianPrice(uint256,uint256)
           handler: handleLogMedianPrice
-      # callHandlers:
-      #   - function: kiss(address)
-      #     handler: handleKissEthUsd
-      #   - function: diss(address)
-      #     handler: handleDissEthUsd
       file: ./src/mapping.ts
-  # - kind: ethereum
-  #   name: OCU_BTC_USD
-  #   network: mainnet
-  #   source:
-  #     address: "0xe0F30cb149fAADC7247E953746Be9BbBB6B5751f"
-  #     abi: OCU_BTC_USD
-  #     startBlock: 8925077
-  #   mapping:
-  #     kind: ethereum/events
-  #     apiVersion: 0.0.5
-  #     language: wasm/assemblyscript
-  #     entities:
-  #       - LogMedianPrice
-  #     abis:
-  #       - name: OCU_BTC_USD
-  #         file: ./abis/OCU_ETH_USD.json
-  #     eventHandlers:
-  #       - event: LogMedianPrice(uint256,uint256)
-  #         handler: handleLogMedianPriceBtcUsd
-  #     callHandlers:
-  #       - function: kiss(address)
-  #         handler: handleKissBtcUsd
-  #       - function: diss(address)
-  #         handler: handleDissBtcUsd
-  #     file: ./src/mapping.ts
