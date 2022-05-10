@@ -48,3 +48,12 @@ jobs:
           file-path: data/feeds/*.json
           commit-msg: chore(data) update prices
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload to Filebase
+        uses: Noelware/s3-action@1.3.1
+        with:
+          directories: "./data"
+          endpoint: https://s3.filebase.com
+          bucket: urbanisierung-blogs
+          access-key: ${{ secrets.FILEBASE_ACCESS_KEY }}
+          secret-key: ${{ secrets.FILEBASE_SECRET_KEY }}
