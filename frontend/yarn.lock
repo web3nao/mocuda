@@ -1565,10 +1565,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@web3nao/http-configs@npm:^0.0.14":
-  version: 0.0.14
-  resolution: "@web3nao/http-configs@npm:0.0.14"
-  checksum: abae9a2eef8024b4cb3115dc4f5f34456888010de46f855a8d0ef34be50c20df379aa83faf92a29a14c74bd3c4697ad884f5ec55252ee9d5d33665046d219cdc
+"@web3nao/http-configs@npm:^0.0.15":
+  version: 0.0.15
+  resolution: "@web3nao/http-configs@npm:0.0.15"
+  checksum: 94a6aa691f82f273e8631037628e1a4078d2ffdbcac56091b2ae995690fbb4a9bf936c858209d8acac55b0c522adf4022f966a10708d3408e643de8071657ba7
   languageName: node
   linkType: hard
 
@@ -3132,6 +3132,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mocuda-frontend@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "mocuda-frontend@workspace:."
+  dependencies:
+    "@chakra-ui/icons": ^2.0.0-next.1
+    "@chakra-ui/react": ^2.0.0-next.4
+    "@emotion/react": ^11
+    "@emotion/styled": ^11
+    "@types/node": 17.0.23
+    "@types/react": 18.0.9
+    "@types/react-dom": 18.0.3
+    "@vitejs/plugin-react": 1.3.0
+    "@web3nao/http-configs": ^0.0.15
+    autoprefixer: ^10.4.7
+    framer-motion: ^6.3.3
+    i18next: ^21.7.1
+    i18next-xhr-backend: ^3.2.2
+    mobx: 6.5.0
+    mobx-devtools-mst: ^0.9.30
+    mobx-react: 7.4.0
+    mobx-react-lite: ^3.4.0
+    mobx-router: 1.0.0
+    mobx-state-tree: 5.1.4
+    mst-middlewares: 5.1.4
+    postcss: ^8.4.13
+    prettier: 2.6.2
+    react: 18.1.0
+    react-dom: 18.1.0
+    react-i18next: ^11.16.9
+    react-icons: ^4.3.1
+    rollup-plugin-analyzer: 4.0.0
+    sass: 1.51.0
+    tailwindcss: ^3.0.24
+    vite: 2.9.8
+  languageName: unknown
+  linkType: soft
+
 "ms@npm:2.1.2":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
@@ -3583,43 +3620,6 @@ __metadata:
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
   languageName: node
   linkType: hard
-
-"react-mbox-starter@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-mbox-starter@workspace:."
-  dependencies:
-    "@chakra-ui/icons": ^2.0.0-next.1
-    "@chakra-ui/react": ^2.0.0-next.4
-    "@emotion/react": ^11
-    "@emotion/styled": ^11
-    "@types/node": 17.0.23
-    "@types/react": 18.0.9
-    "@types/react-dom": 18.0.3
-    "@vitejs/plugin-react": 1.3.0
-    "@web3nao/http-configs": ^0.0.14
-    autoprefixer: ^10.4.7
-    framer-motion: ^6.3.3
-    i18next: ^21.7.1
-    i18next-xhr-backend: ^3.2.2
-    mobx: 6.5.0
-    mobx-devtools-mst: ^0.9.30
-    mobx-react: 7.4.0
-    mobx-react-lite: ^3.4.0
-    mobx-router: 1.0.0
-    mobx-state-tree: 5.1.4
-    mst-middlewares: 5.1.4
-    postcss: ^8.4.13
-    prettier: 2.6.2
-    react: 18.1.0
-    react-dom: 18.1.0
-    react-i18next: ^11.16.9
-    react-icons: ^4.3.1
-    rollup-plugin-analyzer: 4.0.0
-    sass: 1.51.0
-    tailwindcss: ^3.0.24
-    vite: 2.9.8
-  languageName: unknown
-  linkType: soft
 
 "react-refresh@npm:^0.11.0":
   version: 0.11.0

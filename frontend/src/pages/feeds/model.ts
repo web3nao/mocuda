@@ -15,9 +15,24 @@ export const FeedsPage = types
 		initialisePage() {
 			const { api } = getRootStore(self)
 			api.feeds.get()
+			api.subgraphLite.getEventCounters()
 		},
 	}))
 	.views((self) => ({
+		loading() {
+			const { api } = getRootStore(self)
+			return api.stateAndCache.somePending([
+				{
+					api: `feeds`,
+					operation: `get`,
+				},
+				{
+					api: `subgraphlite`,
+					operation: `getEventCounters`,
+				},
+			])
+		},
+
 		feeds() {
 			const { api } = getRootStore(self)
 			return api.feeds.feeds
@@ -26,5 +41,10 @@ export const FeedsPage = types
 		pairs() {
 			const { api } = getRootStore(self)
 			return api.feeds.pairs
+		},
+
+		eventCounters() {
+			const { api } = getRootStore(self)
+			return api.subgraphLite.eventCounters
 		},
 	}))
