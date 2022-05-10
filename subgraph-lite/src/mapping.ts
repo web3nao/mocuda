@@ -3,6 +3,7 @@ import {
   Diss1Call,
   Kiss1Call,
   LogMedianPrice as LogMedianPriceEvent,
+  OCU_ETH_USD,
 } from "../generated/OCU_ETH_USD/OCU_ETH_USD";
 import { LogMedianPrice, EventCounter } from "../generated/schema";
 
@@ -10,10 +11,20 @@ export function handleLogMedianPrice(event: LogMedianPriceEvent): void {
   let id = event.address.toHex();
   let counterEntity = EventCounter.load(id);
   if (!counterEntity) {
+    let medianizerContract = OCU_ETH_USD.bind(
+      Address.fromString(event.address.toHexString())
+    );
     counterEntity = new EventCounter(id);
     counterEntity.first = event.params.age;
     counterEntity.latest = event.params.age;
     counterEntity.count = 0;
+    let callResult = medianizerContract.try_wat();
+    if (callResult.reverted) {
+      log.info("wat() reverted", []);
+      return;
+    } else {
+      counterEntity.name = medianizerContract.wat().toString();
+    }
   } else {
     counterEntity.count++;
     counterEntity.latest = event.params.age;

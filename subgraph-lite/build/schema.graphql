@@ -16,4 +16,5 @@ type EventCounter @entity {
   count: Int!
   first: BigInt!
   latest: BigInt!
+  name: String! # string
 }
