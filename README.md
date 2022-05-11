@@ -1,5 +1,11 @@
 # MOCUDA: Maker Oracles Core Unit Dashboard
 
+## Deployment
+
+### Frontend
+
+[Merge to Live](https://github.com/web3nao/mocuda/compare/live...main?expand=1)
+
 ## Useful Links
 
 - Slides to discuss MVP: [Google Doc](https://docs.google.com/presentation/d/17DbYG1u-Ii7Krky28FbvLd3quCVh7-vR2Z_OqDxiCgg/edit#slide=id.g126f966e658_0_23)
