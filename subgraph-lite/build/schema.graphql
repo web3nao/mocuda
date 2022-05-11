@@ -17,4 +17,5 @@ type EventCounter @entity {
   first: BigInt!
   latest: BigInt!
   name: String! # string
+  val: BigInt! # uint256
 }
