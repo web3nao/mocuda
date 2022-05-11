@@ -35,7 +35,8 @@ export default observer(() => {
 				<UnorderedList>
 					{page.eventCounters().map((eventCounter) => (
 						<ListItem key={eventCounter.id}>
-							{eventCounter.id}, count: {eventCounter.count}, first Event:{' '}
+							{eventCounter.name} | {eventCounter.id}, count:{' '}
+							{eventCounter.count}, first Event:{' '}
 							{formatDateTime(eventCounter.first)}, latest Event:{' '}
 							{formatDateTime(eventCounter.latest)}
 						</ListItem>

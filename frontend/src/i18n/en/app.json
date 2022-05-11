@@ -1,9 +1,21 @@
 {
-	"title": "mocuda",
+	"title": "MOCUDA",
 	"navbar": {
-		"home": "Home"
+		"home": "Home",
+		"actions": {
+			"request": "Request Data Feed"
+		}
 	},
 	"pages": {
+		"home": {
+			"headings": {
+				"active": "Active Feeds",
+				"dead": "Dead Feeds"
+			},
+			"actions": {
+				"feedDetails": "Show Details"
+			}
+		},
 		"feeds": {
 			"titles": {
 				"feeds": "Feeds",
