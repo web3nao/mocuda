@@ -19,6 +19,7 @@ import { useTranslation } from 'react-i18next'
 import { formatDateTime } from '../../helpers/ui'
 import { EventCounter } from '../../models/api/subgraphlite'
 import { useMst } from '../../models/root'
+import routes from '../../routes'
 
 export default observer(() => {
 	const { t } = useTranslation('app')
@@ -26,6 +27,7 @@ export default observer(() => {
 		root: {
 			pages: { home: page },
 		},
+		router,
 	} = useMst()
 
 	const feedItem = (feed: Instance<typeof EventCounter>) => (
@@ -77,6 +79,7 @@ export default observer(() => {
 						_focus={{
 							bg: 'green.500',
 						}}
+						onClick={() => router.goTo(routes.feed, { address: feed.id })}
 					>
 						{t('pages.home.actions.feedDetails')}
 					</Button>

@@ -15,12 +15,18 @@ export const EventCounter = types.model({
 	count: types.number,
 	first: types.Date,
 	latest: types.Date,
-	latestValue: types.optional(types.string, ''),
+	latestValue: types.string,
+})
+
+export const MedianPrice = types.model({
+	age: types.Date,
+	latestValue: types.number,
 })
 
 export const SubgraphLite = types
 	.model('SubgraphLite', {
 		eventCounters: types.array(EventCounter),
+		medianPrices: types.map(types.array(MedianPrice)),
 	})
 	.actions((self) => ({
 		getEventCounters: flow(function* () {
@@ -47,12 +53,7 @@ export const SubgraphLite = types
 						count
 						first
 						latest
-					}
-					logMedianPrices(orderBy:age, orderDirection:desc, first:25) {
-						id
 						val
-						age
-						type
 					}
 				}
 				`,
@@ -68,18 +69,13 @@ export const SubgraphLite = types
 
 				self.eventCounters.clear()
 				for (const eventCounter of response?.data?.eventCounters) {
-					const foundValue = response?.data?.logMedianPrices?.find(
-						(price: any) => price.type === eventCounter.id,
-					)?.val
 					self.eventCounters.push({
 						id: eventCounter.id,
 						name: eventCounter.name,
 						count: eventCounter.count,
 						first: Number(`${eventCounter.first}000`),
 						latest: Number(`${eventCounter.latest}000`),
-						latestValue: foundValue
-							? String(convertStringToDecimal(foundValue, 18))
-							: '',
+						latestValue: String(convertStringToDecimal(eventCounter.val, 18)),
 					})
 				}
 				api.stateAndCache.updateToDone(stateAndCacheKey)
@@ -88,4 +84,74 @@ export const SubgraphLite = types
 				api.stateAndCache.updateToFailure(stateAndCacheKey)
 			}
 		}),
+
+		getMedianPrices: flow(function* (options: {
+			address: string
+			useCache?: boolean
+		}) {
+			const { api } = getRootStore(self)
+
+			const address = options.address.toLowerCase()
+			const useCache = options.useCache ?? true
+			const stateAndCacheKey: StateAndCacheKey = {
+				api: `subgraphlite`,
+				operation: `getMedianPrices`,
+				id: address,
+			}
+			if (!api.stateAndCache.shouldFetch(stateAndCacheKey, useCache)) {
+				return
+			}
+			api.stateAndCache.updateToPending(stateAndCacheKey)
+
+			const naoRequest = nao<TheGraph.QueryByName>({
+				kind: 'thegraph.hostedservice.queryByName',
+				'param:account': String(SUBGRAPH_LITE_ACCOUNT),
+				'param:name': String(SUBGRAPH_LITE_NAME),
+				'body:query': `
+				{
+					logMedianPrices(where:{type:"${address}"}, first:50, orderBy:age orderDirection:desc) {
+						id
+						val
+						age
+						type
+					}  
+				}				
+				`,
+			})
+
+			try {
+				const response = yield request({
+					url: naoRequest.url,
+					method: naoRequest.method,
+					body: naoRequest.body,
+					headers: naoRequest.headers,
+				})
+
+				const medianPrices: any[] = []
+				for (const medianPrice of response?.data?.logMedianPrices) {
+					medianPrices.push({
+						age: Number(`${medianPrice.age}000`),
+						latestValue: convertStringToDecimal(medianPrice.val, 18),
+					})
+				}
+				medianPrices.sort((a, b) => a.age - b.age)
+				self.medianPrices.set(address, medianPrices)
+				api.stateAndCache.updateToDone(stateAndCacheKey)
+			} catch (error) {
+				console.error(error)
+				api.stateAndCache.updateToFailure(stateAndCacheKey)
+			}
+		}),
+	}))
+	.views((self) => ({
+		nameByAddress(address: string) {
+			const foundCounter = self.eventCounters.find(
+				(counter) => counter.id === address,
+			)
+			return foundCounter?.name ?? 'Address Not Found'
+		},
+
+		medianPricesByAddress(address: string) {
+			return self.medianPrices.get(address) ?? []
+		},
 	}))

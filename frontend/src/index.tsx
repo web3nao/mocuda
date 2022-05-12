@@ -1,4 +1,15 @@
 import { Box, ChakraProvider } from '@chakra-ui/react'
+import {
+	Chart as ChartJS,
+	CategoryScale,
+	LinearScale,
+	PointElement,
+	LineElement,
+	Title,
+	Tooltip,
+	Legend,
+	Filler,
+} from 'chart.js'
 import { observer } from 'mobx-react-lite'
 import { MobxRouter, startRouter } from 'mobx-router'
 import { StrictMode } from 'react'
@@ -14,6 +25,17 @@ export const LOGLEVEL = import.meta.env.VITE_LOGLEVEL
 	? (String(import.meta.env.VITE_LOGLEVEL) as LogLevel)
 	: 'off'
 events.init(LOGLEVEL)
+
+ChartJS.register(
+	CategoryScale,
+	LinearScale,
+	PointElement,
+	LineElement,
+	Filler,
+	Title,
+	Tooltip,
+	Legend,
+)
 
 const App = observer(() => {
 	const {
