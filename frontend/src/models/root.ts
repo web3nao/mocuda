@@ -3,6 +3,7 @@ import { RouterStore } from 'mobx-router'
 import { Instance, types } from 'mobx-state-tree'
 import { createContext, useContext } from 'react'
 import { NotFoundPage } from '../pages/404/model'
+import { FeedPage } from '../pages/feed/model'
 import { FeedsPage } from '../pages/feeds/model'
 import { HomePage } from '../pages/home/model'
 import ApiStore, { APIType } from './api'
@@ -11,6 +12,7 @@ const PagesStore = types.model('Pages', {
 	notFound: types.optional(NotFoundPage, () => NotFoundPage.create()),
 	home: types.optional(HomePage, () => HomePage.create()),
 	feeds: types.optional(FeedsPage, () => FeedsPage.create()),
+	feed: types.optional(FeedPage, () => FeedPage.create()),
 })
 
 export const RealRootModel = types.model('Root', {

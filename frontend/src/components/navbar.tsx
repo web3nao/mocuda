@@ -35,7 +35,11 @@ export default observer(() => {
 		<div>
 			<Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
 				<Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-					<Box>{t('title')}</Box>
+					<Box>
+						<Link route={routes.home as any} router={router as any}>
+							{t('title')}
+						</Link>
+					</Box>
 
 					<Flex alignItems={'center'}>
 						<Stack direction={'row'} spacing={7}>
