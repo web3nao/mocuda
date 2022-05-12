@@ -5,14 +5,15 @@ import {
 	GridItem,
 	Heading,
 	Skeleton,
-	Text,
 	Stack,
+	Text,
 } from '@chakra-ui/react'
 import { observer } from 'mobx-react-lite'
 import { useTranslation } from 'react-i18next'
-import { formatDateTime, prettyDuration } from '../../helpers/ui'
-import { useMst } from '../../models/root'
 import LineChart from '../../components/charts/LineChart'
+import { BASE_COLOR } from '../../constants/style.const'
+import { prettyDuration } from '../../helpers/ui'
+import { useMst } from '../../models/root'
 
 export default observer(() => {
 	const { t } = useTranslation('app')
@@ -54,7 +55,7 @@ export default observer(() => {
 							<Center>
 								<Box
 									rounded={'md'}
-									borderColor={'green.500'}
+									borderColor={BASE_COLOR(500)}
 									borderWidth={1}
 									w={100}
 									h={100}

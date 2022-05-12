@@ -16,6 +16,7 @@ export const HomePage = types
 		// INITIALIZATION
 		initialisePage() {
 			const { api } = getRootStore(self)
+			api.helmet.defaultTitle()
 			api.feeds.get()
 			api.subgraphLite.getEventCounters()
 		},

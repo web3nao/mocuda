@@ -16,6 +16,7 @@ import {
 import { observer } from 'mobx-react-lite'
 import { Instance } from 'mobx-state-tree'
 import { useTranslation } from 'react-i18next'
+import { BASE_COLOR } from '../../constants/style.const'
 import { formatDateTime } from '../../helpers/ui'
 import { EventCounter } from '../../models/api/subgraphlite'
 import { useMst } from '../../models/root'
@@ -53,15 +54,15 @@ export default observer(() => {
 				<Box px={6} py={6}>
 					<List spacing={3}>
 						<ListItem>
-							<ListIcon as={TimeIcon} color="green.400" />
+							<ListIcon as={TimeIcon} color={BASE_COLOR(400)} />
 							{formatDateTime(feed.latest)}
 						</ListItem>
 						<ListItem>
-							<ListIcon as={RepeatClockIcon} color="green.400" />
+							<ListIcon as={RepeatClockIcon} color={BASE_COLOR(400)} />
 							{feed.count}
 						</ListItem>
 						<ListItem>
-							<ListIcon as={StarIcon} color="green.400" />
+							<ListIcon as={StarIcon} color={BASE_COLOR(400)} />
 							{formatDateTime(feed.first)}
 						</ListItem>
 					</List>
@@ -69,15 +70,15 @@ export default observer(() => {
 					<Button
 						mt={10}
 						w={'full'}
-						bg={'green.400'}
+						bg={BASE_COLOR(400)}
 						color={'white'}
 						rounded={'xl'}
 						boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
 						_hover={{
-							bg: 'green.500',
+							bg: BASE_COLOR(500),
 						}}
 						_focus={{
-							bg: 'green.500',
+							bg: BASE_COLOR(500),
 						}}
 						onClick={() => router.goTo(routes.feed, { address: feed.id })}
 					>
