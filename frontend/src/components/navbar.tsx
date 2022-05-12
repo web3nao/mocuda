@@ -1,10 +1,11 @@
-import { HStack } from '@chakra-ui/react'
+import { HStack, Img } from '@chakra-ui/react'
 import { observer } from 'mobx-react-lite'
 import { Link } from 'mobx-router'
 import { useTranslation } from 'react-i18next'
 import { useMst } from '../models/root'
 import routes from '../routes'
 import {
+	Text,
 	Box,
 	Flex,
 	Avatar,
@@ -21,6 +22,7 @@ import {
 	Center,
 } from '@chakra-ui/react'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
+import { BASE_COLOR } from '../constants/style.const'
 
 export default observer(() => {
 	const { t } = useTranslation('app')
@@ -37,7 +39,10 @@ export default observer(() => {
 				<Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
 					<Box>
 						<Link route={routes.home as any} router={router as any}>
-							{t('title')}
+							<HStack>
+								<Img src={'logo.webp'} h={10} />
+								<Text>{t('title')}</Text>
+							</HStack>
 						</Link>
 					</Box>
 
@@ -52,9 +57,9 @@ export default observer(() => {
 								fontSize={'sm'}
 								fontWeight={600}
 								color={'black'}
-								bg={'green.400'}
+								bg={BASE_COLOR(400)}
 								_hover={{
-									bg: 'green.300',
+									bg: BASE_COLOR(300),
 								}}
 							>
 								{t('navbar.actions.request')}

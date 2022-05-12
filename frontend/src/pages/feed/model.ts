@@ -5,6 +5,11 @@ import { getRootStore } from '../../models/helpers'
 
 export const FeedPage = types
 	.model('FeedPage', {
+		meta: types.maybe(
+			types.model({
+				title: types.string,
+			}),
+		),
 		address: types.optional(types.string, ''),
 		feed: types.optional(types.string, ''),
 		data: types.optional(
@@ -29,6 +34,8 @@ export const FeedPage = types
 
 		updateFeedName(feed: string) {
 			self.feed = feed
+			const { api } = getRootStore(self)
+			api.helmet.updateTitle({ title: feed, concatenateAppname: true })
 		},
 	}))
 	.views((self) => ({
