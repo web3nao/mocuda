@@ -1,19 +1,20 @@
 import { Box, ChakraProvider } from '@chakra-ui/react'
 import {
-	Chart as ChartJS,
 	CategoryScale,
+	Chart as ChartJS,
+	Filler,
+	Legend,
 	LinearScale,
-	PointElement,
 	LineElement,
+	PointElement,
 	Title,
 	Tooltip,
-	Legend,
-	Filler,
 } from 'chart.js'
 import { observer } from 'mobx-react-lite'
 import { MobxRouter, startRouter } from 'mobx-router'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Helmet } from 'react-helmet'
 import Navbar from './components/navbar'
 import events, { LogLevel } from './events/events'
 import './i18n/config'
@@ -39,7 +40,7 @@ ChartJS.register(
 
 const App = observer(() => {
 	const {
-		root: {},
+		root: { api },
 	} = useMst()
 
 	startRouter(routes, rootStore, {
@@ -47,12 +48,17 @@ const App = observer(() => {
 	})
 
 	return (
-		<ChakraProvider>
-			<Navbar />
-			<Box p={4} minHeight={{ md: 'calc(100vh - 415px)' }}>
-				<MobxRouter store={rootStore} />
-			</Box>
-		</ChakraProvider>
+		<>
+			<Helmet>
+				{api.helmet.title ? <title>{api.helmet.title}</title> : null}
+			</Helmet>
+			<ChakraProvider>
+				<Navbar />
+				<Box p={4} minHeight={{ md: 'calc(100vh - 415px)' }}>
+					<MobxRouter store={rootStore} />
+				</Box>
+			</ChakraProvider>
+		</>
 	)
 })
 
@@ -67,12 +73,3 @@ if (container) {
 		</StrictMode>,
 	)
 }
-
-// render(
-// 	<StrictMode>
-// 		<Provider value={rootStore}>
-// 			<App />
-// 		</Provider>
-// 	</StrictMode>,
-// 	document.getElementById('root'),
-// )

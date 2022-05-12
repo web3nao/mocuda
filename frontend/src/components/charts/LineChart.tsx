@@ -1,4 +1,8 @@
 import { Line } from 'react-chartjs-2'
+import {
+	PRIMARY_COLOR_1_HEX,
+	PRIMARY_COLOR_2_HEX,
+} from '../../constants/style.const'
 
 export interface LineChartOptions {
 	legend: boolean
@@ -52,8 +56,8 @@ export default function LineChart(lineChartOptions: LineChartOptions) {
 			return {
 				label: dataset.label,
 				data: dataset.values.map((datasetValue) => datasetValue.value),
-				borderColor: 'rgb(255, 99, 132)',
-				backgroundColor: 'rgba(255, 99, 132, 0.2)',
+				borderColor: PRIMARY_COLOR_1_HEX,
+				backgroundColor: `${PRIMARY_COLOR_2_HEX}50`,
 				fill: 'origin',
 			}
 		}),
