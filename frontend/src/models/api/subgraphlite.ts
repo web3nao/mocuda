@@ -134,6 +134,7 @@ export const SubgraphLite = types
 						latestValue: convertStringToDecimal(medianPrice.val, 18),
 					})
 				}
+				medianPrices.sort((a, b) => a.age - b.age)
 				self.medianPrices.set(address, medianPrices)
 				api.stateAndCache.updateToDone(stateAndCacheKey)
 			} catch (error) {
