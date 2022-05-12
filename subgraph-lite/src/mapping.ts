@@ -18,6 +18,7 @@ export function handleLogMedianPrice(event: LogMedianPriceEvent): void {
     counterEntity.first = event.params.age;
     counterEntity.latest = event.params.age;
     counterEntity.count = 0;
+    counterEntity.val = event.params.val;
     let callResult = medianizerContract.try_wat();
     if (callResult.reverted) {
       log.info("wat() reverted", []);
@@ -28,6 +29,7 @@ export function handleLogMedianPrice(event: LogMedianPriceEvent): void {
   } else {
     counterEntity.count++;
     counterEntity.latest = event.params.age;
+    counterEntity.val = event.params.val;
   }
   counterEntity.save();
 
@@ -41,9 +43,6 @@ export function handleLogMedianPrice(event: LogMedianPriceEvent): void {
     entity = new LogMedianPrice(entityId);
   }
 
-  // let entity = new LogMedianPrice(
-  //   event.transaction.hash.toHex() + "-" + event.logIndex.toString()
-  // );
   entity.val = event.params.val;
   entity.age = event.params.age;
   entity.type = id;
