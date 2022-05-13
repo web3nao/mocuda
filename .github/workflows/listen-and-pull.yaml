@@ -17,7 +17,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        iteration: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        iteration: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -29,26 +29,6 @@ jobs:
           ./spire/bin/spire agent -c ./spire/config/config.json &
           sleep 10
           ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices2.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices3.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices4.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices5.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices6.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices7.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices8.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices9.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices10.json &
-          sleep 5
-          ./spire/bin/spire pull prices -c ./spire/config/config.json > ./data/prices11.json &
           sleep 5
 
       - name: "Install Dependencies"

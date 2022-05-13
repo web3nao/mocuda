@@ -1,16 +1,6 @@
 /* eslint-disable id-length */
 import fs from 'fs'
 import prices from '../../data/prices.json'
-import prices2 from '../../data/prices2.json'
-import prices3 from '../../data/prices3.json'
-import prices4 from '../../data/prices4.json'
-import prices5 from '../../data/prices5.json'
-import prices6 from '../../data/prices6.json'
-import prices7 from '../../data/prices7.json'
-import prices8 from '../../data/prices8.json'
-import prices9 from '../../data/prices9.json'
-import prices10 from '../../data/prices10.json'
-import prices11 from '../../data/prices11.json'
 import transformed from '../../data/transformed.json'
 import { RecoverAddress } from './RecoverAddress'
 
@@ -37,20 +27,6 @@ const MAX_DATA_LENGTH = 10
 export class TransformPrices {
   public static transform(): Feed[] {
     const feeds: Feed[] = transformed
-
-    const allPrices = [
-      ...prices,
-      ...prices2,
-      ...prices3,
-      ...prices4,
-      ...prices5,
-      ...prices6,
-      ...prices7,
-      ...prices8,
-      ...prices9,
-      ...prices10,
-      ...prices11,
-    ]
 
     for (const price of prices) {
       const wat = price.price.wat
