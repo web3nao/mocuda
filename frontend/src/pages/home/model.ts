@@ -19,6 +19,7 @@ export const HomePage = types
 			api.helmet.defaultTitle()
 			api.feeds.get()
 			api.subgraphLite.getEventCounters()
+			api.makerOracles.getOracles()
 		},
 	}))
 	.views((self) => ({
