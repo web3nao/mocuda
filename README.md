@@ -1,5 +1,13 @@
 # MOCUDA: Maker Oracles Core Unit Dashboard
 
+WIP: https://mocuda.pages.dev/
+
+## Idea
+
+Create an entry point for Maker Oracle Consumers by providing several interesting information for the users.
+
+![overview](./assets/overview.png)
+
 ## Deployment
 
 ### Frontend

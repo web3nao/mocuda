@@ -40,7 +40,7 @@ export default observer(() => {
 					<Box>
 						<Link route={routes.home as any} router={router as any}>
 							<HStack>
-								<Img src={'logo.webp'} h={10} />
+								<Img src={'/logo.webp'} h={10} />
 								<Text>{t('title')}</Text>
 							</HStack>
 						</Link>

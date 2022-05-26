@@ -14,7 +14,7 @@ import { observer } from 'mobx-react-lite'
 import { MobxRouter, startRouter } from 'mobx-router'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Helmet } from 'react-helmet'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import Navbar from './components/navbar'
 import events, { LogLevel } from './events/events'
 import './i18n/config'
@@ -49,9 +49,11 @@ const App = observer(() => {
 
 	return (
 		<>
-			<Helmet>
-				{api.helmet.title ? <title>{api.helmet.title}</title> : null}
-			</Helmet>
+			<HelmetProvider>
+				<Helmet>
+					{api.helmet.title ? <title>{api.helmet.title}</title> : null}
+				</Helmet>
+			</HelmetProvider>
 			<ChakraProvider>
 				<Navbar />
 				<Box p={4} minHeight={{ md: 'calc(100vh - 415px)' }}>
