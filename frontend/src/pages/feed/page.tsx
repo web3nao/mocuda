@@ -11,6 +11,9 @@ import {
 	SimpleGrid,
 	Skeleton,
 	Stack,
+	Stat,
+	StatLabel,
+	StatNumber,
 	Text,
 	Tooltip,
 	useColorMode,
@@ -21,7 +24,6 @@ import { observer } from 'mobx-react-lite'
 import { useTranslation } from 'react-i18next'
 import LineChart from '../../components/charts/LineChart'
 import { AddressToConsumer } from '../../constants/consumers.const'
-import { BASE_COLOR } from '../../constants/style.const'
 import { feedIcon, formatDateTime, prettyDuration } from '../../helpers/ui'
 import { useMst } from '../../models/root'
 
@@ -64,29 +66,37 @@ export default observer(() => {
 						<VStack alignItems={'start'}>
 							<HStack gap={10}>
 								<VStack alignItems={'start'}>
-									<Text fontSize={'xs'}>Medianizer</Text>
-									<Text fontSize={'xl'}>
-										{page.latestMedianizerPrice().curValue}
-									</Text>
+									<Stat>
+										<StatLabel>Medianizer</StatLabel>
+										<StatNumber>
+											{page.latestMedianizerPrice().curValue}
+										</StatNumber>
+									</Stat>
 									<Divider />
-									<Text fontSize={'xs'}>Age</Text>
-									<Text fontSize={'xl'}>
-										{prettyDuration(
-											new Date(),
-											page.latestMedianizerPrice().age,
-										)}
-									</Text>
+									<Stat>
+										<StatLabel>Age</StatLabel>
+										<StatNumber>
+											{prettyDuration(
+												new Date(),
+												page.latestMedianizerPrice().age,
+											)}
+										</StatNumber>
+									</Stat>
 								</VStack>
 								<VStack alignItems={'start'}>
-									<Text fontSize={'xs'}>OSM</Text>
-									<Text fontSize={'xl'}>
-										{page.osm()?.length > 0 ? page.osm()[0].curValue : 'n/a'}
-									</Text>
+									<Stat>
+										<StatLabel>OSM</StatLabel>
+										<StatNumber>
+											{page.osm()?.length > 0 ? page.osm()[0].curValue : 'n/a'}
+										</StatNumber>
+									</Stat>
 									<Divider />
-									<Text fontSize={'xs'}>OSM next value</Text>
-									<Text fontSize={'xl'}>
-										{page.osm()?.length > 0 ? page.osm()[0].nextValue : 'n/a'}
-									</Text>
+									<Stat>
+										<StatLabel>OSM next value</StatLabel>
+										<StatNumber>
+											{page.osm()?.length > 0 ? page.osm()[0].nextValue : 'n/a'}
+										</StatNumber>
+									</Stat>
 								</VStack>
 							</HStack>
 							<Divider />
@@ -156,16 +166,18 @@ export default observer(() => {
 						legend={options.legend}
 					/>
 				</Box>
-				{Consumers({
-					heading: `Medianizer Consumers`,
-					consumers: page.medianizerConsumers(),
-					colorMode,
-				})}
-				{Consumers({
-					heading: `OSM Consumers`,
-					consumers: page.osmConsumers(),
-					colorMode,
-				})}
+				{page.medianizerConsumers().length > 0 &&
+					Consumers({
+						heading: `Medianizer Consumers`,
+						consumers: page.medianizerConsumers(),
+						colorMode,
+					})}
+				{page.osmConsumers().length > 0 &&
+					Consumers({
+						heading: `OSM Consumers`,
+						consumers: page.osmConsumers(),
+						colorMode,
+					})}
 			</>
 		)
 	}
@@ -183,7 +195,6 @@ export function Consumers(options: {
 	consumers: AddressToConsumer[]
 	colorMode: string
 }) {
-	// const { colorMode } = useColorMode()
 	return (
 		<Box
 			rounded={'md'}
