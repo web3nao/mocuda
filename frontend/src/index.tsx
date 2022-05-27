@@ -1,4 +1,4 @@
-import { Box, ChakraProvider } from '@chakra-ui/react'
+import { Box, ChakraProvider, Container } from '@chakra-ui/react'
 import {
 	CategoryScale,
 	Chart as ChartJS,
@@ -60,7 +60,9 @@ const App = observer(() => {
 				<QuickSearch />
 				<Navbar />
 				<Box p={4} minHeight={{ md: 'calc(100vh - 415px)' }}>
-					<MobxRouter store={rootStore} />
+					<Container maxW="6xl">
+						<MobxRouter store={rootStore} />
+					</Container>
 				</Box>
 			</ChakraProvider>
 		</>
