@@ -1,4 +1,4 @@
-import { HStack, Img } from '@chakra-ui/react'
+import { Container, HStack, Img } from '@chakra-ui/react'
 import { observer } from 'mobx-react-lite'
 import { Link } from 'mobx-router'
 import { useTranslation } from 'react-i18next'
@@ -36,37 +36,39 @@ export default observer(() => {
 	return (
 		<div>
 			<Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
-				<Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-					<Box>
-						<Link route={routes.home as any} router={router as any}>
-							<HStack>
-								<Img src={'/logo.webp'} h={10} />
-								<Text>{t('title')}</Text>
-							</HStack>
-						</Link>
-					</Box>
+				<Container maxW="6xl">
+					<Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+						<Box>
+							<Link route={routes.home as any} router={router as any}>
+								<HStack>
+									<Img src={'/logo.webp'} h={10} />
+									<Text>{t('title')}</Text>
+								</HStack>
+							</Link>
+						</Box>
 
-					<Flex alignItems={'center'}>
-						<Stack direction={'row'} spacing={7}>
-							<Button onClick={toggleColorMode}>
-								{colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
-							</Button>
+						<Flex alignItems={'center'}>
+							<Stack direction={'row'} spacing={7}>
+								<Button onClick={toggleColorMode}>
+									{colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+								</Button>
 
-							<Button
-								display={{ base: 'none', md: 'inline-flex' }}
-								fontSize={'sm'}
-								fontWeight={600}
-								color={'black'}
-								bg={BASE_COLOR(400)}
-								_hover={{
-									bg: BASE_COLOR(300),
-								}}
-							>
-								{t('navbar.actions.request')}
-							</Button>
-						</Stack>
+								<Button
+									display={{ base: 'none', md: 'inline-flex' }}
+									fontSize={'sm'}
+									fontWeight={600}
+									color={'black'}
+									bg={BASE_COLOR(400)}
+									_hover={{
+										bg: BASE_COLOR(300),
+									}}
+								>
+									{t('navbar.actions.request')}
+								</Button>
+							</Stack>
+						</Flex>
 					</Flex>
-				</Flex>
+				</Container>
 			</Box>
 		</div>
 	)

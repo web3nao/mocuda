@@ -48,3 +48,7 @@ Subgraph: [https://thegraph.com/hosted-service/subgraph/urbanisierung/makerdao-o
 Dedicated subgraph to index price data related to Oracles Smart Contracts. Stores latest 250 events (price updates) per Smart Contract.
 
 Subgraph: [https://thegraph.com/hosted-service/subgraph/urbanisierung/ocu-eth-usd](https://thegraph.com/hosted-service/subgraph/urbanisierung/ocu-eth-usd)
+
+### Further Sources
+
+- Coin Icons: [https://github.com/ErikThiart/cryptocurrency-icons](https://github.com/ErikThiart/cryptocurrency-icons)

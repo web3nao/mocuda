@@ -1,23 +1,19 @@
-import { RepeatClockIcon, StarIcon, TimeIcon } from '@chakra-ui/icons'
 import {
 	Box,
-	Button,
-	Center,
-	Grid,
-	GridItem,
 	Heading,
-	List,
-	ListIcon,
-	ListItem,
+	HStack,
+	Image,
+	SimpleGrid,
 	Skeleton,
 	Stack,
 	Text,
+	useColorMode,
+	VStack,
 } from '@chakra-ui/react'
 import { observer } from 'mobx-react-lite'
 import { Instance } from 'mobx-state-tree'
 import { useTranslation } from 'react-i18next'
-import { BASE_COLOR } from '../../constants/style.const'
-import { formatDateTime } from '../../helpers/ui'
+import { feedIcon, prettyDuration } from '../../helpers/ui'
 import { EventCounter } from '../../models/api/subgraphlite'
 import { useMst } from '../../models/root'
 import routes from '../../routes'
@@ -30,64 +26,47 @@ export default observer(() => {
 		},
 		router,
 	} = useMst()
+	const { colorMode } = useColorMode()
 
-	const feedItem = (feed: Instance<typeof EventCounter>) => (
-		<Center py={6}>
+	const feedItem = (feed: Instance<typeof EventCounter>) => {
+		const FeedIconName = () => (
+			<>
+				<HStack display={{ base: 'inline-flex', sm: 'none' }}>
+					<Image src={feedIcon(feed.name)} alt={feed.name} w={5} />
+					<VStack>
+						<Text>{feed.name}</Text>
+						<Text>{prettyDuration(new Date(), feed.latest)}</Text>
+					</VStack>
+				</HStack>
+				<HStack display={{ base: 'none', sm: 'inline-flex' }}>
+					<Image src={feedIcon(feed.name)} alt={feed.name} w={5} />
+					<Text>{feed.name}</Text>
+				</HStack>
+			</>
+		)
+		const value = feed.latestValue.substring(0, 10)
+		return (
 			<Box
-				maxW={'330px'}
-				w={'full'}
-				boxShadow={'2xl'}
+				boxShadow={'lg'}
+				m={5}
+				p={3}
 				rounded={'md'}
-				overflow={'hidden'}
+				onClick={() => router.goTo(routes.feed, { address: feed.id })}
+				cursor={'pointer'}
+				key={feed.id}
+				borderColor={colorMode === 'light' ? 'gray.200' : 'gray.600'}
+				borderWidth={1}
 			>
-				<Stack textAlign={'center'} p={6} align={'center'}>
-					<Stack direction={'column'} align={'center'} justify={'center'}>
-						<Text fontSize={'3xl'} fontWeight={800}>
-							{feed.name}
-						</Text>
-						<Text fontSize={'2xl'} fontWeight={800}>
-							{feed.latestValue}
-						</Text>
-					</Stack>
-				</Stack>
-
-				<Box px={6} py={6}>
-					<List spacing={3}>
-						<ListItem>
-							<ListIcon as={TimeIcon} color={BASE_COLOR(400)} />
-							{formatDateTime(feed.latest)}
-						</ListItem>
-						<ListItem>
-							<ListIcon as={RepeatClockIcon} color={BASE_COLOR(400)} />
-							{feed.count}
-						</ListItem>
-						<ListItem>
-							<ListIcon as={StarIcon} color={BASE_COLOR(400)} />
-							{formatDateTime(feed.first)}
-						</ListItem>
-					</List>
-
-					<Button
-						mt={10}
-						w={'full'}
-						bg={BASE_COLOR(400)}
-						color={'white'}
-						rounded={'xl'}
-						boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
-						_hover={{
-							bg: BASE_COLOR(500),
-						}}
-						_focus={{
-							bg: BASE_COLOR(500),
-						}}
-						onClick={() => router.goTo(routes.feed, { address: feed.id })}
-					>
-						{t('pages.home.actions.feedDetails')}
-					</Button>
-				</Box>
+				<SimpleGrid columns={{ base: 2, sm: 3 }}>
+					<FeedIconName />
+					<Text>{value}</Text>
+					<Text display={{ base: 'none', sm: 'inline-flex' }}>
+						{prettyDuration(new Date(), feed.latest)}
+					</Text>
+				</SimpleGrid>
 			</Box>
-		</Center>
-	)
+		)
+	}
 
 	let content = (
 		<Stack gap={1}>
@@ -98,39 +77,41 @@ export default observer(() => {
 	)
 
 	if (!page.loading()) {
-		const feedGroups = [
-			{
-				id: 'activeFeeds',
-				heading: t('pages.home.headings.active'),
-				feeds: page.feeds().activeFeeds,
-			},
-			{
-				id: 'deadFeeds',
-				heading: t('pages.home.headings.dead'),
-				feeds: page.feeds().deadFeeds,
-			},
-		]
+		const inactiveFeedCountPerColumn =
+			Math.floor(page.feeds().deadFeeds.length / 2) + 1
 		content = (
 			<>
-				{feedGroups.map((feedGroup) => (
-					<Stack key={feedGroup.id}>
-						<Heading>{feedGroup.heading}</Heading>
-						<Grid
-							templateColumns={{
-								base: 'repeat(2, 1fr)',
-								md: 'repeat(3, 1fr)',
-								xl: 'repeat(5, 1fr)',
-							}}
-							gap={6}
-						>
-							{feedGroup.feeds.map((feed) => (
-								<GridItem key={feed.id} w="100%">
-									{feedItem(feed)}
-								</GridItem>
-							))}
-						</Grid>
-					</Stack>
-				))}
+				<SimpleGrid columns={{ base: 1, lg: 2 }}>
+					<Box>
+						<Heading size={'md'}>{t('pages.home.headings.popular')}</Heading>
+						{page
+							.feeds()
+							.popularFeeds.slice(0, 5)
+							.map((feed) => feedItem(feed))}
+					</Box>
+					<Box>
+						<Heading size={'md'}>{t('pages.home.headings.recent')}</Heading>
+						{page
+							.feeds()
+							.recentFeeds.slice(0, 5)
+							.map((feed) => feedItem(feed))}
+					</Box>
+				</SimpleGrid>
+				<Heading size={'md'}>{t('pages.home.headings.inactive')}</Heading>
+				<SimpleGrid columns={{ base: 1, lg: 2 }}>
+					<Box>
+						{page
+							.feeds()
+							.deadFeeds.slice(0, inactiveFeedCountPerColumn)
+							.map((feed) => feedItem(feed))}
+					</Box>
+					<Box>
+						{page
+							.feeds()
+							.deadFeeds.slice(inactiveFeedCountPerColumn)
+							.map((feed) => feedItem(feed))}
+					</Box>
+				</SimpleGrid>
 			</>
 		)
 	}

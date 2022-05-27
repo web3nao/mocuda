@@ -58,3 +58,54 @@ export function convertStringToDecimal(
 	const asNumber = Number(updatedValueString)
 	return asNumber
 }
+
+export function feedIcon(feed: string): string {
+	const feedLower = feed.toLowerCase()
+	const base = '/coins'
+	if (feedLower.startsWith('eth')) {
+		return `${base}/ethereum.png`
+	}
+	if (feedLower.startsWith('btc')) {
+		return `${base}/bitcoin.png`
+	}
+	if (feedLower.startsWith('mana')) {
+		return `${base}/decentraland.png`
+	}
+	if (feedLower.startsWith('wsteth')) {
+		return `${base}/lido-finance-wsteth.png`
+	}
+	if (feedLower.startsWith('uni')) {
+		return `${base}/uniswap.png`
+	}
+	if (feedLower.startsWith('yfi')) {
+		return `${base}/yearn-finance.png`
+	}
+	if (feedLower.startsWith('bat')) {
+		return `${base}/basic-attention-token.png`
+	}
+	if (feedLower.startsWith('bal')) {
+		return `${base}/balancer.png`
+	}
+	if (feedLower.startsWith('usdt')) {
+		return `${base}/tether.png`
+	}
+	if (feedLower.startsWith('knc')) {
+		return `${base}/kyber-network.png`
+	}
+	if (feedLower.startsWith('zrx')) {
+		return `${base}/0x.png`
+	}
+	if (feedLower.startsWith('comp')) {
+		return `${base}/compound.png`
+	}
+	if (feedLower.startsWith('lrc')) {
+		return `${base}/loopring.png`
+	}
+	if (feedLower.startsWith('aave')) {
+		return `${base}/aave.png`
+	}
+	if (feedLower.startsWith('matic')) {
+		return `${base}/polygon.png`
+	}
+	return `${base}/ethereum.png`
+}
