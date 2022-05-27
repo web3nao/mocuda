@@ -1,4 +1,9 @@
-import { flow, types } from 'mobx-state-tree'
+import { flow, Instance, types } from 'mobx-state-tree'
+import {
+	AddressToConsumer,
+	ADDRESS_TO_CONSUMER,
+	getAnonymousConsumer,
+} from '../../constants/consumers.const'
 import { MAKER_OCU_GRAPH_BASE_URL } from '../../constants/env.const'
 import { request } from '../../helpers/api'
 import { getRootStore } from '../helpers'
@@ -104,8 +109,6 @@ export const MakerOracles = types
 
 				self.medianizerprices = response.data.medianizerPrices
 
-				console.log(response)
-
 				api.stateAndCache.updateToDone(stateAndCacheKey)
 			} catch (error) {
 				console.error(error)
@@ -113,4 +116,61 @@ export const MakerOracles = types
 			}
 		}),
 	}))
-	.views((self) => ({}))
+	.views((self) => ({
+		getByAddress(
+			address: string,
+		): Instance<typeof MedianizerPrice> | undefined {
+			const foundOracle = self.medianizerprices.find(
+				(oracle) => oracle.id.toLowerCase() === address.toLowerCase(),
+			)
+			return foundOracle
+		},
+
+		medianizerConsumers(address: string): AddressToConsumer[] {
+			const oracleData = this.getByAddress(address)
+			if (!oracleData) {
+				return []
+			}
+
+			return oracleData.consumers
+				.map((currentConsumer) => {
+					const consumer = ADDRESS_TO_CONSUMER.get(currentConsumer.address)
+					if (!consumer) {
+						return getAnonymousConsumer(currentConsumer.address)
+					}
+					return consumer
+				})
+				.sort((a, b) => (b.anonymous ? 0 : 1) - (a.anonymous ? 0 : 1))
+		},
+
+		osmConsumers(address: string): AddressToConsumer[] {
+			const oracleData = this.getByAddress(address)
+			if (!oracleData || !oracleData.osm || oracleData.osm.length === 0) {
+				return []
+			}
+
+			const consumers: AddressToConsumer[] = []
+
+			for (const osm of oracleData.osm) {
+				osm.consumers.forEach((currentConsumer) => {
+					let consumer = ADDRESS_TO_CONSUMER.get(currentConsumer.address)
+					if (!consumer) {
+						consumer = getAnonymousConsumer(currentConsumer.address)
+					}
+					consumers.push(consumer)
+				})
+			}
+
+			return consumers.sort(
+				(a, b) => (b.anonymous ? 0 : 1) - (a.anonymous ? 0 : 1),
+			)
+		},
+
+		osm(address: string): Instance<typeof MakerOSM>[] {
+			const oracleData = this.getByAddress(address)
+			if (!oracleData || !oracleData.osm || oracleData.osm.length === 0) {
+				return []
+			}
+			return oracleData.osm
+		},
+	}))

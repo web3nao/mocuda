@@ -1,4 +1,4 @@
-import { Box, ChakraProvider } from '@chakra-ui/react'
+import { Box, ChakraProvider, Container } from '@chakra-ui/react'
 import {
 	CategoryScale,
 	Chart as ChartJS,
@@ -16,6 +16,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 import Navbar from './components/navbar'
+import QuickSearch from './components/quicksearch'
 import events, { LogLevel } from './events/events'
 import './i18n/config'
 import './index.scss'
@@ -41,6 +42,7 @@ ChartJS.register(
 const App = observer(() => {
 	const {
 		root: { api },
+		router,
 	} = useMst()
 
 	startRouter(routes, rootStore, {
@@ -55,9 +57,12 @@ const App = observer(() => {
 				</Helmet>
 			</HelmetProvider>
 			<ChakraProvider>
+				<QuickSearch />
 				<Navbar />
 				<Box p={4} minHeight={{ md: 'calc(100vh - 415px)' }}>
-					<MobxRouter store={rootStore} />
+					<Container maxW="6xl">
+						<MobxRouter store={rootStore} />
+					</Container>
 				</Box>
 			</ChakraProvider>
 		</>
