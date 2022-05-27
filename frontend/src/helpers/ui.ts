@@ -104,5 +104,8 @@ export function feedIcon(feed: string): string {
 	if (feedLower.startsWith('aave')) {
 		return `${base}/aave.png`
 	}
+	if (feedLower.startsWith('matic')) {
+		return `${base}/polygon.png`
+	}
 	return `${base}/ethereum.png`
 }
