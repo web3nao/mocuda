@@ -16,6 +16,7 @@
 		"@emotion/styled": "^11",
 		"@web3nao/http-configs": "^0.0.15",
 		"chart.js": "^3.7.1",
+		"ethereum-blockies-base64": "^1.0.2",
 		"framer-motion": "^6.3.3",
 		"i18next": "^21.7.1",
 		"i18next-xhr-backend": "^3.2.2",
