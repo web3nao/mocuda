@@ -10,6 +10,16 @@ import {
 	Title,
 	Tooltip,
 } from 'chart.js'
+import {
+	KBarAnimator,
+	KBarPortal,
+	KBarPositioner,
+	KBarProvider,
+	KBarSearch,
+	KBarResults,
+	useMatches,
+	NO_GROUP,
+} from 'kbar'
 import { observer } from 'mobx-react-lite'
 import { MobxRouter, startRouter } from 'mobx-router'
 import { StrictMode } from 'react'
@@ -41,11 +51,50 @@ ChartJS.register(
 const App = observer(() => {
 	const {
 		root: { api },
+		router,
 	} = useMst()
 
 	startRouter(routes, rootStore, {
 		notfound: () => rootStore.router.goTo(routes.notFound),
 	})
+
+	let app = (
+		<ChakraProvider>
+			<Navbar />
+			<Box p={4} minHeight={{ md: 'calc(100vh - 415px)' }}>
+				<MobxRouter store={rootStore} />
+			</Box>
+		</ChakraProvider>
+	)
+
+	if (api.subgraphLite.eventCounters.length > 0) {
+		const actions = api.subgraphLite.eventCounters.map((eventCounter) => {
+			return {
+				id: eventCounter.id,
+				name: eventCounter.name,
+				keywords: eventCounter.name,
+				perform: () => router.goTo(routes.feed, { address: eventCounter.id }),
+			}
+		})
+		app = (
+			<KBarProvider actions={actions}>
+				<KBarPortal>
+					<KBarPositioner>
+						<KBarAnimator>
+							<KBarSearch className="m-2" />
+							<RenderResults />
+						</KBarAnimator>
+					</KBarPositioner>
+				</KBarPortal>
+				<ChakraProvider>
+					<Navbar />
+					<Box p={4} minHeight={{ md: 'calc(100vh - 415px)' }}>
+						<MobxRouter store={rootStore} />
+					</Box>
+				</ChakraProvider>
+			</KBarProvider>
+		)
+	}
 
 	return (
 		<>
@@ -54,12 +103,7 @@ const App = observer(() => {
 					{api.helmet.title ? <title>{api.helmet.title}</title> : null}
 				</Helmet>
 			</HelmetProvider>
-			<ChakraProvider>
-				<Navbar />
-				<Box p={4} minHeight={{ md: 'calc(100vh - 415px)' }}>
-					<MobxRouter store={rootStore} />
-				</Box>
-			</ChakraProvider>
+			{app}
 		</>
 	)
 })
@@ -73,5 +117,24 @@ if (container) {
 				<App />
 			</Provider>
 		</StrictMode>,
+	)
+}
+
+function RenderResults() {
+	const { results } = useMatches()
+
+	return (
+		<KBarResults
+			items={results}
+			onRender={({ item, active }) =>
+				typeof item === 'string' ? (
+					<div>{item}</div>
+				) : (
+					<Box bg={active ? '#eee' : 'white'} p={1}>
+						{item.name}
+					</Box>
+				)
+			}
+		/>
 	)
 }
