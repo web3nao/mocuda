@@ -10,7 +10,10 @@
 		"home": {
 			"headings": {
 				"active": "Active Feeds",
-				"dead": "Dead Feeds"
+				"dead": "Dead Feeds",
+				"popular": "Popular Feeds",
+				"recent": "Recent Feeds",
+				"inactive": "Inactive Feeds"
 			},
 			"actions": {
 				"feedDetails": "Show Details"

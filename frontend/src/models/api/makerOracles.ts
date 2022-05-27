@@ -109,8 +109,6 @@ export const MakerOracles = types
 
 				self.medianizerprices = response.data.medianizerPrices
 
-				console.log(response)
-
 				api.stateAndCache.updateToDone(stateAndCacheKey)
 			} catch (error) {
 				console.error(error)

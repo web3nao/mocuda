@@ -41,6 +41,8 @@ export const HomePage = types
 		feeds(): {
 			activeFeeds: Instance<typeof EventCounter>[]
 			deadFeeds: Instance<typeof EventCounter>[]
+			popularFeeds: Instance<typeof EventCounter>[]
+			recentFeeds: Instance<typeof EventCounter>[]
 		} {
 			const active = Date.now() - DAY
 			const { api } = getRootStore(self)
@@ -53,6 +55,17 @@ export const HomePage = types
 				(counter) => counter.latest < new Date(active),
 			)
 
-			return { activeFeeds, deadFeeds }
+			const popularFeeds = activeFeeds.slice()
+			popularFeeds.sort((a, b) => b.count - a.count)
+
+			const recentFeeds = activeFeeds.slice()
+			recentFeeds.sort((a, b) => b.latest.getTime() - a.latest.getTime())
+
+			return {
+				activeFeeds,
+				deadFeeds,
+				popularFeeds,
+				recentFeeds,
+			}
 		},
 	}))
