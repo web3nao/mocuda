@@ -117,3 +117,7 @@ export const ADDRESS_TO_CONSUMER: Map<string, AddressToConsumer> = new Map<
 		return [address, { address, id, name, anonymous }]
 	}),
 )
+
+export function ConsumerLogo(consumer: AddressToConsumer): string {
+	return `/consumers/logos/${consumer.id}.png`
+}

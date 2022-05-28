@@ -25,6 +25,11 @@
 				"pairs": "Pairs",
 				"eventCounters": "Subgraph Lite: Event Counters"
 			}
+		},
+		"consumers": {
+			"headings": {
+				"title": "Consumers"
+			}
 		}
 	}
 }

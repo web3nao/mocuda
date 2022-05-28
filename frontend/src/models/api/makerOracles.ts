@@ -173,4 +173,28 @@ export const MakerOracles = types
 			}
 			return oracleData.osm
 		},
+
+		consumers(): AddressToConsumer[] {
+			const consumers: AddressToConsumer[] = []
+			const consumerNames = new Set<string>()
+			for (const medianizerprice of self.medianizerprices) {
+				for (const mConsumer of medianizerprice.consumers) {
+					const consumer = ADDRESS_TO_CONSUMER.get(mConsumer.address)
+					if (consumer && !consumerNames.has(consumer.id)) {
+						consumerNames.add(consumer.id)
+						consumers.push(consumer)
+					}
+				}
+				for (const osm of medianizerprice.osm) {
+					for (const osmConsumer of osm.consumers) {
+						const consumer = ADDRESS_TO_CONSUMER.get(osmConsumer.address)
+						if (consumer && !consumerNames.has(consumer.id)) {
+							consumerNames.add(consumer.id)
+							consumers.push(consumer)
+						}
+					}
+				}
+			}
+			return consumers
+		},
 	}))

@@ -4,6 +4,7 @@ import { Instance, types } from 'mobx-state-tree'
 import { createContext, useContext } from 'react'
 import { QuickSearchComponent } from '../components/quicksearch/model'
 import { NotFoundPage } from '../pages/404/model'
+import { ConsumersPage } from '../pages/consumers/model'
 import { FeedPage } from '../pages/feed/model'
 import { FeedsPage } from '../pages/feeds/model'
 import { HomePage } from '../pages/home/model'
@@ -14,6 +15,7 @@ const PagesStore = types.model('Pages', {
 	home: types.optional(HomePage, () => HomePage.create()),
 	feeds: types.optional(FeedsPage, () => FeedsPage.create()),
 	feed: types.optional(FeedPage, () => FeedPage.create()),
+	consumers: types.optional(ConsumersPage, () => ConsumersPage.create()),
 })
 
 const ComponentsStore = types.model('Components', {
