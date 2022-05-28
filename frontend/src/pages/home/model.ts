@@ -59,7 +59,7 @@ export const HomePage = types
 			popularFeeds.sort((a, b) => b.count - a.count)
 
 			const recentFeeds = activeFeeds.slice()
-			recentFeeds.sort((a, b) => b.latest.getTime() - a.latest.getTime())
+			recentFeeds.sort((a, b) => b.first.getTime() - a.first.getTime())
 
 			return {
 				activeFeeds,
