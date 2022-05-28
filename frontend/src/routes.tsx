@@ -20,6 +20,10 @@ export default {
 			const address = (parameters as any).address
 			pages.feed.initialisePage(address)
 		},
+		onParamsChange(_route, parameters, { root: { pages } }) {
+			const address = (parameters as any).address
+			pages.feed.initialisePage(address)
+		},
 	}),
 
 	notFound: new Route<RootStore>({

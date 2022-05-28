@@ -51,7 +51,7 @@ export default observer(() => {
 				m={5}
 				p={3}
 				rounded={'md'}
-				onClick={() => router.goTo(routes.feed, { address: feed.id })}
+				onClick={() => router.goTo(routes.feed, { address: feed.name })}
 				cursor={'pointer'}
 				key={feed.id}
 				borderColor={colorMode === 'light' ? 'gray.200' : 'gray.600'}
