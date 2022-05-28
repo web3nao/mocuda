@@ -1,1 +1,996 @@
-[{"price":{"wat":"XRPUSD","val":"390309299999999970","age":1653666806,"v":"1c","r":"8e14e22a0c44dfaed5384a9f0282a9ca38ad70e72013f12b06ec6b608d8d0458","s":"5f51fbbaa63b5c09a27e26322e7e20744491e8379cf2b8e6b8fcad099cc23cfe","stark_r":"0x6ab000fbbed217d1448b4076261f1f8b619b944684e86fc19f5c8cc63f6c22e","stark_s":"0x2c3a19366aa5b35eab368c85bd107e5b823725ada05630989e418407bb5752a","stark_pk":"0x2dacd0e8df86be8df0b2bc5fcecb9ac14fa640fc4caf87efe5de013c44faeac"},"trace":{"BTC/USD@bitstamp":"28876.14","BTC/USD@bittrex":"28875.443","BTC/USD@coinbasepro":"28874.77","BTC/USD@gemini":"28872.84","BTC/USD@kraken":"28874.1","BTC/USDT@binance":"28903.24","ETH/BTC@binance":"0.061383","ETH/USD@bitstamp":"1771.62","ETH/USD@coinbasepro":"1771.51","ETH/USD@ftx":"1771.8","ETH/USD@gemini":"1770.92","ETH/USD@kraken":"1772.77","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1773.9","ETH/USDT@huobi":"1774.505","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999","XRP/BTC@hitbtc":"1.3522e-05","XRP/USD@bitfinex":"0.39079","XRP/USD@kraken":"0.39002","XRP/USDT@binance":"0.3907","XRP/USDT@huobi":"0.39063000000000003"}},{"price":{"wat":"ZECUSD","val":"86821000000000000000","age":1653666806,"v":"1b","r":"ed354c7c5857cf03881f805691c6dcc259ff8c91a77b842e8ca8e84db0e0d4cc","s":"2b4d4d470787e6736f2bb4916a37b9c885b3736481b0f1e5555abfe7a371ffcb","stark_r":"0x691ef8353756624ff39bbc9e7b02578f9825bfb9717eaf028528bd12226ec37","stark_s":"0x2c97e38c6731bf4afaae6bb96ce55c2dfc61d37dc891c370911f73ec2f92d7c","stark_pk":"0x66c1536f2194f9e15c3a13cf4c526c66ec3adbec5a9e351103776ea974145fc"},"trace":{"binance":"86.7029801593","bitfinex":"86.8210000000","coinbase":"86.7100000000","gemini":"86.8800000000","kraken":"86.9700000000"}},{"price":{"wat":"COMPUSD","val":"57226249245430154000","age":1653666800,"v":"1c","r":"a864f0696995fc1b31ab8f9fb9b99e78c4629ce6728c9e52ebf66eb7bf656e27","s":"4472d4fa6a616168e5b27a0b5890e1067bdb062172a9b43cf1c977f560959274","stark_r":"0x4d57e7960801d634513734e994a8c3eab9dedc2c7b9ef6bb33529a053b27a54","stark_s":"0x6566c2fecd734a8d0a2112c904f0c560bca1937720d01c79f033db53e40262e","stark_pk":"0x337ae5c8bba1f991228924a6b55806d5be50ceaed14eccbb5664de08754a37e"},"trace":{"BTC/USD@bitstamp":"28880.04","BTC/USD@bittrex":"28875.443","BTC/USD@coinbasepro":"28884.02","BTC/USD@gemini":"28872.42","BTC/USD@kraken":"28873.6","BTC/USDT@binance":"28912.45","COMP/ETH@uniswapV3":"0.0322458922872282","COMP/USD@coinbasepro":"57.23","COMP/USD@kraken":"57.34","COMP/USDT@binance":"57.2","COMP/USDT@huobi":"57.275000000000006","COMP/USDT@kucoin":"57.35","ETH/BTC@binance":"0.061409","ETH/USD@bitstamp":"1772.64","ETH/USD@coinbasepro":"1773.53","ETH/USD@ftx":"1772.1","ETH/USD@gemini":"1773.39","ETH/USD@kraken":"1772.86","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1774.2","ETH/USDT@huobi":"1774.6350000000002","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999"}},{"price":{"wat":"ETHUSD","val":"1771810000000000000000","age":1653666802,"v":"1b","r":"7f886affbc865e2c0fa643be43b93cb93c743e5df3cdc8f0f61c596629ca6190","s":"4a4ac32037aecb6c4143d13475b40c019cc47b5c781e1dfb7be35b3f13e355f6","stark_r":"0x7dd6a992bc9177ac085769505cb31c7e65bed5e1dd44f451723ceca537a3a83","stark_s":"0x5c912e4a13e3451f06e707e4f80556dbe05407fd27cc322666467ddeabc5487","stark_pk":"0x79bc8f1e5299a2a16a2417664ee0879bfaed9559958b95a7b6ce1d0155215"},"trace":{"BTC/USD@bitstamp":"28868.07","BTC/USD@bittrex":"28872.464","BTC/USD@coinbasepro":"28883.65","BTC/USD@gemini":"28863.38","BTC/USD@kraken":"28864.6","ETH/BTC@binance":"0.061393","ETH/USD@bitstamp":"1770.72","ETH/USD@coinbasepro":"1772.64","ETH/USD@ftx":"1771.6","ETH/USD@gemini":"1771.81","ETH/USD@kraken":"1771.85","ETH/USD@uniswapV3":"1771.602907649689"}},{"price":{"wat":"XTZUSD","val":"1854700000000000000","age":1653666832,"v":"1b","r":"56c79bf810fa3e19dcacb535caf7e1950f28fa99709f3e2066319e6cf1a95acb","s":"2d4f70c930ac2293ca8510005d5cb6f3f5a7f753850a5deb04bbb9b15b142d86","stark_r":"0x3a04a3ccd17b0157701dea0371a24b6c9fb1b047c8803c92f41928ee7fa3218","stark_s":"0x390ec2082ef5b8bb1bc6b752130915121618d42f0e8891cdc287100b3818a6e","stark_pk":"0x2517838634b03cb9bf2ca9c9623ae9b2f9cf84520314ccd407dc09da018abe8"},"trace":{"BTC/USD@bittrex":"28868","BTC/USD@coinbasepro":"28854.15","BTC/USD@gemini":"28852.84","BTC/USD@kraken":"28852.4","ETH/USD@coinbasepro":"1771","ETH/USD@ftx":"1771.7","ETH/USD@gemini":"1770.8","ETH/USD@kraken":"1770.69","ETH/USD@uniswapV3":"1770.5975277226794","ETH/USDT@ftx":"1773.1","USDT/USD@bitfinex":"0.99997","USDT/USD@kraken":"0.9989","XTZ/USD@bitfinex":"1.8547","XTZ/USD@coinbasepro":"1.86","XTZ/USD@kraken":"1.8518"}},{"price":{"wat":"CRVUSD","val":"1186716536100000000","age":1653666787,"v":"1b","r":"8d43344f770a3e68822a83c6d099f8a328c2467c3a7b1b4fc4bc8b834db8cb1b","s":"5b079838715e56d7d43c05714cf3301bbe601b56d886eb790dd10284718ad6ec","stark_r":"0x1486a2163451ec29c2648657a6d83d74dffe5a682de4f716f2ed22d891c2c5d","stark_s":"0x17689909193a2cad34582317a9c42bc5de4d9d22f09a6c6c522e069f685adb3","stark_pk":"0x1a73bde069c6a281ed5353c7cfa4dc3048c8cb2639be98abb8d09871a59a8c8"},"trace":{"binance":"1.1854330722","gemini":"1.1911000000","huobi":"1.1835355803","kraken":"1.1880000000","sushiswap":"1.1927220418","uniswap_v3":"1.1851156394"}},{"price":{"wat":"CRVUSD","val":"1186711703050000000","age":1653666789,"v":"1c","r":"46b23f7b1cf418d764eca343fe10475ae05ac10e9d2aa3082fff57dc9c94cc55","s":"7887f23f1f7f05e612f273cd1f4fa37cc8d4fe0a8af30aebfe6de7fede2c9a4f","stark_r":"0x4cf4cf16945d7c75fb62feb999d065750079611565bc65b92eb40d673ef3ca9","stark_s":"0x707066da4903574d4ba8fc78994a13c2f7ff5b38055929391ac68dafc49cfb3","stark_pk":"0x4c2413c39a3ca1ed66adaee5c24b0e830fd884ad6048408c6e2cc0fc429771f"},"trace":{"binance":"1.1846115024","gemini":"1.1911000000","huobi":"1.1834129072","kraken":"1.1880000000","sushiswap":"1.1930317837","uniswap_v3":"1.1854234061"}},{"price":{"wat":"XRPUSD","val":"390020000000000000","age":1653666795,"v":"1b","r":"38e834ea893ac305598857fbb5b42c72b3c0cc774d5f8e8aed24eca69209be01","s":"2432f6d8e7d196f1dcd6d4ee6a6f68afee05a098f14bd9ff9d9e03b8b4734a86","stark_r":"0x7f8587bc6c8c1eb9fbbb01c0725066616a935e92e6e82d1117b48c4360d39cf","stark_s":"0x5cfbed04d6ffbe369f8080cbdf9a0ef00b436b280986c77c93fb63d2facd608","stark_pk":"0x6b4831009d21e8604fb18d08debe099ad9eb34bd52d3b2e73620073afc05361"},"trace":{"binance":"0.3897322547","bitfinex":"0.3901000000","hitbtc":"0.3901230011","huobi":"0.3895424824","kraken":"0.3900200000"}},{"price":{"wat":"MATICUSD","val":"596818751805051000","age":1653666806,"v":"1b","r":"17e1d8b8184580ff3d45b6fa23b2cdb0f8f1bd9d6f2b53dae3376324c62028bf","s":"55c3f7b491ea0e93ad31d336f8a6a7388ac2ee018d52d076fc0a5bb1444e6acf","stark_r":"0x3a8eb130f5b72739e8b070ef183075f688d3f30d2369b409321aaa06e2d3a19","stark_s":"0x6fb7e83ecf08264b0955d8989a45e9e9449b054228d029848f6cc381dada467","stark_pk":"0x50ca0e54be3e0401c5f2d89529867d2e690e1de822fd65a9e74281453dc3d2d"},"trace":{"BTC/USD@bitstamp":"28904.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28903.69","BTC/USD@gemini":"28897.49","BTC/USD@kraken":"28895.9","BTC/USDT@binance":"28929.93","ETH/BTC@binance":"0.061415","ETH/USD@bitstamp":"1774.02","ETH/USD@coinbasepro":"1774.22","ETH/USD@ftx":"1774.7","ETH/USD@gemini":"1774.51","ETH/USD@kraken":"1773.73","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.795","MATIC/USD@coinbasepro":"0.597","MATIC/USD@ftx":"0.596806","MATIC/USD@gemini":"0.59549","MATIC/USD@kraken":"0.5961","MATIC/USDT@binance":"0.598","MATIC/USDT@huobi":"0.5975015","USDT/USD@bitfinex":"0.99991","USDT/USD@kraken":"0.9989"}},{"price":{"wat":"AVAXUSD","val":"23103241944300000000","age":1653666804,"v":"1c","r":"d4bfb08a2fa04155f61e13bb0d348b3dce686524c8c4314e5c57a49c4b7bed96","s":"0060b0ae823d8e8b5fdbe26e6aac71c00a94784a4a1881b10afe606398c4baf5","stark_r":"0x2b7e4ccfb487e551979174db3a48aa468d79f76fceef5c73f362ec47db5b42c","stark_s":"0x24318def6422b4d34e050dd6c38a7bdb71317df82caaf537e94428aac646ddf","stark_pk":"0x7f64fc4979fc761b82e15008f80afa608fa6c754136a6f69f4589329470e612"},"trace":{"AVAX/BTC@binance":"0.0008001","AVAX/BTC@huobi":"0.00080037","AVAX/USDT@gateio":"23.117","BTC/USD@bitstamp":"28876.14","BTC/USD@bittrex":"28875.443","BTC/USD@coinbasepro":"28875.57","BTC/USD@gemini":"28872.84","BTC/USD@kraken":"28874.1","BTC/USDT@binance":"28903.23","ETH/BTC@binance":"0.061375","ETH/USD@bitstamp":"1771.04","ETH/USD@coinbasepro":"1771.66","ETH/USD@ftx":"1771.8","ETH/USD@gemini":"1770.92","ETH/USD@kraken":"1772.77","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1773.9","ETH/USDT@huobi":"1774.505","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999"}},{"price":{"wat":"MANAUSD","val":"959890913954155500","age":1653666793,"v":"1b","r":"8edd308fcd9bdd60e26b14db8c4b6a348ff75600dfa8958d6eb20b8a749a596e","s":"4c194b4d58e926f848e2a784e1751e59cc3d09b3fd54ca979bba4edce9905364","stark_r":"0x1e1e316a809d566313136a91ac4a9021fa4dda1b342ca0b2931b760acf6a5ef","stark_s":"0x32346ff25ed161a532c54f5702d7004a7df9e05a73dae22d8db91d33ecfb351","stark_pk":"0x31956cc832b85b10349d223cd8e167d101a074be8fc27a35c0cb8b2e7dc9134"},"trace":{"BTC/USD@bitstamp":"28904.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28905.03","BTC/USD@gemini":"28897.49","BTC/USD@kraken":"28896","BTC/USDC@binance":"28899.59","BTC/USDC@coinbasepro":"28889","BTC/USDC@poloniex":"28866.94667681","BTC/USDT@binance":"28936.9","ETH/BTC@binance":"0.061413","ETH/USD@bitstamp":"1774.19","ETH/USD@coinbasepro":"1773.96","ETH/USD@ftx":"1774.7","ETH/USD@gemini":"1774.18","ETH/USD@kraken":"1774.25","ETH/USD@uniswapV3":"1773.4878375802355","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.745","KRW/USD@openexchangerates":"0.0008","MANA/BTC@binance":"3.322e-05","MANA/BTC@bittrex":"3.321e-05","MANA/KRW@upbit":"1225","MANA/USDC@coinbasepro":"0.959472","MANA/USDT@huobi":"0.9612","USDT/USD@bitfinex":"0.99991","USDT/USD@kraken":"0.9989"}},{"price":{"wat":"ETHUSD","val":"1773840000000000000000","age":1653666802,"v":"1c","r":"06216c7ff260ad0d7e6e5a3a4a244828f8b33c7a35ac29dbc2adc7a2a994ccc4","s":"45bb990e00db23e659895d33ec9074902b1fd56a983a7902448e35a3c4260d0d","stark_r":"0x1a5b8306911380112b8511ba3ddc098cdca720018b6c12253901a0c95aac10b","stark_s":"0x76b27d7353110001f3078bed2dcbbaf05490064a2042e777af5a5b176bbb6c1","stark_pk":"0x6142be4ab85140859080c7fc9dd1bb2949f1ba78ac3064debea817d2a5fe127"},"trace":{"BTC/USD@bitstamp":"28910.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28892.14","BTC/USD@gemini":"28896.86","BTC/USD@kraken":"28895.2","ETH/BTC@binance":"0.061388","ETH/USD@bitstamp":"1774.19","ETH/USD@coinbasepro":"1772.8","ETH/USD@ftx":"1774.5","ETH/USD@gemini":"1773.84","ETH/USD@kraken":"1774.25","ETH/USD@uniswapV3":"1773.4878375802355"}},{"price":{"wat":"MATICUSD","val":"596540610806790000","age":1653666800,"v":"1c","r":"5edd21752a1f178ec1db9f633691541c76aa32b6186e4840ea8fe63bc632a497","s":"33940e3d4b365d6c47861a3e8f9dc06daa056b97fba1d87ad8068c10ed081f1c","stark_r":"0x27ab556913c55ef1d57806a0136723668f3dcf0964e6585dab5535cd8df6381","stark_s":"0x18da240d5e8aadc17de652db7c1d8093143559a9af0b50bf9a1358dd0e957d2","stark_pk":"0x31956cc832b85b10349d223cd8e167d101a074be8fc27a35c0cb8b2e7dc9134"},"trace":{"BTC/USD@bitstamp":"28904.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28905.03","BTC/USD@gemini":"28897.49","BTC/USD@kraken":"28896","BTC/USDT@binance":"28936.9","ETH/BTC@binance":"0.061413","ETH/USD@bitstamp":"1774.19","ETH/USD@coinbasepro":"1773.96","ETH/USD@ftx":"1774.7","ETH/USD@gemini":"1774.18","ETH/USD@kraken":"1774.25","ETH/USD@uniswapV3":"1773.4878375802355","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.745","MATIC/USD@coinbasepro":"0.5971","MATIC/USD@ftx":"0.596376","MATIC/USD@gemini":"0.59549","MATIC/USD@kraken":"0.5961","MATIC/USDT@binance":"0.598","MATIC/USDT@huobi":"0.597519","USDT/USD@bitfinex":"0.99991","USDT/USD@kraken":"0.9989"}},{"price":{"wat":"LINKUSD","val":"6546582452800000000","age":1653666796,"v":"1b","r":"44033d322c215244ccccd5a864fa4af084b2a18ec4031cc0f9f73322ba0696d6","s":"16fd6e8d16ecdca1ba893da9cd333a29d394bc3c25081ff5643272f2a77726c7","stark_r":"0xbd7d287b5584d84f9daef62671862a985d596ca562606bccc2dfaaf87eeef8","stark_s":"0x53989820551c761dc88567e4304e2c6dada5d77c26793997a0ff42d6722b361","stark_pk":"0x3099e1de365362596e08000ec9f57fa4ae2088dfe53f0f89ea13635c1ebf20a"},"trace":{"binance":"6.5457584700","coinbase":"6.5500000000","ftx":"6.5405000000","gemini":"6.5581100000","huobi":"6.5474064356","kraken":"6.5424400000"}},{"price":{"wat":"PAXGUSD","val":"1857045000000000000000","age":1653666794,"v":"1c","r":"b17fd7450789d6218b22fc10977c1f5e45743d6c1e64340b1f144c8c74b082f0","s":"4e1c51fd88d0ba136ac47facd29db854ccfb78e55e6f23b911d4acfc25e84a0a","stark_r":"0x262dd6d489361251e586fa7ab0d0ecad907870a2ef2a8b3410656f72a48da2e","stark_s":"0x4a45d63b07567e2d480eabb8f098a8e7bdfc06f37f742b69fa3607efc858c6d","stark_pk":"0x50ca0e54be3e0401c5f2d89529867d2e690e1de822fd65a9e74281453dc3d2d"},"trace":{"BTC/USD@bitstamp":"28904.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28903.69","BTC/USD@gemini":"28897.49","BTC/USD@kraken":"28895.9","BTC/USDT@binance":"28929.93","ETH/BTC@binance":"0.061415","ETH/USD@bitstamp":"1774.02","ETH/USD@coinbasepro":"1774.22","ETH/USD@ftx":"1774.7","ETH/USD@gemini":"1774.51","ETH/USD@kraken":"1773.73","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.795","PAXG/ETH@uniswap":"1.0483490951951218","PAXG/USD@gemini":"1857.75","PAXG/USD@kraken":"1856.34","PAXG/USDT@bitthumb":"1853.38","USDT/USD@bitfinex":"0.99991","USDT/USD@kraken":"0.9989"}},{"price":{"wat":"ZECUSD","val":"86970000000000000000","age":1653666798,"v":"1c","r":"24605fc54725afe95339ae142dac30842acd9bde0b1ab444f38b1c757da75002","s":"5c51cb8080ba6356bf74e5513632b9a68fc7087da09252aba1b3a305ca999617","stark_r":"0x3de98aff576d1b4ae3cb5fbd008874dab17f225d26c55d4f198d10595d2d770","stark_s":"0x209e00f556a1777f886ccbaa72f55fb9e4c0dfcb53b7488e006e99f06e82fef","stark_pk":"0x6142be4ab85140859080c7fc9dd1bb2949f1ba78ac3064debea817d2a5fe127"},"trace":{"BTC/USD@bitstamp":"28910.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28892.14","BTC/USD@gemini":"28896.86","BTC/USD@kraken":"28895.2","BTC/USDT@binance":"28922.96","ETH/BTC@binance":"0.061388","ETH/USD@bitstamp":"1774.19","ETH/USD@coinbasepro":"1772.8","ETH/USD@ftx":"1774.5","ETH/USD@gemini":"1773.84","ETH/USD@kraken":"1774.25","ETH/USD@uniswapV3":"1773.4878375802355","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.745","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999","ZEC/USD@bitfinex":"86.885","ZEC/USD@coinbasepro":"86.98","ZEC/USD@gemini":"86.88","ZEC/USD@kraken":"86.97","ZEC/USDT@binance":"87.2"}},{"price":{"wat":"FILUSD","val":"7528500000000000000","age":1653666794,"v":"1b","r":"2ebbbfc6a0c40761aa1582cb1957360ffccb48c2170c3df6d3c6854d9c56cbc5","s":"40dade4eaa71416a7af71d4193b55b4b878c1d2a8a37c65278a3dd9b15d55414","stark_r":"0x598379e3114b689ca6f31b2f1ee75d1b9cb5515f374514b894fde62ff9f989f","stark_s":"0x18bcf9431a6fe387af371bed1ae6e599fbc49e7846509487168158f795a798c","stark_pk":"0x79bc8f1e5299a2a16a2417664ee0879bfaed9559958b95a7b6ce1d0155215"},"trace":{"BTC/USD@bitstamp":"28868.07","BTC/USD@bittrex":"28872.464","BTC/USD@coinbasepro":"28883.65","BTC/USD@gemini":"28863.38","BTC/USD@kraken":"28864.6","BTC/USDT@binance":"28915.71","ETH/BTC@binance":"0.061393","ETH/USD@bitstamp":"1770.72","ETH/USD@coinbasepro":"1772.64","ETH/USD@ftx":"1771.6","ETH/USD@gemini":"1771.81","ETH/USD@kraken":"1771.85","ETH/USD@uniswapV3":"1771.602907649689","ETH/USDT@ftx":"1773.4","ETH/USDT@huobi":"1774.8","FIL/USD@coinbasepro":"7.52","FIL/USD@gemini":"7.5285","FIL/USD@kraken":"7.525","FIL/USDT@binance":"7.54","FIL/USDT@huobi":"7.5382","USDT/USD@bitfinex":"0.99994","USDT/USD@kraken":"0.9989"}},{"price":{"wat":"SNXUSD","val":"2486000000000000000","age":1653666797,"v":"1c","r":"9138c03cd6af08f470a4b5c3c5ed3220d027483e4ac1a4cad54947a650c0b66f","s":"1515908bef784be2f4db80a0519de377d64bcc30bba0ba9ffa9abe2d87ad4372","stark_r":"0x19aab62a7a6cd656823351d1186199e98e602890cc03ec6f7b9887926b8b14e","stark_s":"0x326c7e4fbab70207c393bec7d02349e00a33784806edb05c375ab7e4feaa40e","stark_pk":"0x14e0131da108c703db2e679bfd562837bf89c6b8453641ff21b02bc350ca14d"},"trace":{"BTC/USD@bitstamp":"28863.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28874.17","BTC/USD@gemini":"28876.61","BTC/USD@kraken":"28895.1","BTC/USDT@binance":"28907.44","ETH/BTC@binance":"0.061344","ETH/USD@bitstamp":"1769.57","ETH/USD@coinbasepro":"1771.05","ETH/USD@ftx":"1770.8","ETH/USD@gemini":"1770.83","ETH/USD@kraken":"1771.32","ETH/USD@uniswapV3":"1773.380797678479","ETH/USDT@ftx":"1772.7","ETH/USDT@huobi":"1773.2150000000001","SNX/BTC@binance":"8.62e-05","SNX/ETH@sushiswap":"0.0013933790485378165","SNX/ETH@uniswap":"0.0013990235045109477","SNX/USD@coinbasepro":"2.486","SNX/USDT@huobi":"2.48935","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999"}},{"price":{"wat":"USDTUSD","val":"999083343358538700","age":1653666794,"v":"1c","r":"432a1cc6acaa8f4ee15703374e41ebd17541736ae0f7f5bf309fa9b2815b7120","s":"053f155d9c300a6587e166f0b4172f1fe7942079435d6f61230c2f28293e1565","stark_r":"0x6b1f4713962dbebb8232b0f685c26d31192b2c1597f970ea4d1a15e6c78e78f","stark_s":"0x702faf70c96345cfe3fc0a8e7cf36b1d20df80c36d799c2a67f0e69ce9dea4","stark_pk":"0x337ae5c8bba1f991228924a6b55806d5be50ceaed14eccbb5664de08754a37e"},"trace":{"BTC/USD@bitstamp":"28880.04","BTC/USD@bittrex":"28875.443","BTC/USD@coinbasepro":"28884.02","BTC/USD@gemini":"28872.42","BTC/USD@kraken":"28873.6","BTC/USDT@binance":"28912.45","ETH/BTC@binance":"0.061409","ETH/USD@bitstamp":"1772.64","ETH/USD@coinbasepro":"1773.53","ETH/USD@ftx":"1772.1","ETH/USD@gemini":"1773.39","ETH/USD@kraken":"1772.86","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1774.2","ETH/USDT@huobi":"1774.6350000000002","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999"}},{"price":{"wat":"XTZUSD","val":"1850000000000000000","age":1653666793,"v":"1c","r":"d56d46aa80eec330737fa769b4cc47899a3e67278df859aba4c4f20d933d2ef1","s":"01ea8f4e61e4e9e5fee45767b0bbf9e4ea9745bd01bbdb32f7a1e01cf58c800a","stark_r":"0x6b91c0b6bb5d9a0fcf7dfc00170eb4717ba5ad989f89df5e4e9d50b05f83b1c","stark_s":"0x122181d62ca913798901699b5d5647c0ffa9033bd785f2fcdbdbe23f7fd6624","stark_pk":"0x7339f6a246397fa332a02abfac54a1baebf8b21057b44c90536c522481bf1c6"},"trace":{"BTC/USD@coinbasepro":"28900.47","BTC/USD@gemini":"28872.42","ETH/USD@coinbasepro":"1774.33","ETH/USD@gemini":"1774.51","ETH/USD@uniswapV3":"1773.0082690410804","XTZ/USD@coinbasepro":"1.85"}},{"price":{"wat":"YFIUSD","val":"7721140000000000000000","age":1653666799,"v":"1c","r":"6e80f6d95e44ecc359cf199c7133e096ab64f4175a87c2fb9da1daeb7cf3dae1","s":"74e343e84f7f97c635b8ecf75446f00f4d4bf532464b1e27e803fc9f0c900928","stark_r":"0x13fcb79d1bf5b423bb2cabfabd276c9808d25c152f671e3415b5b51137a4759","stark_s":"0x49f7985d60d74431f005f765cbff62bbfa96784a45f2aa3d1f8787e87e1802d","stark_pk":"0x26cd35ce61b798e2e80d1d4d1f7d3f40f60dd19f2533e557808c1f5675471e9"},"trace":{"binance":"7724.5323989573","coinbase":"7720.3300000000","ftx":"7765.0000000000","gemini":"7721.9500000000","huobi":"7718.0500335908","uniswap_v3":"7684.6915348706"}},{"price":{"wat":"ZRXUSD","val":"378557936100000000","age":1653666801,"v":"1c","r":"57f9a510a7b38db17c67bcfe9f124fa017b46f27f47f7d80b15b43522893118b","s":"3080129063801eabc35d91ad391f42787d311d50e6c7c56e9686d8f273ea341f","stark_r":"0x3e23587cb8642ea7e63e2a9115e27a3451c5e6c3b100041fa90aad937a0090c","stark_s":"0x6b84f80ca785b18262209a9ed50d4ee0403ea457135923bb30cae62eabe1d43","stark_pk":"0x66c1536f2194f9e15c3a13cf4c526c66ec3adbec5a9e351103776ea974145fc"},"trace":{"binance":"0.3785579361","bitfinex":"0.3786000000","coinbase":"0.3784250000"}},{"price":{"wat":"SNXUSD","val":"2483000000000000000","age":1653666794,"v":"1c","r":"46364aa50781b887c4dd651c707ab31f722bf6c0423360e46fad0c2f723f5fa8","s":"59547e9976dd170d89d3f2c2e4003f888ef853097417acefae8748e539731201","stark_r":"0x5bf991333e7594dd6c85f5c8f070c38a9879f3985ba5dd2b90e59d4bea9f35","stark_s":"0x32b56707bf7676de599114771869546e23458c320e1c652fa551195117152be","stark_pk":"0x366d8e87519ed6e0a806d9368c78752bd630cd33fe0f519c63a7289e2634a3"},"trace":{"BTC/USD@bittrex":"28889.445","BTC/USD@coinbasepro":"28887.96","BTC/USD@gemini":"28883.62","ETH/USD@coinbasepro":"1772.48","ETH/USD@gemini":"1772.51","ETH/USD@uniswapV3":"1771.602907649689","SNX/ETH@sushiswap":"0.0013933790485378165","SNX/USD@coinbasepro":"2.483"}},{"price":{"wat":"LRCUSD","val":"488913017234139700","age":1653666805,"v":"1c","r":"a63f2c26f4553aa2b3cac4ec7c7c2a8369a9438a276f75c1fd40682125eb65b2","s":"51a41660633b66156e686463040b516cf8eb42eceb783c43a16322aeab08dfde","stark_r":"0x39f95a3dc40a5979c2de41f9d3fec7ad310ae992de0920ca6828ced77f1d68e","stark_s":"0x4d7d797e80e6c92c9f48473ca49dd5ccf63575855d64b20b5602c93e2214db6","stark_pk":"0x6142be4ab85140859080c7fc9dd1bb2949f1ba78ac3064debea817d2a5fe127"},"trace":{"BTC/USD@bitstamp":"28910.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28892.14","BTC/USD@gemini":"28896.86","BTC/USD@kraken":"28895.2","BTC/USDT@binance":"28922.96","ETH/BTC@binance":"0.061388","ETH/USD@bitstamp":"1774.19","ETH/USD@coinbasepro":"1772.8","ETH/USD@ftx":"1774.5","ETH/USD@gemini":"1773.84","ETH/USD@kraken":"1774.25","ETH/USD@uniswapV3":"1773.4878375802355","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.745","LRC/BTC@binance":"1.692e-05","LRC/ETH@uniswap":"0.00027562759350802747","LRC/USD@coinbasepro":"0.489","LRC/USDT@gateio":"0.48927","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999"}},{"price":{"wat":"YFIUSD","val":"7746313432500000000000","age":1653666795,"v":"1b","r":"8c6a5bc7be1c6a7db4bab53d119eb8cd6333df26c68a5b4f2b7361778a772594","s":"47a689be9194dcf72200ac61c0ccb08a8685b4b823225481e605c51b64db2228","stark_r":"0x54e7b2b352269228743252edffc85d362ce41bf4707396fa1cc9012191878c9","stark_s":"0x550dfd106564cee2fa25f39c3ffd6134ae46d4354febf91c27daa3831ff6bdc","stark_pk":"0x2dacd0e8df86be8df0b2bc5fcecb9ac14fa640fc4caf87efe5de013c44faeac"},"trace":{"BTC/USD@bitstamp":"28876.14","BTC/USD@bittrex":"28875.443","BTC/USD@coinbasepro":"28874.77","BTC/USD@gemini":"28872.84","BTC/USD@kraken":"28874.1","BTC/USDT@binance":"28903.24","ETH/BTC@binance":"0.061383","ETH/USD@bitstamp":"1771.62","ETH/USD@coinbasepro":"1771.51","ETH/USD@ftx":"1771.8","ETH/USD@gemini":"1770.92","ETH/USD@kraken":"1772.77","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1773.9","ETH/USDT@huobi":"1774.505","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999","YFI/ETH@uniswapV3":"4.348415649474818","YFI/USD@coinbasepro":"7740.7","YFI/USD@ftx":"7765","YFI/USD@gemini":"7759.68","YFI/USDT@binance":"7756","YFI/USDT@huobi":"7752.135"}},{"price":{"wat":"MANAUSD","val":"958497990150000000","age":1653666800,"v":"1c","r":"b9da1f045b8181fe48438c15cf05187035d4945d33ef435cdf7dca60f399b642","s":"28d4fd370b716bd9d2195a85d4e1adacf93ae5744b4ef09b77013f8e40a5146e","stark_r":"0x47425ffc5a460fa5e00a35f82a890ac154a6d340001311a321eaa4b7a28a02a","stark_s":"0x4b583476aeecd496d0b8cef6d4209b663a9aa06d25ce9939907e36b21490fc3","stark_pk":"0x2dacd0e8df86be8df0b2bc5fcecb9ac14fa640fc4caf87efe5de013c44faeac"},"trace":{"BTC/USD@bitstamp":"28876.14","BTC/USD@bittrex":"28875.443","BTC/USD@coinbasepro":"28874.77","BTC/USD@gemini":"28872.84","BTC/USD@kraken":"28874.1","BTC/USDC@binance":"28870.68","BTC/USDC@coinbasepro":"28872","BTC/USDC@poloniex":"28866.94667681","BTC/USDT@binance":"28903.24","ETH/BTC@binance":"0.061383","ETH/USD@bitstamp":"1771.62","ETH/USD@coinbasepro":"1771.51","ETH/USD@ftx":"1771.8","ETH/USD@gemini":"1770.92","ETH/USD@kraken":"1772.77","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1773.9","ETH/USDT@huobi":"1774.505","MANA/BTC@binance":"3.318e-05","MANA/BTC@bittrex":"3.321e-05","MANA/USDC@coinbasepro":"0.959506","MANA/USDT@huobi":"0.9590000000000001","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999"}},{"price":{"wat":"MATICUSD","val":"596295000000000000","age":1653666799,"v":"1b","r":"81ad3282cbf5ae0e3b63894040c36c011b69922a2edd96097d348b08538b2f0d","s":"45f76360e30b92f4cea21dc78803a75dd3943865bed54a77106a9e860c2371f2","stark_r":"0x3a1f8d4e2017c8bde6530438abef09e9f2739a9ef3ae313884bc425d633a4d0","stark_s":"0x2fab81074fa908d864a6a0109f72004218199016a511b47572e25ff836bf651","stark_pk":"0x7339f6a246397fa332a02abfac54a1baebf8b21057b44c90536c522481bf1c6"},"trace":{"BTC/USD@coinbasepro":"28900.47","BTC/USD@gemini":"28872.42","ETH/USD@coinbasepro":"1774.33","ETH/USD@gemini":"1774.51","ETH/USD@uniswapV3":"1773.0082690410804","MATIC/USD@coinbasepro":"0.5971","MATIC/USD@gemini":"0.59549"}},{"price":{"wat":"LRCUSD","val":"487322332900000000","age":1653666796,"v":"1b","r":"36e2ef6b5cd4a03e81bb07ad0287ecf575bbf3e34dfd2b8907289f7d7b8497fa","s":"079545c2ae566614b8ada33ce3cfe1a64bf82a6be1a90460203747b1c9a4aa7b","stark_r":"0x6ec9b1d4b5a5839828d3eec7f8e14fdeee8e0a15cf30bf3f915bf5af4c50f06","stark_s":"0x434f809ef981b9e4ca9a3594b1f9920e1aed6c07cddca232b13989f56ceaf34","stark_pk":"0x66c1536f2194f9e15c3a13cf4c526c66ec3adbec5a9e351103776ea974145fc"},"trace":{"binance":"0.4868410986","coinbase":"0.4873000000","gateio":"0.4873446658","uniswap":"0.4879711030"}},{"price":{"wat":"ETHUSD","val":"1771050000000000000000","age":1653666802,"v":"1b","r":"5da4cca8b608047660ae96c4962f61b304aed1ea0cb88e836b789646e5b0e69c","s":"0497ebfc8ab3d12f4a45c9ac3ef2b4217f9e322770b98e2e42bc482efe35ca8a","stark_r":"0x71f89bb52a6a49b362b5168df0a57371442921e8524f96261eef3288fe9bd3","stark_s":"0x4b95b7ce3ec9c1abe1811b1a0e3f8c0958221b7999cd11b7893b793a3ecaec","stark_pk":"0x14e0131da108c703db2e679bfd562837bf89c6b8453641ff21b02bc350ca14d"},"trace":{"BTC/USD@bitstamp":"28863.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28874.17","BTC/USD@gemini":"28876.61","BTC/USD@kraken":"28895.1","ETH/BTC@binance":"0.061344","ETH/USD@bitstamp":"1769.57","ETH/USD@coinbasepro":"1771.05","ETH/USD@ftx":"1770.8","ETH/USD@gemini":"1770.83","ETH/USD@kraken":"1771.32","ETH/USD@uniswapV3":"1773.380797678479"}},{"price":{"wat":"SOLUSD","val":"42624377645384996000","age":1653666798,"v":"1b","r":"a618780bafc7e52355ea549de1a2f83543e880bfcf41e06aeb2f20721c4115f3","s":"6fadc4b8b80e6c02bf7e6e49ac9b477bff0a71c3a3321e4ea37fe7a0c7a1f21a","stark_r":"0x75a334088461697c92805c3cd680213f5ffc18eb8c981f63ddc3f7e94636cb1","stark_s":"0x13292dc064de34d46d47fc4f79a9e76d86785a18785dd0688cca4244ce205ad","stark_pk":"0x7f64fc4979fc761b82e15008f80afa608fa6c754136a6f69f4589329470e612"},"trace":{"BTC/USD@bitstamp":"28876.14","BTC/USD@bittrex":"28875.443","BTC/USD@coinbasepro":"28875.57","BTC/USD@gemini":"28872.84","BTC/USD@kraken":"28874.1","BTC/USDT@binance":"28903.23","ETH/BTC@binance":"0.061375","ETH/USD@bitstamp":"1771.04","ETH/USD@coinbasepro":"1771.66","ETH/USD@ftx":"1771.8","ETH/USD@gemini":"1770.92","ETH/USD@kraken":"1772.77","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1773.9","ETH/USDT@huobi":"1774.505","SOL/BTC@bitthumb":"0.0014718","SOL/BTC@huobi":"0.00147639","SOL/USDT@binance":"42.66","SOL/USDT@gateio":"42.70904","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999"}},{"price":{"wat":"DOTUSD","val":"9623696545584451000","age":1653666798,"v":"1b","r":"2bffe5e1e85f5c13f4c978d3b14b08782a91e07e6d4d26a968e82fbc38198573","s":"1f536a4044c3cad9ef371f0258bfbc09f9eac23c43cd52fc52cb55fcd7a749ed","stark_r":"0xe5cb7ce137437d482283ec0d3c19faa397e8a93eeadb400de3c4467144429e","stark_s":"0x4b8224eb68fa06916a7b757c47890124caaff0d344cd380254bbe1b1945cb13","stark_pk":"0x50ca0e54be3e0401c5f2d89529867d2e690e1de822fd65a9e74281453dc3d2d"},"trace":{"BTC/USD@bitstamp":"28904.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28903.69","BTC/USD@gemini":"28897.49","BTC/USD@kraken":"28895.9","BTC/USDT@binance":"28929.93","DOT/USD@bitfinex":"9.63","DOT/USD@kraken":"9.6128","DOT/USDT@binance":"9.63","DOT/USDT@huobi":"9.636700000000001","DOT/USDT@kucoin":"9.6345","ETH/BTC@binance":"0.061415","ETH/USD@bitstamp":"1774.02","ETH/USD@coinbasepro":"1774.22","ETH/USD@ftx":"1774.7","ETH/USD@gemini":"1774.51","ETH/USD@kraken":"1773.73","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.795","USDT/USD@bitfinex":"0.99991","USDT/USD@kraken":"0.9989"}},{"price":{"wat":"DOTUSD","val":"9624179336558395000","age":1653666803,"v":"1c","r":"302ed6efd708b6785b5a402962054223e62a679e054d0db217ce2d1ab78246a2","s":"3b4558c750382f7a84f6dbf78d4f0dd2351ffb6eb2408185fbdde17d758b0089","stark_r":"0x7aa9fa69ce027a6bcdcbfab6e12d393402e20548464a000466411f3329e8459","stark_s":"0x5f3f22e47c5981b1df680513f516961dcccf0fa8bbe6e6492193b3b119cff96","stark_pk":"0x6317b43e420c5439b32e56eb7a26b361742bf78f898cdf755a9a5854268805a"},"trace":{"BTC/USD@bitstamp":"28912.73","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28909.1","BTC/USD@gemini":"28897.49","BTC/USD@kraken":"28900","BTC/USDT@binance":"28940","DOT/USD@bitfinex":"9.63","DOT/USD@kraken":"9.6215","DOT/USDT@binance":"9.64","DOT/USDT@huobi":"9.6375","DOT/USDT@kucoin":"9.6336","ETH/BTC@binance":"0.061401","ETH/USD@bitstamp":"1774.19","ETH/USD@coinbasepro":"1774.06","ETH/USD@ftx":"1774.9","ETH/USD@gemini":"1774.1","ETH/USD@kraken":"1774.25","ETH/USD@uniswapV3":"1773.4878375802355","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.835","USDT/USD@bitfinex":"0.99991","USDT/USD@kraken":"0.999"}},{"price":{"wat":"COMPUSD","val":"57283215272978570000","age":1653666796,"v":"1c","r":"bee03666c10b6310578ab06fb9442a87095e640a520ce2f45d567aa355990c5e","s":"441dab2ca5372fd2c70443497e1b0e9b8aa38f6523ca3bf56b455d2f28392c37","stark_r":"0x225b5c97fe2f8985ab35b17e23a5658b27e18b93e66dc5e1b336278ce5cf946","stark_s":"0x8635bff97cef018c1717e2b3c24d16fd134c3c2b746303937f028fc88cbc56","stark_pk":"0x6317b43e420c5439b32e56eb7a26b361742bf78f898cdf755a9a5854268805a"},"trace":{"BTC/USD@bitstamp":"28912.73","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28909.1","BTC/USD@gemini":"28897.49","BTC/USD@kraken":"28900","BTC/USDT@binance":"28940","COMP/ETH@uniswapV3":"0.0322458922872282","COMP/USD@coinbasepro":"57.34","COMP/USD@kraken":"57.34","COMP/USDT@binance":"57.3","COMP/USDT@huobi":"57.375","COMP/USDT@kucoin":"57.35","ETH/BTC@binance":"0.061401","ETH/USD@bitstamp":"1774.19","ETH/USD@coinbasepro":"1774.06","ETH/USD@ftx":"1774.9","ETH/USD@gemini":"1774.1","ETH/USD@kraken":"1774.25","ETH/USD@uniswapV3":"1773.4878375802355","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.835","USDT/USD@bitfinex":"0.99991","USDT/USD@kraken":"0.999"}},{"price":{"wat":"WNXMUSD","val":"17014200048773020000","age":1653666802,"v":"1b","r":"40277f8c7509f9a657b5d1e63650d9669e2161aa5043fc165f075d85ec2be7f2","s":"46309f51f98b654fd12b379f6469bc7c06aaa1cd8f9d53ffb64041627de0e653","stark_r":"0x5a77906258519708ec50743adddeebed7ad58603e5767c9d0dca7f913983e64","stark_s":"0x5f05ef40504687ca49343de8c2d5a2196d2675be71807600a4a50a551849295","stark_pk":"0x50ca0e54be3e0401c5f2d89529867d2e690e1de822fd65a9e74281453dc3d2d"},"trace":{"BTC/USD@bitstamp":"28904.85","BTC/USD@bittrex":"28894.343","BTC/USD@coinbasepro":"28903.69","BTC/USD@gemini":"28897.49","BTC/USD@kraken":"28895.9","BTC/USDT@binance":"28929.93","ETH/BTC@binance":"0.061415","ETH/USD@bitstamp":"1774.02","ETH/USD@coinbasepro":"1774.22","ETH/USD@ftx":"1774.7","ETH/USD@gemini":"1774.51","ETH/USD@kraken":"1773.73","ETH/USD@uniswapV3":"1773.0082690410804","ETH/USDT@ftx":"1776.9","ETH/USDT@huobi":"1776.795","USDT/USD@bitfinex":"0.99991","USDT/USD@kraken":"0.9989","WNXM/USDT@binance":"17.05","WNXM/USDT@gateio":"16.97","WNXM/USDT@huobi":"17.0333"}},{"price":{"wat":"AVAXUSD","val":"23075676699000000000","age":1653666798,"v":"1c","r":"a4e4e0b790f3feb90ac231ea49b6249ecc1b0fe9ec30c5e991b57c107c24243f","s":"4dd948f985108ee835a912c141d7703177068e38f6f3d149052015570475ce8b","stark_r":"0x609cb87032ce99402bec5d2667e923aac1278f042d30e25f5e57845d87ac088","stark_s":"0x5a5d1569da2095baf051290e68d5fc24711878b72321fe0da09f352484481c8","stark_pk":"0x4a21f7de6170c5a1b0aac25b109c8aa88796a3574f3e7fd20aa301c8b690e16"},"trace":{"AVAX/BTC@binance":"0.0007988","AVAX/BTC@huobi":"0.000799275","AVAX/USDT@gateio":"23.117","BTC/USD@bitstamp":"28870.76","BTC/USD@bittrex":"28875.443","BTC/USD@coinbasepro":"28875.3","BTC/USD@gemini":"28870.5","BTC/USD@kraken":"28869.7","BTC/USDT@binance":"28900.42","ETH/BTC@binance":"0.06137","ETH/USD@bitstamp":"1771.05","ETH/USD@coinbasepro":"1770.78","ETH/USD@ftx":"1771.6","ETH/USD@gemini":"1770.9","ETH/USD@kraken":"1772.77","ETH/USD@uniswapV3":"1771.602907649689","ETH/USDT@ftx":"1773.4","ETH/USDT@huobi":"1773.6750000000002","USDT/USD@bitfinex":"0.99992","USDT/USD@kraken":"0.999"}}]
+[
+  {
+    "price": {
+      "wat": "UNIUSD",
+      "val": "4730000000000000000",
+      "age": 1653731303,
+      "v": "1b",
+      "r": "7dc4d6acf6e6cd51de994f02072296edc353bcf0220c270ebd50117a3faf9cea",
+      "s": "354e322cf22d45e79c198150bbacc12953c8497e2d276ff904dddce9ef702287",
+      "stark_r": "0x239d862d04f23cbca3f181c7f1f8ea3fae0b157fd5765d35c118e3570639587",
+      "stark_s": "0x1a16edabe64565f4c37c2371ddaa7810291547435668233e86c7f97795c740a",
+      "stark_pk": "0x7339f6a246397fa332a02abfac54a1baebf8b21057b44c90536c522481bf1c6"
+    },
+    "trace": {
+      "binance": "4.7330754275",
+      "coinbase": "4.7300000000",
+      "ftx": "4.7270000000",
+      "huobi": "4.7310538736",
+      "uniswap_v3": "4.6975266044"
+    }
+  },
+  {
+    "price": {
+      "wat": "KNCUSD",
+      "val": "1885466971200000000",
+      "age": 1653731305,
+      "v": "1c",
+      "r": "00f71b7cf9b8988e0a023a90eec17a4c638496b5976c71ea615ba5a2292f131f",
+      "s": "24fa95d8fd6f37a0cec02144b549a36a37dbaa173d1ff8de0e3a4e8786179dd6",
+      "stark_r": "0x5ed52b6569870756b68e6b051586ece03929dd6f4afd0d9849848c6219bf2af",
+      "stark_s": "0x2072536e04f31ca74bfcfe6653261388cb6c91a9b06b55bc7e67f59faa49f98",
+      "stark_pk": "0x50ca0e54be3e0401c5f2d89529867d2e690e1de822fd65a9e74281453dc3d2d"
+    },
+    "trace": {
+      "binance": "1.8854669712",
+      "coinbase": "1.9116000000",
+      "huobi": "1.8805793624"
+    }
+  },
+  {
+    "price": {
+      "wat": "LINKUSD",
+      "val": "6375389511336726000",
+      "age": 1653731308,
+      "v": "1b",
+      "r": "0324d325724cdf03620298621aa0215d4cf3fba0f7eb9ed43338aceb3751a72b",
+      "s": "1b58727bdbdef5049f55835d399793d12122343a13124961e322b73f487d677d",
+      "stark_r": "0x19e49a7d19ed0a4e098b134d15dbc71a1ffcc09ffb319b9f27af99547c1f8c4",
+      "stark_s": "0xa997d0a351b7e3b02060e55b2f5e54164e6ed405d53ec7365f86671c074639",
+      "stark_pk": "0x2011fb9864c85d9b0bd8fcc864a93750216a5befe97b69f17b4a8917e9528a3"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28772.95",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28767.68",
+      "BTC/USD@gemini": "28765.02",
+      "BTC/USD@kraken": "28778.7",
+      "BTC/USDT@binance": "28792.41",
+      "ETH/BTC@binance": "0.060927",
+      "ETH/USD@bitstamp": "1752.88",
+      "ETH/USD@coinbasepro": "1752.08",
+      "ETH/USD@ftx": "1752.2",
+      "ETH/USD@gemini": "1753.97",
+      "ETH/USD@kraken": "1752.47",
+      "ETH/USD@uniswapV3": "1753.31676439461",
+      "ETH/USDT@ftx": "1754.6",
+      "ETH/USDT@huobi": "1754.4250000000002",
+      "LINK/BTC@binance": "0.0002216",
+      "LINK/USD@coinbasepro": "6.38",
+      "LINK/USD@ftx": "6.3755",
+      "LINK/USD@gemini": "6.37159",
+      "LINK/USD@kraken": "6.37918",
+      "LINK/USDT@huobi": "6.38145",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.999"
+    }
+  },
+  {
+    "price": {
+      "wat": "MATICUSD",
+      "val": "576294926860564600",
+      "age": 1653731309,
+      "v": "1b",
+      "r": "07d8f73d93c4dcf9216aabfbe4efee347d63346913e49cfa3699ad29dfe3c6cd",
+      "s": "0f611c6f22efff3fb2e5aedf1a0ead30cc97481513d2fbe200f6c808ee9c461b",
+      "stark_r": "0x19ac2d4fcc6223ce6d33b1927bc105de2d5d936fc403093cbce04f5cdacf3ba",
+      "stark_s": "0x49f1116e60824c039d4ca5370991829d451ddcbbe5bdd77ea258dc7d851bfd6",
+      "stark_pk": "0x6142be4ab85140859080c7fc9dd1bb2949f1ba78ac3064debea817d2a5fe127"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28750.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28759.62",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28761.9",
+      "BTC/USDT@binance": "28789.81",
+      "ETH/BTC@binance": "0.060922",
+      "ETH/USD@bitstamp": "1750",
+      "ETH/USD@coinbasepro": "1751.46",
+      "ETH/USD@ftx": "1752",
+      "ETH/USD@gemini": "1751.43",
+      "ETH/USD@kraken": "1750.6",
+      "ETH/USD@uniswapV3": "1750.9435100894602",
+      "ETH/USDT@ftx": "1753.5",
+      "ETH/USDT@huobi": "1753.875",
+      "MATIC/USD@coinbasepro": "0.5767",
+      "MATIC/USD@ftx": "0.576271",
+      "MATIC/USD@gemini": "0.57619",
+      "MATIC/USD@kraken": "0.5749",
+      "MATIC/USDT@binance": "0.577",
+      "MATIC/USDT@huobi": "0.5770759999999999",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.9989"
+    }
+  },
+  {
+    "price": {
+      "wat": "LRCUSD",
+      "val": "475611025716153430",
+      "age": 1653731306,
+      "v": "1b",
+      "r": "ce8ad12cd1a8da2bd7ebc8d1a010b33e6e1b5199a3849a858b7e292584721035",
+      "s": "5575bdfc3598e1f7e23b7e88ddac9f511422647fada86dd07abfe0e2e79e4123",
+      "stark_r": "0x3bf9cbd255f371d2d933ce4128309db8a984d9c04d9a444897521f060c1d636",
+      "stark_s": "0x5477c058aac544e6bf64b2f5760ef4de708d06f7bddc884e41c1c18433b6193",
+      "stark_pk": "0x7f64fc4979fc761b82e15008f80afa608fa6c754136a6f69f4589329470e612"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28772.95",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28766.5",
+      "BTC/USD@gemini": "28765.02",
+      "BTC/USD@kraken": "28778.7",
+      "BTC/USDT@binance": "28792.41",
+      "ETH/BTC@binance": "0.060923",
+      "ETH/USD@bitstamp": "1753",
+      "ETH/USD@coinbasepro": "1752.3",
+      "ETH/USD@ftx": "1752.7",
+      "ETH/USD@gemini": "1753.97",
+      "ETH/USD@kraken": "1752.47",
+      "ETH/USD@uniswapV3": "1753.31676439461",
+      "ETH/USDT@ftx": "1754.6",
+      "ETH/USDT@huobi": "1754.4250000000002",
+      "LRC/BTC@binance": "1.653e-05",
+      "LRC/ETH@uniswap": "0.00027402454205377924",
+      "LRC/USD@coinbasepro": "0.4755",
+      "LRC/USDT@gateio": "0.47618",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.999"
+    }
+  },
+  {
+    "price": {
+      "wat": "BALUSD",
+      "val": "6680000000000000000",
+      "age": 1653731313,
+      "v": "1c",
+      "r": "3d072a86d44658015fb1524d8f5a1ac6fe7e6b1a9e5eaabddb875ea9901dcc35",
+      "s": "7553201e6dd8a13dbc80847850b4d9f51d60a5625ec6631b9c831348c7e16ebd",
+      "stark_r": "0x4a83c187877151e1e2ba6a9d37c97982b12293c7793381f4472f2054ac511a4",
+      "stark_s": "0x6cb17d733ff0d2a27fea9983389f4e3ded4cdb4ed5d978c173f7f775d171ca4",
+      "stark_pk": "0x6142be4ab85140859080c7fc9dd1bb2949f1ba78ac3064debea817d2a5fe127"
+    },
+    "trace": {
+      "BAL/BTC@binance": "0.0002324",
+      "BAL/ETH@uniswap": "0.0037859770789333033",
+      "BAL/USD@balancer": "6.592176710543959",
+      "BAL/USD@coinbasepro": "6.68",
+      "BAL/USDT@huobi": "6.6917",
+      "BTC/USD@bitstamp": "28750.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28759.62",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28761.9",
+      "BTC/USDT@binance": "28789.81",
+      "ETH/BTC@binance": "0.060922",
+      "ETH/USD@bitstamp": "1750",
+      "ETH/USD@coinbasepro": "1751.46",
+      "ETH/USD@ftx": "1752",
+      "ETH/USD@gemini": "1751.43",
+      "ETH/USD@kraken": "1750.6",
+      "ETH/USD@uniswapV3": "1750.9435100894602",
+      "ETH/USDT@ftx": "1753.5",
+      "ETH/USDT@huobi": "1753.875",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.9989"
+    }
+  },
+  {
+    "price": {
+      "wat": "SNXUSD",
+      "val": "2397990422700000000",
+      "age": 1653731313,
+      "v": "1c",
+      "r": "dc161956fa9f371263469e49ea7d19f62444afdb3c89d943306287ae26ae561b",
+      "s": "0ebbb2f347c05859d8943b9ea6d2d39b2fc31d2956510460c6565b6ced8cdd68",
+      "stark_r": "0x3ab0815df013a0204655414b82ae491c112f5f314fc84395874d31798207efa",
+      "stark_s": "0x5be0bbf3b396b6e200195217ee561e146f89d11c60a91387e4d78566effd9d3",
+      "stark_pk": "0x50ca0e54be3e0401c5f2d89529867d2e690e1de822fd65a9e74281453dc3d2d"
+    },
+    "trace": {
+      "binance": "2.3949283120",
+      "coinbase": "2.4000000000",
+      "huobi": "2.4008609927",
+      "sushiswap": "2.3979904227",
+      "uniswap": "2.3947473233"
+    }
+  },
+  {
+    "price": {
+      "wat": "SNXUSD",
+      "val": "2393000000000000000",
+      "age": 1653731306,
+      "v": "1b",
+      "r": "ab677c92bc80844aaa2263caa2f518fb62a7e9c131fe3361821ea60150ed81d9",
+      "s": "057ce527caf4e7eb723499177326afeee5358d29941e1d393a0b64138dc1a46b",
+      "stark_r": "0x63028e4463978308faf8b1ff99c741123f306bdff53bac66ce7b3eb27bdd60a",
+      "stark_s": "0x3147c9a344e6967b8fe310d3688482d0194901ec8f99ab009611b82634c4cfa",
+      "stark_pk": "0x31956cc832b85b10349d223cd8e167d101a074be8fc27a35c0cb8b2e7dc9134"
+    },
+    "trace": {
+      "BTC/USD@coinbasepro": "28755.91",
+      "BTC/USD@gemini": "28762.42",
+      "ETH/USD@coinbasepro": "1751.18",
+      "ETH/USD@gemini": "1752.03",
+      "ETH/USD@uniswapV3": "1753.31676439461",
+      "SNX/USD@coinbasepro": "2.393"
+    }
+  },
+  {
+    "price": {
+      "wat": "ETHBTC",
+      "val": "60958330000000000",
+      "age": 1653731303,
+      "v": "1c",
+      "r": "c85e3baca7d38b6fa447c3240d547e135a14db585d215c9062571109e0120d2a",
+      "s": "032d29942016cef43b6150f2a322ff89f6d69e5ef4afbbdaffbb3e84bc466bbb",
+      "stark_r": "0x43dc5ce647e78054933eff80f6e81a0562b23e903d67f7aa01557005b02b806",
+      "stark_s": "0x284a8ba2614c7e3d6f4006abd1fc7c088b1eb553b5b928c91b9d8e893313dd2",
+      "stark_pk": "0x2dacd0e8df86be8df0b2bc5fcecb9ac14fa640fc4caf87efe5de013c44faeac"
+    },
+    "trace": {
+      "binance": "0.0609690000",
+      "bitfinex": "0.0609730000",
+      "coinbase": "0.0609500000",
+      "huobi": "0.0609530000",
+      "kraken": "0.0609600000",
+      "poloniex": "0.0609566600"
+    }
+  },
+  {
+    "price": {
+      "wat": "UNIUSD",
+      "val": "4720000000000000000",
+      "age": 1653731308,
+      "v": "1b",
+      "r": "9e189e21b4328a68412c39d615f02623b2498cb169abba4b540956156a167902",
+      "s": "59554075e44639f892b93d30a41892c8c652942fcd9fe11c0fbc8528d073c0a5",
+      "stark_r": "0x1014bf8b4a842ee00b613185843c43f8b3eec75190693298ccb7838e7346bf2",
+      "stark_s": "0x3a5bcd5278ec4cbec5af88a338857679e7b8bfe8dc0ec83c6a284b3ec808bd0",
+      "stark_pk": "0x366d8e87519ed6e0a806d9368c78752bd630cd33fe0f519c63a7289e2634a3"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28761.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28747.37",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28747.8",
+      "BTC/USDT@binance": "28777.63",
+      "ETH/BTC@binance": "0.06089",
+      "ETH/USD@bitstamp": "1750",
+      "ETH/USD@coinbasepro": "1750.83",
+      "ETH/USD@ftx": "1750.2",
+      "ETH/USD@gemini": "1751.34",
+      "ETH/USD@kraken": "1750.85",
+      "ETH/USD@uniswapV3": "1752.2267881166267",
+      "ETH/USDT@ftx": "1752",
+      "ETH/USDT@huobi": "1752.6950000000002",
+      "UNI/BTC@binance": "0.0001641",
+      "UNI/ETH@uniswapV3": "0.002679034726648416",
+      "UNI/USD@coinbasepro": "4.72",
+      "UNI/USD@ftx": "4.72",
+      "UNI/USDT@huobi": "4.7246500000000005",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.9989"
+    }
+  },
+  {
+    "price": {
+      "wat": "YFIUSD",
+      "val": "7475063695000000000000",
+      "age": 1653731311,
+      "v": "1c",
+      "r": "06df93c86cd322b71c5a9353d6a2f7f56956db8b2c4522fe4f38ace05abacf99",
+      "s": "6e8a1cbba64735030c6db1eb21f4f66298187c99ae4c35e2faa322dd4417b29d",
+      "stark_r": "0x4c045b140e5ae38d89269851c7f02bec4df8f46bf9d61a588d09272e6561f91",
+      "stark_s": "0x37c36a2fc545017ec90cd452702abceb8a0432a4e5aba0313fe2769eddc49f6",
+      "stark_pk": "0x3099e1de365362596e08000ec9f57fa4ae2088dfe53f0f89ea13635c1ebf20a"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28772.07",
+      "BTC/USD@bittrex": "28772.495",
+      "BTC/USD@coinbasepro": "28765.45",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28762.7",
+      "BTC/USDT@binance": "28792.64",
+      "ETH/BTC@binance": "0.060923",
+      "ETH/USD@bitstamp": "1752.82",
+      "ETH/USD@coinbasepro": "1752.05",
+      "ETH/USD@ftx": "1752.6",
+      "ETH/USD@gemini": "1751.43",
+      "ETH/USD@kraken": "1751.54",
+      "ETH/USD@uniswapV3": "1750.9778977156955",
+      "ETH/USDT@ftx": "1754.2",
+      "ETH/USDT@huobi": "1754.3649999999998",
+      "USDT/USD@bitfinex": "0.99997",
+      "USDT/USD@kraken": "0.999",
+      "YFI/ETH@uniswapV3": "4.307126459446781",
+      "YFI/USD@coinbasepro": "7464.57",
+      "YFI/USD@ftx": "7475",
+      "YFI/USD@gemini": "7477.67",
+      "YFI/USDT@binance": "7482.61",
+      "YFI/USDT@huobi": "7477.135"
+    }
+  },
+  {
+    "price": {
+      "wat": "BTCUSD",
+      "val": "28772495000000000000000",
+      "age": 1653731309,
+      "v": "1b",
+      "r": "71c27ccf12af3d34095478a1755482a84175d9b6001552ea25380583942ba834",
+      "s": "08b5ed2dcb490e83b52655369dd09c65766a3e0db6325ac2a67d153b86be34fd",
+      "stark_r": "0x4c269103d570a6d6a22d2b806b9b3ff807028ba94b6eba7390f5f37ac0c6f89",
+      "stark_s": "0x3a66201b473a3bc8ac38b75fa0dde47c5d4077a902f0a6ca761ec5f4a39ce5f",
+      "stark_pk": "0x50ca0e54be3e0401c5f2d89529867d2e690e1de822fd65a9e74281453dc3d2d"
+    },
+    "trace": {
+      "bitstamp": "28787.9700000000",
+      "bittrex": "28772.4950000000",
+      "coinbase": "28781.3800000000",
+      "gemini": "28750.6400000000",
+      "kraken": "28762.7000000000"
+    }
+  },
+  {
+    "price": {
+      "wat": "LINKUSD",
+      "val": "6371615196500000000",
+      "age": 1653731308,
+      "v": "1c",
+      "r": "a98b4290fe593d77ad87428eac53d8a1b3d59896e21a1ea91f5b431ec68ba716",
+      "s": "199df45631de926c26695b692d010044eb0751885fb324ec0cc2bfeec42e3d55",
+      "stark_r": "0x66b775dfbc0dae7dc8ea59d0babc99723638b673bed6d188f10066b2435d727",
+      "stark_s": "0x35c7b8526a50fef46cd27aade52808142d3a33957b20bd7f4f789644dfa66bf",
+      "stark_pk": "0x6317b43e420c5439b32e56eb7a26b361742bf78f898cdf755a9a5854268805a"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28787.97",
+      "BTC/USD@bittrex": "28772.495",
+      "BTC/USD@coinbasepro": "28782.51",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28762.7",
+      "BTC/USDT@binance": "28808.35",
+      "ETH/BTC@binance": "0.060969",
+      "ETH/USD@bitstamp": "1753",
+      "ETH/USD@coinbasepro": "1754.55",
+      "ETH/USD@ftx": "1753.7",
+      "ETH/USD@gemini": "1751.43",
+      "ETH/USD@kraken": "1753.02",
+      "ETH/USD@uniswapV3": "1752.6136655258783",
+      "ETH/USDT@ftx": "1755.6",
+      "ETH/USDT@huobi": "1756.7150000000001",
+      "LINK/BTC@binance": "0.0002214",
+      "LINK/USD@coinbasepro": "6.38",
+      "LINK/USD@ftx": "6.373",
+      "LINK/USD@gemini": "6.35725",
+      "LINK/USD@kraken": "6.36381",
+      "LINK/USDT@huobi": "6.38425",
+      "USDT/USD@bitfinex": "0.99997",
+      "USDT/USD@kraken": "0.999"
+    }
+  },
+  {
+    "price": {
+      "wat": "MATICUSD",
+      "val": "576450000000000000",
+      "age": 1653731303,
+      "v": "1b",
+      "r": "b9e06c30ded5eba6c9fc101c6d8a9472ba60969b909dad4e84ed1d782c20ff6b",
+      "s": "0b792ce29a5805a6702c64a3b769fc9ce52db92fb444bcc3125aea358dfdbdcc",
+      "stark_r": "0x230744fad1656b050f2f78de30d3a7aa434636cea97e45a60fee2e136658d34",
+      "stark_s": "0x78706cdb4c172bb808e4fa0651b20c64b3aba5d78d2c04d271dcc69180a6a88",
+      "stark_pk": "0x1a73bde069c6a281ed5353c7cfa4dc3048c8cb2639be98abb8d09871a59a8c8"
+    },
+    "trace": {
+      "BTC/USD@coinbasepro": "28767.59",
+      "BTC/USD@gemini": "28765.02",
+      "ETH/USD@coinbasepro": "1752.26",
+      "ETH/USD@gemini": "1753.97",
+      "ETH/USD@uniswapV3": "1753.31676439461",
+      "MATIC/USD@coinbasepro": "0.5767",
+      "MATIC/USD@gemini": "0.5762",
+      "USDT/USD@bitfinex": "0.99998"
+    }
+  },
+  {
+    "price": {
+      "wat": "ETHUSD",
+      "val": "1753020000000000000000",
+      "age": 1653731309,
+      "v": "1b",
+      "r": "061bba547401537c7e2c4a562c48d7e3ca59215f621e9dcb3746d9952ffe6fca",
+      "s": "1718c8aea63383fd66e9c46e24f501ce4a86d584ca2edc2611b6664f1d71b41c",
+      "stark_r": "0x6b6f60ac9048035417c13fd559e4b7f6159ffcdbd94808f6d2efafee92370b9",
+      "stark_s": "0x1aac37003265eb1815c39ce3491141d2d40ba452af8106d7b594ec98d5a0bbc",
+      "stark_pk": "0x2dacd0e8df86be8df0b2bc5fcecb9ac14fa640fc4caf87efe5de013c44faeac"
+    },
+    "trace": {
+      "binance": "1754.2302476550",
+      "bitstamp": "1753.0000000000",
+      "coinbase": "1754.5200000000",
+      "ftx": "1754.8000000000",
+      "gemini": "1751.4300000000",
+      "kraken": "1753.0200000000",
+      "uniswap_v3": "1752.6136655259"
+    }
+  },
+  {
+    "price": {
+      "wat": "LINKUSD",
+      "val": "6375795000000000000",
+      "age": 1653731312,
+      "v": "1b",
+      "r": "373c67b8e6cb50d77b9bbdd5fc38a4d00564bb64e69d462d96573b677e0a6a20",
+      "s": "4311f8f3ead5070bae48de68283dbf8ea1f64de6f9d229a121e31df898889fe8",
+      "stark_r": "0x44887e395220dbb1e6c77c30a8a58103b64bff730b4d10afea73755f2db1fd1",
+      "stark_s": "0x6783b95fbdef3b8ebd22075885584b6b2f49cd4fe4309199ec6f828af9e1ede",
+      "stark_pk": "0x31956cc832b85b10349d223cd8e167d101a074be8fc27a35c0cb8b2e7dc9134"
+    },
+    "trace": {
+      "BTC/USD@coinbasepro": "28755.91",
+      "BTC/USD@gemini": "28762.42",
+      "ETH/USD@coinbasepro": "1751.18",
+      "ETH/USD@gemini": "1752.03",
+      "ETH/USD@uniswapV3": "1753.31676439461",
+      "LINK/USD@coinbasepro": "6.38",
+      "LINK/USD@gemini": "6.37159"
+    }
+  },
+  {
+    "price": {
+      "wat": "MATICUSD",
+      "val": "577561500000000100",
+      "age": 1653731314,
+      "v": "1b",
+      "r": "6932af6b1fcee151b0adbf3f62b08090b9e0b703b9b7003ad3c93c3833d51ee3",
+      "s": "035cf96dabcdd608682a8b0fdca10ef07e60d7c49b06cb6901443a639ef5489e",
+      "stark_r": "0x134811031f2af69680d5e3f2fba716620dbea53575e9f5a1decf0654227966f",
+      "stark_s": "0x7033955ef11ee20fa3fb49d250c840030785ab15f76f230af32f774ade66592",
+      "stark_pk": "0x6317b43e420c5439b32e56eb7a26b361742bf78f898cdf755a9a5854268805a"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28787.97",
+      "BTC/USD@bittrex": "28772.495",
+      "BTC/USD@coinbasepro": "28782.51",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28762.7",
+      "BTC/USDT@binance": "28808.35",
+      "ETH/BTC@binance": "0.060969",
+      "ETH/USD@bitstamp": "1753",
+      "ETH/USD@coinbasepro": "1754.55",
+      "ETH/USD@ftx": "1753.7",
+      "ETH/USD@gemini": "1751.43",
+      "ETH/USD@kraken": "1753.02",
+      "ETH/USD@uniswapV3": "1752.6136655258783",
+      "ETH/USDT@ftx": "1755.6",
+      "ETH/USDT@huobi": "1756.7150000000001",
+      "MATIC/USD@coinbasepro": "0.5779",
+      "MATIC/USD@ftx": "0.577423",
+      "MATIC/USD@gemini": "0.57737",
+      "MATIC/USD@kraken": "0.5777",
+      "MATIC/USDT@binance": "0.578",
+      "MATIC/USDT@huobi": "0.578794",
+      "USDT/USD@bitfinex": "0.99997",
+      "USDT/USD@kraken": "0.999"
+    }
+  },
+  {
+    "price": {
+      "wat": "MATICUSD",
+      "val": "576561500000000000",
+      "age": 1653731304,
+      "v": "1b",
+      "r": "1ddd722e5900d4d0f6a9daf6f748ca81f37f278d3c156fdd1105da8085b7b42a",
+      "s": "12528abc8c21b1e536c55e93b797e0d584a09329630ac7363c47f0b26017a06a",
+      "stark_r": "0x6764a624a510e6db5baae3419b791be9550b8f9cd9a8d65230c3385e3ab9ddd",
+      "stark_s": "0x3cc7022545a4f4ca2a7d4b8f983e0a5d5b075bc85825811be3a7ba510b62b19",
+      "stark_pk": "0x3099e1de365362596e08000ec9f57fa4ae2088dfe53f0f89ea13635c1ebf20a"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28772.07",
+      "BTC/USD@bittrex": "28772.495",
+      "BTC/USD@coinbasepro": "28765.45",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28762.7",
+      "BTC/USDT@binance": "28792.64",
+      "ETH/BTC@binance": "0.060923",
+      "ETH/USD@bitstamp": "1752.82",
+      "ETH/USD@coinbasepro": "1752.05",
+      "ETH/USD@ftx": "1752.6",
+      "ETH/USD@gemini": "1751.43",
+      "ETH/USD@kraken": "1751.54",
+      "ETH/USD@uniswapV3": "1750.9778977156955",
+      "ETH/USDT@ftx": "1754.2",
+      "ETH/USDT@huobi": "1754.3649999999998",
+      "MATIC/USD@coinbasepro": "0.5767",
+      "MATIC/USD@ftx": "0.576736",
+      "MATIC/USD@gemini": "0.57619",
+      "MATIC/USD@kraken": "0.5749",
+      "MATIC/USDT@binance": "0.577",
+      "MATIC/USDT@huobi": "0.57735",
+      "USDT/USD@bitfinex": "0.99997",
+      "USDT/USD@kraken": "0.999"
+    }
+  },
+  {
+    "price": {
+      "wat": "ZECUSD",
+      "val": "85980000000000000000",
+      "age": 1653731314,
+      "v": "1b",
+      "r": "53ff59b4ce3b0947290cc47c17431352ac633ce3765b6466b378161d86b8e0fb",
+      "s": "66992d0d96d9fca5df9c7a9b7c234349ce1098f836474a2f9f7740b2e10920e7",
+      "stark_r": "0x64a9afefa6c63d8393cccc745d07a86e8467a2173d34e6a8593e437ec3d2d42",
+      "stark_s": "0x51f6be41015ca33663956ac0de25e1abb7f2eeb658057cc31f166d8235fbcd2",
+      "stark_pk": "0x337ae5c8bba1f991228924a6b55806d5be50ceaed14eccbb5664de08754a37e"
+    },
+    "trace": {
+      "binance": "85.9782448190",
+      "bitfinex": "85.9800000000",
+      "coinbase": "86.0000000000",
+      "gemini": "85.5400000000",
+      "kraken": "86.0400000000"
+    }
+  },
+  {
+    "price": {
+      "wat": "PAXGUSD",
+      "val": "1851811360136869000000",
+      "age": 1653731305,
+      "v": "1b",
+      "r": "1dc407b0bb136d6dc71ab3008eb0377b588e0fe839e53365d8ced82ed442e3cc",
+      "s": "31aa2e399fd543b7a6e20a64a92f8718dcba9322d6f33435a560a89afc5ee3cb",
+      "stark_r": "0x7324413177def501d7b3e44512cd4a814fe6aa4b437124104df7a7e3e277e3f",
+      "stark_s": "0x356ace189e1255c74cc7e14467cc399f97c87787bb2cff3a072d37282d65e4",
+      "stark_pk": "0x6142be4ab85140859080c7fc9dd1bb2949f1ba78ac3064debea817d2a5fe127"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28750.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28759.62",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28761.9",
+      "BTC/USDT@binance": "28789.81",
+      "ETH/BTC@binance": "0.060922",
+      "ETH/USD@bitstamp": "1750",
+      "ETH/USD@coinbasepro": "1751.46",
+      "ETH/USD@ftx": "1752",
+      "ETH/USD@gemini": "1751.43",
+      "ETH/USD@kraken": "1750.6",
+      "ETH/USD@uniswapV3": "1750.9435100894602",
+      "ETH/USDT@ftx": "1753.5",
+      "ETH/USDT@huobi": "1753.875",
+      "PAXG/ETH@uniswap": "1.0539471442282164",
+      "PAXG/USD@gemini": "1856.17",
+      "PAXG/USD@kraken": "1858.74",
+      "PAXG/USDT@binance": "1854",
+      "PAXG/USDT@bitthumb": "1848.36",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.9989"
+    }
+  },
+  {
+    "price": {
+      "wat": "ZRXUSD",
+      "val": "373008500000000000",
+      "age": 1653731308,
+      "v": "1b",
+      "r": "09e2d5336a9eeab172d8f581e296dd240c5e6e69fe846ab4f79b19e1f8b83caa",
+      "s": "6f34bdb199e896f06d0c8ac20908d0f81804e1f8ad1dd579e8eb0378a6b73a5e",
+      "stark_r": "0x193da01c2eb156afaa85f553cbac1e4a47d4d0cbee35df02685c2a934c1560d",
+      "stark_s": "0x2552a7ad1ea21cae853056ae7fef5e8cc1d517bf38ef58e4dddf89b10204e6b",
+      "stark_pk": "0x4a21f7de6170c5a1b0aac25b109c8aa88796a3574f3e7fd20aa301c8b690e16"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28750.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28765.45",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28761.9",
+      "ZRX/USD@bitfinex": "0.37319",
+      "ZRX/USD@coinbasepro": "0.372827"
+    }
+  },
+  {
+    "price": {
+      "wat": "ETHBTC",
+      "val": "60921930000000000",
+      "age": 1653731308,
+      "v": "1c",
+      "r": "f956a9d597378820eb4d7bda5a97a6d87360ee8ff2d356abe0d9e8de772c0483",
+      "s": "3f57a599624f9535aff0bc9804abb93f4cf260e91696a29d9cf66b9e91f59239",
+      "stark_r": "0x1603a48402451fb416ead32cbff35ba3a93ae950f6246a3b6de18866d501671",
+      "stark_s": "0x49df2c9c87bedb9be1af0100a8df0cb273e081805338ef6582ac6f5aa4a9da9",
+      "stark_pk": "0x4d54d72263f75f14c4fd62a038b3e63d72f04ca55c5fc261224659f8525d058"
+    },
+    "trace": {
+      "ETH/BTC@binance": "0.060924",
+      "ETH/BTC@bitfinex": "0.060941",
+      "ETH/BTC@coinbasepro": "0.06094",
+      "ETH/BTC@huobi": "0.0609195",
+      "ETH/BTC@kraken": "0.0609",
+      "ETH/BTC@poloniex": "0.06091986"
+    }
+  },
+  {
+    "price": {
+      "wat": "UNIUSD",
+      "val": "4715104960000000000",
+      "age": 1653731298,
+      "v": "1b",
+      "r": "98ea44b55d4d379f2eec38766516273a77b3966c52ad1091b55564c00361ceda",
+      "s": "775046d2ce9d15aa3c9eae76de9e69e587ac276206d29f810d5b05665fe6a0c4",
+      "stark_r": "0x7f90f9a258cd578105252dee8e36616b14160c02bbb141615c10f1b2ac6a7c9",
+      "stark_s": "0xc8dd73cb0401cc80732dcc0acded794f5457fef2f0ef05c4678b3da12e20cd",
+      "stark_pk": "0x4041d5ebc18735bc3201c79b4a72268a0b656e8c7dcafa686f4ed77dbed37ad"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28761.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28736.75",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28747.7",
+      "BTC/USDT@binance": "28770.65",
+      "ETH/BTC@binance": "0.060894",
+      "ETH/USD@bitstamp": "1750",
+      "ETH/USD@coinbasepro": "1749.99",
+      "ETH/USD@ftx": "1751",
+      "ETH/USD@gemini": "1750.98",
+      "ETH/USD@kraken": "1750.85",
+      "ETH/USD@uniswapV3": "1752.2267881166267",
+      "ETH/USDT@ftx": "1752.9",
+      "ETH/USDT@huobi": "1752.3449999999998",
+      "UNI/BTC@binance": "0.000164",
+      "UNI/ETH@uniswapV3": "0.002679034726648416",
+      "UNI/USD@coinbasepro": "4.72",
+      "UNI/USD@ftx": "4.72",
+      "UNI/USDT@huobi": "4.7188",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.9989"
+    }
+  },
+  {
+    "price": {
+      "wat": "LINKUSD",
+      "val": "6375037204000000000",
+      "age": 1653731293,
+      "v": "1b",
+      "r": "e60a8bea36bfcf1d512c093cbcaf138ac6689e09306ca00c115a7c0927ec7741",
+      "s": "71ac492f583b9d9335db1e1923e971a579a2b5e336895ae5d8264cd7e2ac9cd3",
+      "stark_r": "0x6fe420632180b12e88ef1d0e2558f45318489381fe1b8929f08664dd2f30ba8",
+      "stark_s": "0xc9f0122e7e43009d36fed80fc32691e72b517fb58224e16f27b4b3275d1b1f",
+      "stark_pk": "0x70065e35ca12e0353bc35631e1b04706e275cfc1213f8cec8471b20e171d0db"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28772.95",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28766.13",
+      "BTC/USD@gemini": "28765.02",
+      "BTC/USD@kraken": "28778.7",
+      "BTC/USDT@binance": "28792.4",
+      "ETH/BTC@binance": "0.060927",
+      "ETH/USD@bitstamp": "1753",
+      "ETH/USD@coinbasepro": "1752.04",
+      "ETH/USD@ftx": "1752.6",
+      "ETH/USD@gemini": "1753.97",
+      "ETH/USD@kraken": "1752.47",
+      "ETH/USD@uniswapV3": "1753.31676439461",
+      "ETH/USDT@ftx": "1754.6",
+      "ETH/USDT@huobi": "1754.4250000000002",
+      "LINK/BTC@binance": "0.0002216",
+      "LINK/USD@coinbasepro": "6.37",
+      "LINK/USD@ftx": "6.3755",
+      "LINK/USD@gemini": "6.37159",
+      "LINK/USD@kraken": "6.37918",
+      "LINK/USDT@huobi": "6.38215",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.999"
+    }
+  },
+  {
+    "price": {
+      "wat": "COMPUSD",
+      "val": "56362715585757385000",
+      "age": 1653731301,
+      "v": "1c",
+      "r": "0afacd85619b76cc88700d155a25778122f80b36cfa7d353d6c745993189e938",
+      "s": "7f7d2f1c82946dc8f48436642b2080838011643e101884895136b3abcd4298fb",
+      "stark_r": "0x3b3d5e4b86f6b12c2f9262467407f0c3f6f0ad1011bacb672c424294c89fd6e",
+      "stark_s": "0x33ce1b206e110a23e6241565516aff6d026e2261efa77d66ff921305039dbb2",
+      "stark_pk": "0x2011fb9864c85d9b0bd8fcc864a93750216a5befe97b69f17b4a8917e9528a3"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28772.95",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28767.68",
+      "BTC/USD@gemini": "28765.02",
+      "BTC/USD@kraken": "28778.7",
+      "BTC/USDT@binance": "28792.41",
+      "COMP/ETH@uniswapV3": "0.0322458922872282",
+      "COMP/USD@coinbasepro": "56.35",
+      "COMP/USD@kraken": "56.61",
+      "COMP/USDT@binance": "56.3",
+      "COMP/USDT@huobi": "56.379999999999995",
+      "COMP/USDT@kucoin": "56.43",
+      "ETH/BTC@binance": "0.060927",
+      "ETH/USD@bitstamp": "1752.88",
+      "ETH/USD@coinbasepro": "1752.08",
+      "ETH/USD@ftx": "1752.2",
+      "ETH/USD@gemini": "1753.97",
+      "ETH/USD@kraken": "1752.47",
+      "ETH/USD@uniswapV3": "1753.31676439461",
+      "ETH/USDT@ftx": "1754.6",
+      "ETH/USDT@huobi": "1754.4250000000002",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.999"
+    }
+  },
+  {
+    "price": {
+      "wat": "BALUSD",
+      "val": "6670583956600000000",
+      "age": 1653731301,
+      "v": "1b",
+      "r": "733caf2876a9e000d0f0cb80dbd48af929129f5b174cc517f50159565ec7563c",
+      "s": "4522c3a950f2eaaac56337c776d8bb60a6ab30852120ddeb46ec2ee41e93a362",
+      "stark_r": "0x3d6ce9ac6879b771c4f54897995c3f4027df69b63d3fbbfd446789ffc91776c",
+      "stark_s": "0x3d120b12edda2f6bbc49bd268f9daf30fadbe1412fb7d34a8b86ec4a883e8a6",
+      "stark_pk": "0x4c2413c39a3ca1ed66adaee5c24b0e830fd884ad6048408c6e2cc0fc429771f"
+    },
+    "trace": {
+      "balancer": "6.5921767105",
+      "binance": "6.7086667821",
+      "coinbase": "6.6800000000",
+      "huobi": "6.6705839566",
+      "uniswap": "6.6308738723"
+    }
+  },
+  {
+    "price": {
+      "wat": "UNIUSD",
+      "val": "4730000000000000000",
+      "age": 1653731315,
+      "v": "1c",
+      "r": "0102a738f67dbcb2d61ccfc090af6f6b08620e3553a24f8ed9246ad8724d176f",
+      "s": "00e790e06c28a6d00ec69f48786472be706cbf43af864bb2754a7216d309c36b",
+      "stark_r": "0xfa1ebf77e2cdab54250a8c094911f50d5f4601978f67381212ac4e8845c794",
+      "stark_s": "0x72af1bf870f12cf8a6ee23cfd1028c5ade4dba27504a30a31dc817dd664436f",
+      "stark_pk": "0x2dacd0e8df86be8df0b2bc5fcecb9ac14fa640fc4caf87efe5de013c44faeac"
+    },
+    "trace": {
+      "binance": "4.7330754275",
+      "coinbase": "4.7300000000",
+      "ftx": "4.7270000000",
+      "huobi": "4.7339739587",
+      "uniswap_v3": "4.6963478291"
+    }
+  },
+  {
+    "price": {
+      "wat": "ZRXUSD",
+      "val": "373175519200000000",
+      "age": 1653731307,
+      "v": "1b",
+      "r": "9d1f8041200b752678a2ad11c97f34a6914d29520c764b7220b39292f57b12f7",
+      "s": "467eaa0915173fe05bac0c547891cb346e93594cf027974d24958a4414df3269",
+      "stark_r": "0x69ad315415c7242b6cd8ad9e3fc8cb57da0d37e5f1d855a7dddce69b3a7f429",
+      "stark_s": "0x697b4b3741b652bd67a1e5946c363b27090ceebcbfe97f5ecd0abb1f2e38473",
+      "stark_pk": "0x337ae5c8bba1f991228924a6b55806d5be50ceaed14eccbb5664de08754a37e"
+    },
+    "trace": {
+      "binance": "0.3731755192",
+      "bitfinex": "0.3731900000",
+      "coinbase": "0.3730310000"
+    }
+  },
+  {
+    "price": {
+      "wat": "BALUSD",
+      "val": "6669289126727947000",
+      "age": 1653731300,
+      "v": "1b",
+      "r": "80879118072b178f613f35c92973682bcfd97effe64b24caa78714b74997b115",
+      "s": "24d3ea5f3b0c575089553644ffd6eb64dbc1ab50d61ba3bb7588076d04b14b03",
+      "stark_r": "0x616ed931ef3b15140afef8bd3953ffc23ecc170d1df0d1744043f8f8b69eb41",
+      "stark_s": "0x7787c2d55e8bd9d03b26300f6ee1119297e781225b8381fa3da41ea46388049",
+      "stark_pk": "0x366d8e87519ed6e0a806d9368c78752bd630cd33fe0f519c63a7289e2634a3"
+    },
+    "trace": {
+      "BAL/BTC@binance": "0.0002324",
+      "BAL/ETH@uniswap": "0.0037859770789333033",
+      "BAL/USD@balancer": "6.592176710543959",
+      "BAL/USD@coinbasepro": "6.68",
+      "BAL/USDT@huobi": "6.675549999999999",
+      "BTC/USD@bitstamp": "28761.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28747.37",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28747.8",
+      "BTC/USDT@binance": "28777.63",
+      "ETH/BTC@binance": "0.06089",
+      "ETH/USD@bitstamp": "1750",
+      "ETH/USD@coinbasepro": "1750.83",
+      "ETH/USD@ftx": "1750.2",
+      "ETH/USD@gemini": "1751.34",
+      "ETH/USD@kraken": "1750.85",
+      "ETH/USD@uniswapV3": "1752.2267881166267",
+      "ETH/USDT@ftx": "1752",
+      "ETH/USDT@huobi": "1752.6950000000002",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.9989"
+    }
+  },
+  {
+    "price": {
+      "wat": "COMPUSD",
+      "val": "56281942482787360000",
+      "age": 1653731309,
+      "v": "1b",
+      "r": "d7ded39cb6225de9c7247e1281ea95ca8670e91e395eee06d8db4d1b7a67314c",
+      "s": "066c9eec89df0d21cd1c672c089430f8cc7d92bee0122ae34cefa6bc5e749228",
+      "stark_r": "0x67fc51b53c411b2183104cf4156a9c1129c99f8049894ea8d7ef4dd3f6bd216",
+      "stark_s": "0x7c1bd134e521c9f3f67d374fbac56175cf1c78900452b183a1eb4988d36a3db",
+      "stark_pk": "0x4041d5ebc18735bc3201c79b4a72268a0b656e8c7dcafa686f4ed77dbed37ad"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28761.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28736.75",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28747.7",
+      "BTC/USDT@binance": "28770.65",
+      "COMP/ETH@uniswapV3": "0.0322458922872282",
+      "COMP/USD@coinbasepro": "56.17",
+      "COMP/USD@kraken": "56.61",
+      "COMP/USDT@binance": "56.1",
+      "COMP/USDT@huobi": "56.230000000000004",
+      "COMP/USDT@kucoin": "56.43",
+      "ETH/BTC@binance": "0.060894",
+      "ETH/USD@bitstamp": "1750",
+      "ETH/USD@coinbasepro": "1749.99",
+      "ETH/USD@ftx": "1751",
+      "ETH/USD@gemini": "1750.98",
+      "ETH/USD@kraken": "1750.85",
+      "ETH/USD@uniswapV3": "1752.2267881166267",
+      "ETH/USDT@ftx": "1752.9",
+      "ETH/USDT@huobi": "1752.3449999999998",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.9989"
+    }
+  },
+  {
+    "price": {
+      "wat": "ETHUSD",
+      "val": "1752700000000000000000",
+      "age": 1653731312,
+      "v": "1b",
+      "r": "b8581f74f3ada7307b0190a1c2c8e21ecdba6099051e589972a0e38877df3756",
+      "s": "1536a19b96fc9f8c60c0c068688155e5267bee016eb93009672e6005fca20228",
+      "stark_r": "0x37c67d183daf799f7929aa334ed838ddbb8116cbfb440987c3781376be38dcb",
+      "stark_s": "0x35e1c6e05e089b8981b1a9392dca6fbf1506709d8f89cd6fa08dbf12f357766",
+      "stark_pk": "0x7f64fc4979fc761b82e15008f80afa608fa6c754136a6f69f4589329470e612"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28772.95",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28766.5",
+      "BTC/USD@gemini": "28765.02",
+      "BTC/USD@kraken": "28778.7",
+      "ETH/BTC@binance": "0.060923",
+      "ETH/USD@bitstamp": "1753",
+      "ETH/USD@coinbasepro": "1752.3",
+      "ETH/USD@ftx": "1752.7",
+      "ETH/USD@gemini": "1753.97",
+      "ETH/USD@kraken": "1752.47",
+      "ETH/USD@uniswapV3": "1753.31676439461"
+    }
+  },
+  {
+    "price": {
+      "wat": "FILUSD",
+      "val": "7310000000000000000",
+      "age": 1653731294,
+      "v": "1b",
+      "r": "f340e2a47cdc7d69db6c9a0c486120b0b18f4bc20581f30a27ae65aacdf36904",
+      "s": "5e70d1e82c47900be53743e578e080ae0e45c6629c7efdcfdfbfaad05ceed43f",
+      "stark_r": "0x618d32aead299644d8ef679da94a8e802a206ec00683e48eb5d4c9d7a781935",
+      "stark_s": "0x6bb5947162de84f37c8bca4e0eb1afaa03a042d8d85f29ba69130292ee4d365",
+      "stark_pk": "0x6b4831009d21e8604fb18d08debe099ad9eb34bd52d3b2e73620073afc05361"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28772.95",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28767.59",
+      "BTC/USD@gemini": "28765.02",
+      "BTC/USD@kraken": "28778.7",
+      "BTC/USDT@binance": "28792.4",
+      "ETH/BTC@binance": "0.060927",
+      "ETH/USD@bitstamp": "1752.88",
+      "ETH/USD@coinbasepro": "1752.14",
+      "ETH/USD@ftx": "1752.7",
+      "ETH/USD@gemini": "1753.97",
+      "ETH/USD@kraken": "1752.47",
+      "ETH/USD@uniswapV3": "1753.31676439461",
+      "ETH/USDT@ftx": "1754.6",
+      "ETH/USDT@huobi": "1754.4250000000002",
+      "FIL/USD@coinbasepro": "7.31",
+      "FIL/USD@gemini": "7.2921",
+      "FIL/USD@kraken": "7.285",
+      "FIL/USDT@binance": "7.32",
+      "FIL/USDT@huobi": "7.3231",
+      "USDT/USD@bitfinex": "0.99998",
+      "USDT/USD@kraken": "0.999"
+    }
+  },
+  {
+    "price": {
+      "wat": "AVAXUSD",
+      "val": "22530431256150000000",
+      "age": 1653731309,
+      "v": "1c",
+      "r": "15920ea6238887cdfbed74f79027c3193e7db8d96843ca0e769fdadb7e25ecff",
+      "s": "424e69c30ee75dd73fb028af81870ecd9d28ba76e8d9ca77b05c4847bc4d4415",
+      "stark_r": "0x476ca214553c86c5e9a96ec0b6648df59297793d8fda6789ae0bd4464e3de4a",
+      "stark_s": "0x15fbb7da0515931403c6c98d474603fed026dd3cde265702e971778152a0706",
+      "stark_pk": "0x4c2413c39a3ca1ed66adaee5c24b0e830fd884ad6048408c6e2cc0fc429771f"
+    },
+    "trace": {
+      "binance": "22.5385899006",
+      "bitfinex": "22.5530000000",
+      "gateio": "22.5222726117",
+      "huobi": "22.5032205901"
+    }
+  },
+  {
+    "price": {
+      "wat": "XRPUSD",
+      "val": "384616602600000000",
+      "age": 1653731310,
+      "v": "1c",
+      "r": "13fbca6f0301b8ad1895db39dd47edbf0b653cd05fc275c97638bbfac4ea74f5",
+      "s": "35fc13b7094a8f1282482ce85a31f4ea3ce159ed82c9f82ddfd9fdab2d2c0b87",
+      "stark_r": "0x25d16c3b5ffb1f8299a2835d044ffd36926f6c0975d30907267a93a3dd5f3f6",
+      "stark_s": "0x6f01d986c58d57c1e538a96fecae1353e7ede5adf63bb7e9b135cd65ce20306",
+      "stark_pk": "0x7339f6a246397fa332a02abfac54a1baebf8b21057b44c90536c522481bf1c6"
+    },
+    "trace": {
+      "binance": "0.3846166026",
+      "bitfinex": "0.3851200000",
+      "hitbtc": "0.3848896656",
+      "huobi": "0.3845566780",
+      "kraken": "0.3838400000"
+    }
+  },
+  {
+    "price": {
+      "wat": "BTCUSD",
+      "val": "28755537000000000000000",
+      "age": 1653731313,
+      "v": "1c",
+      "r": "2c60f438d57ca3621ca5646418a384ebe64ce8044ffecd9eacde0ff22766244d",
+      "s": "7c5af9445995c50d393cd37ae0751bd73a0e8dfbe2c7800b88cbd68ba47069e3",
+      "stark_r": "0x5e72613fcd2584580be5471d6226e7b7d3db50dee2deb807e8d167c680a3e47",
+      "stark_s": "0x4ac8174f1aea28e24fd40eeb127c32ca0b70c4972a0e67af31ee85776be419f",
+      "stark_pk": "0x4d54d72263f75f14c4fd62a038b3e63d72f04ca55c5fc261224659f8525d058"
+    },
+    "trace": {
+      "BTC/USD@bitstamp": "28750.04",
+      "BTC/USD@bittrex": "28755.537",
+      "BTC/USD@coinbasepro": "28765.46",
+      "BTC/USD@gemini": "28750.64",
+      "BTC/USD@kraken": "28761.9"
+    }
+  }
+]
