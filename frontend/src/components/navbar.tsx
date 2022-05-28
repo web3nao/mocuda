@@ -53,10 +53,10 @@ export default observer(() => {
 							<Stack direction={'row'} spacing={7}>
 								<Button onClick={quickSearch.open}>
 									<SearchIcon />
+									<HStack ml={2} display={{ base: 'none', md: 'inline-flex' }}>
+										<Kbd>ctrl</Kbd> <Text>+</Text> <Kbd>k</Kbd>
+									</HStack>
 								</Button>
-								<HStack display={{ base: 'none', md: 'inline-flex' }}>
-									<Kbd>ctrl</Kbd> <Text>+</Text> <Kbd>k</Kbd>
-								</HStack>
 
 								<Button onClick={toggleColorMode}>
 									{colorMode === 'light' ? <MoonIcon /> : <SunIcon />}

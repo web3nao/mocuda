@@ -8,6 +8,7 @@ interface QuickSearchAction {
 	id: string
 	title: string
 	subtitle?: string
+	tag?: string
 	icon?: string
 	action: () => {}
 }

@@ -1,5 +1,6 @@
 import { nao, TheGraph } from '@web3nao/http-configs'
 import { flow, types } from 'mobx-state-tree'
+import { DAY } from '../../constants/duration.const'
 import {
 	SUBGRAPH_LITE_ACCOUNT,
 	SUBGRAPH_LITE_NAME,
@@ -83,6 +84,10 @@ export const SubgraphLite = types
 					components.quickSearch.addAction({
 						id: eventCounter.id,
 						title: eventCounter.name,
+						tag:
+							Number(`${eventCounter.latest}000`) > Date.now() - DAY
+								? 'inactive'
+								: undefined,
 						subtitle: `Show details for Feed Pair ${eventCounter.name}`,
 						action: () =>
 							getRouter().goTo(routes.feed, { address: eventCounter.id }),

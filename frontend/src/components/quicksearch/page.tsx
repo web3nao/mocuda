@@ -9,6 +9,7 @@ import {
 	ModalFooter,
 	ModalHeader,
 	ModalOverlay,
+	Tag,
 	Text,
 } from '@chakra-ui/react'
 import { observer } from 'mobx-react-lite'
@@ -44,7 +45,14 @@ export default observer(() => {
 								rounded={'md'}
 								key={action.id}
 							>
-								<Text>{action.title}</Text>
+								<Text>
+									{action.title}
+									{action.tag && (
+										<Tag size={'sm'} ml={2}>
+											{action.tag}
+										</Tag>
+									)}
+								</Text>
 								{action.subtitle && (
 									<Text fontSize={'xs'}>{action.subtitle}</Text>
 								)}
