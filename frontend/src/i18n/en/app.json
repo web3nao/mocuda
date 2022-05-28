@@ -48,6 +48,7 @@
 	"pages": {
 		"home": {
 			"headings": {
+				"title": "Maker OCU Data Feeds",
 				"active": "Active Feeds",
 				"dead": "Dead Feeds",
 				"popular": "Popular Feeds",
