@@ -1592,6 +1592,21 @@
       "address": "0xd27fa2361bc2cfb9a591fb289244c538e190684b",
       "data": [
         {
+          "age": 1653734987000,
+          "date": "2022-05-28T10:49:47.000Z",
+          "price": 0.3708285,
+          "priceStr": "370828500000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28797.67",
+            "BTC/USD@bittrex": "28766.597",
+            "BTC/USD@coinbasepro": "28784.53",
+            "BTC/USD@gemini": "28786.47",
+            "BTC/USD@kraken": "28772.3",
+            "ZRX/USD@bitfinex": "0.37076",
+            "ZRX/USD@coinbasepro": "0.370897"
+          }
+        },
+        {
           "age": 1653713908000,
           "date": "2022-05-28T04:58:28.000Z",
           "price": 0.372904,
@@ -1712,17 +1727,6 @@
             "binance": "0.4309519520",
             "bitfinex": "0.4307200000",
             "coinbase": "0.4311650000"
-          }
-        },
-        {
-          "age": 1653138587000,
-          "date": "2022-05-21T13:09:47.000Z",
-          "price": 0.420881472,
-          "priceStr": "420881472000000000",
-          "traces": {
-            "binance": "0.4208814720",
-            "bitfinex": "0.4212400000",
-            "coinbase": "0.4206720000"
           }
         }
       ]

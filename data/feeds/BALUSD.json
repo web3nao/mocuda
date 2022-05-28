@@ -249,6 +249,36 @@
       "address": "0xe6367a7da2b20ecb94a25ef06f3b551bab2682e6",
       "data": [
         {
+          "age": 1653734986000,
+          "date": "2022-05-28T10:49:46.000Z",
+          "price": 6.639468003325335,
+          "priceStr": "6639468003325335000",
+          "traces": {
+            "BAL/BTC@binance": "0.0002305",
+            "BAL/ETH@uniswap": "0.0037859770789333033",
+            "BAL/USD@balancer": "6.618103969349178",
+            "BAL/USD@coinbasepro": "6.65",
+            "BAL/USDT@huobi": "6.66015",
+            "BTC/USD@bitstamp": "28783",
+            "BTC/USD@bittrex": "28766.597",
+            "BTC/USD@coinbasepro": "28760.36",
+            "BTC/USD@gemini": "28770.81",
+            "BTC/USD@kraken": "28772.4",
+            "BTC/USDT@binance": "28791.46",
+            "ETH/BTC@binance": "0.060964",
+            "ETH/USD@bitstamp": "1753.97",
+            "ETH/USD@coinbasepro": "1752.97",
+            "ETH/USD@ftx": "1753.7",
+            "ETH/USD@gemini": "1753.7",
+            "ETH/USD@kraken": "1753.67",
+            "ETH/USD@uniswapV3": "1754.1856928102661",
+            "ETH/USDT@ftx": "1755.4",
+            "ETH/USDT@huobi": "1755.1750000000002",
+            "USDT/USD@bitfinex": "0.99992",
+            "USDT/USD@kraken": "0.9989"
+          }
+        },
+        {
           "age": 1653716863000,
           "date": "2022-05-28T05:47:43.000Z",
           "price": 6.799205270000001,
@@ -467,19 +497,6 @@
             "coinbase": "7.7900000000",
             "huobi": "7.7679764947",
             "uniswap": "7.9578547001"
-          }
-        },
-        {
-          "age": 1653152566000,
-          "date": "2022-05-21T17:02:46.000Z",
-          "price": 7.7890032,
-          "priceStr": "7789003200000000000",
-          "traces": {
-            "balancer": "7.7218063265",
-            "binance": "7.7890032000",
-            "coinbase": "7.8000000000",
-            "huobi": "7.7941005082",
-            "uniswap": "7.7439052442"
           }
         }
       ]
@@ -3240,6 +3257,19 @@
       "address": "0x71ecff5261baa115dcb1d9335c88678324b8a987",
       "data": [
         {
+          "age": 1653734979000,
+          "date": "2022-05-28T10:49:39.000Z",
+          "price": 6.6413060822,
+          "priceStr": "6641306082200000000",
+          "traces": {
+            "balancer": "6.6181039693",
+            "binance": "6.6338291850",
+            "coinbase": "6.6600000000",
+            "huobi": "6.6614664182",
+            "uniswap": "6.6413060822"
+          }
+        },
+        {
           "age": 1653641617000,
           "date": "2022-05-27T08:53:37.000Z",
           "price": 6.635094911181065,
@@ -3413,19 +3443,6 @@
             "ETH/USD@uniswapV3": "1923.649839017443",
             "USDT/USD@bitfinex": "0.99991",
             "USDT/USD@kraken": "0.9988"
-          }
-        },
-        {
-          "age": 1652882653000,
-          "date": "2022-05-18T14:04:13.000Z",
-          "price": 8.251025096,
-          "priceStr": "8251025096000000000",
-          "traces": {
-            "balancer": "8.3232220587",
-            "binance": "8.2510250960",
-            "coinbase": "8.2600000000",
-            "huobi": "8.2372513884",
-            "uniswap": "8.2093510367"
           }
         }
       ]

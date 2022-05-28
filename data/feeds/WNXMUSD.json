@@ -4335,6 +4335,34 @@
       "address": "0x60da93d9903cb7d3ed450d4f81d402f7c4f71dd9",
       "data": [
         {
+          "age": 1653734989000,
+          "date": "2022-05-28T10:49:49.000Z",
+          "price": 17.643343945779705,
+          "priceStr": "17643343945779705000",
+          "traces": {
+            "BTC/USD@bitstamp": "28789.27",
+            "BTC/USD@bittrex": "28766.597",
+            "BTC/USD@coinbasepro": "28788.48",
+            "BTC/USD@gemini": "28786.12",
+            "BTC/USD@kraken": "28772.4",
+            "BTC/USDT@binance": "28807.97",
+            "ETH/BTC@binance": "0.060959",
+            "ETH/USD@bitstamp": "1753.58",
+            "ETH/USD@coinbasepro": "1754.63",
+            "ETH/USD@ftx": "1754",
+            "ETH/USD@gemini": "1753.7",
+            "ETH/USD@kraken": "1753.94",
+            "ETH/USD@uniswapV3": "1754.181879600554",
+            "ETH/USDT@ftx": "1755.8",
+            "ETH/USDT@huobi": "1756.025",
+            "USDT/USD@bitfinex": "0.99993",
+            "USDT/USD@kraken": "0.9989",
+            "WNXM/USDT@binance": "17.68",
+            "WNXM/USDT@gateio": "17.635",
+            "WNXM/USDT@huobi": "17.661450000000002"
+          }
+        },
+        {
           "age": 1653728018000,
           "date": "2022-05-28T08:53:38.000Z",
           "price": 17.59332603,
@@ -4568,27 +4596,6 @@
             "USDT/USD@kraken": "0.9989",
             "WNXM/USDT@gateio": "19.23",
             "WNXM/USDT@huobi": "19.113"
-          }
-        },
-        {
-          "age": 1653109056000,
-          "date": "2022-05-21T04:57:36.000Z",
-          "price": 16.739888,
-          "priceStr": "16739888000000000000",
-          "traces": {
-            "BTC/USD@bittrex": "29195.523",
-            "BTC/USD@coinbasepro": "29189.2",
-            "BTC/USD@gemini": "29190.61",
-            "BTC/USD@kraken": "29205.1",
-            "ETH/USD@coinbasepro": "1960.63",
-            "ETH/USD@ftx": "1960.2",
-            "ETH/USD@gemini": "1960.53",
-            "ETH/USD@kraken": "1960.89",
-            "ETH/USD@uniswapV3": "1960.7530534617629",
-            "ETH/USDT@ftx": "1963.2",
-            "USDT/USD@bitfinex": "0.99942",
-            "USDT/USD@kraken": "0.9988",
-            "WNXM/USDT@gateio": "16.76"
           }
         }
       ]

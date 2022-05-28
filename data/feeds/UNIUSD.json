@@ -140,6 +140,36 @@
       "address": "0xac8519b3495d8a3e3e44c041521cf7ac3f8f63b3",
       "data": [
         {
+          "age": 1653734977000,
+          "date": "2022-05-28T10:49:37.000Z",
+          "price": 4.715796360000001,
+          "priceStr": "4715796360000001000",
+          "traces": {
+            "BTC/USD@bitstamp": "28783",
+            "BTC/USD@bittrex": "28766.597",
+            "BTC/USD@coinbasepro": "28769.34",
+            "BTC/USD@gemini": "28783.71",
+            "BTC/USD@kraken": "28772.4",
+            "BTC/USDT@binance": "28797.09",
+            "ETH/BTC@binance": "0.060969",
+            "ETH/USD@bitstamp": "1754.43",
+            "ETH/USD@coinbasepro": "1753.37",
+            "ETH/USD@ftx": "1754",
+            "ETH/USD@gemini": "1756.54",
+            "ETH/USD@kraken": "1754.04",
+            "ETH/USD@uniswapV3": "1754.1856928102661",
+            "ETH/USDT@ftx": "1755.9",
+            "ETH/USDT@huobi": "1755.7150000000001",
+            "UNI/BTC@binance": "0.0001639",
+            "UNI/ETH@uniswapV3": "0.002689655946709429",
+            "UNI/USD@coinbasepro": "4.72",
+            "UNI/USD@ftx": "4.712",
+            "UNI/USDT@huobi": "4.7189",
+            "USDT/USD@bitfinex": "0.99992",
+            "USDT/USD@kraken": "0.9989"
+          }
+        },
+        {
           "age": 1653723943000,
           "date": "2022-05-28T07:45:43.000Z",
           "price": 4.72,
@@ -406,19 +436,6 @@
             "UNI/USDT@huobi": "5.19275",
             "USDT/USD@bitfinex": "1",
             "USDT/USD@kraken": "0.9988"
-          }
-        },
-        {
-          "age": 1652640783000,
-          "date": "2022-05-15T18:53:03.000Z",
-          "price": 5.2374770373,
-          "priceStr": "5237477037300000000",
-          "traces": {
-            "binance": "5.2371102297",
-            "coinbase": "5.2400000000",
-            "ftx": "5.2410000000",
-            "huobi": "5.2374770373",
-            "uniswap_v3": "5.2206427074"
           }
         }
       ]
@@ -3084,6 +3101,36 @@
       "address": "0xe6367a7da2b20ecb94a25ef06f3b551bab2682e6",
       "data": [
         {
+          "age": 1653734990000,
+          "date": "2022-05-28T10:49:50.000Z",
+          "price": 4.715535759,
+          "priceStr": "4715535759000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28783",
+            "BTC/USD@bittrex": "28766.597",
+            "BTC/USD@coinbasepro": "28760.36",
+            "BTC/USD@gemini": "28770.81",
+            "BTC/USD@kraken": "28772.4",
+            "BTC/USDT@binance": "28791.46",
+            "ETH/BTC@binance": "0.060964",
+            "ETH/USD@bitstamp": "1753.97",
+            "ETH/USD@coinbasepro": "1752.97",
+            "ETH/USD@ftx": "1753.7",
+            "ETH/USD@gemini": "1753.7",
+            "ETH/USD@kraken": "1753.67",
+            "ETH/USD@uniswapV3": "1754.1856928102661",
+            "ETH/USDT@ftx": "1755.4",
+            "ETH/USDT@huobi": "1755.1750000000002",
+            "UNI/BTC@binance": "0.0001639",
+            "UNI/ETH@uniswapV3": "0.002689655946709429",
+            "UNI/USD@coinbasepro": "4.72",
+            "UNI/USD@ftx": "4.712",
+            "UNI/USDT@huobi": "4.718450000000001",
+            "USDT/USD@bitfinex": "0.99992",
+            "USDT/USD@kraken": "0.9989"
+          }
+        },
+        {
           "age": 1653720960000,
           "date": "2022-05-28T06:56:00.000Z",
           "price": 4.792862304,
@@ -3271,36 +3318,6 @@
             "ftx": "5.4420000000",
             "huobi": "5.4366438420",
             "uniswap_v3": "5.4260487095"
-          }
-        },
-        {
-          "age": 1653004102000,
-          "date": "2022-05-19T23:48:22.000Z",
-          "price": 5.182652,
-          "priceStr": "5182652000000000000",
-          "traces": {
-            "BTC/USD@bitstamp": "30268.36",
-            "BTC/USD@bittrex": "30272.369",
-            "BTC/USD@coinbasepro": "30278.03",
-            "BTC/USD@gemini": "30292.57",
-            "BTC/USD@kraken": "30272.5",
-            "BTC/USDT@binance": "30327.67",
-            "ETH/BTC@binance": "0.066569",
-            "ETH/USD@bitstamp": "2016.41",
-            "ETH/USD@coinbasepro": "2016.78",
-            "ETH/USD@ftx": "2016",
-            "ETH/USD@gemini": "2015.65",
-            "ETH/USD@kraken": "2014.95",
-            "ETH/USD@uniswapV3": "2015.9918562412731",
-            "ETH/USDT@ftx": "2018",
-            "ETH/USDT@huobi": "2018.3249999999998",
-            "UNI/BTC@binance": "0.0001712",
-            "UNI/ETH@uniswapV3": "0.002562829528750647",
-            "UNI/USD@coinbasepro": "5.18",
-            "UNI/USD@ftx": "5.196",
-            "UNI/USDT@huobi": "5.193849999999999",
-            "USDT/USD@bitfinex": "0.99999",
-            "USDT/USD@kraken": "0.9989"
           }
         }
       ]

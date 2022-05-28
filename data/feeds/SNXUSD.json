@@ -394,6 +394,36 @@
       "address": "0xe6367a7da2b20ecb94a25ef06f3b551bab2682e6",
       "data": [
         {
+          "age": 1653734981000,
+          "date": "2022-05-28T10:49:41.000Z",
+          "price": 2.41674804,
+          "priceStr": "2416748040000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28783",
+            "BTC/USD@bittrex": "28766.597",
+            "BTC/USD@coinbasepro": "28760.36",
+            "BTC/USD@gemini": "28770.81",
+            "BTC/USD@kraken": "28772.4",
+            "BTC/USDT@binance": "28791.46",
+            "ETH/BTC@binance": "0.060964",
+            "ETH/USD@bitstamp": "1753.97",
+            "ETH/USD@coinbasepro": "1752.97",
+            "ETH/USD@ftx": "1753.7",
+            "ETH/USD@gemini": "1753.7",
+            "ETH/USD@kraken": "1753.67",
+            "ETH/USD@uniswapV3": "1754.1856928102661",
+            "ETH/USDT@ftx": "1755.4",
+            "ETH/USDT@huobi": "1755.1750000000002",
+            "SNX/BTC@binance": "8.4e-05",
+            "SNX/ETH@sushiswap": "0.001369614995128731",
+            "SNX/ETH@uniswap": "0.0013677627294211578",
+            "SNX/USD@coinbasepro": "2.418",
+            "SNX/USDT@huobi": "2.42105",
+            "USDT/USD@bitfinex": "0.99992",
+            "USDT/USD@kraken": "0.9989"
+          }
+        },
+        {
           "age": 1653731313000,
           "date": "2022-05-28T09:48:33.000Z",
           "price": 2.3979904227,
@@ -539,21 +569,6 @@
             "huobi": "2.5390010483",
             "sushiswap": "2.5463580312",
             "uniswap": "2.5133041591"
-          }
-        },
-        {
-          "age": 1653375387000,
-          "date": "2022-05-24T06:56:27.000Z",
-          "price": 2.657,
-          "priceStr": "2657000000000000000",
-          "traces": {
-            "BTC/USD@coinbasepro": "29299.55",
-            "BTC/USD@gemini": "29306.16",
-            "ETH/USD@coinbasepro": "1978.15",
-            "ETH/USD@gemini": "1979.34",
-            "ETH/USD@uniswapV3": "1977.4118634248396",
-            "SNX/ETH@sushiswap": "0.0013448247457018745",
-            "SNX/USD@coinbasepro": "2.657"
           }
         }
       ]

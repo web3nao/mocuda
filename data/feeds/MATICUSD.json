@@ -2909,6 +2909,37 @@
       "address": "0x4b0e327c08e23dd08cb87ec994915a5375619aa2",
       "data": [
         {
+          "age": 1653734980000,
+          "date": "2022-05-28T10:49:40.000Z",
+          "price": 0.5807330209749999,
+          "priceStr": "580733020974999900",
+          "traces": {
+            "BTC/USD@bitstamp": "28789.27",
+            "BTC/USD@bittrex": "28766.597",
+            "BTC/USD@coinbasepro": "28778.93",
+            "BTC/USD@gemini": "28787.31",
+            "BTC/USD@kraken": "28772.4",
+            "BTC/USDT@binance": "28807.93",
+            "ETH/BTC@binance": "0.060955",
+            "ETH/USD@bitstamp": "1753.58",
+            "ETH/USD@coinbasepro": "1753.59",
+            "ETH/USD@ftx": "1754.6",
+            "ETH/USD@gemini": "1753.7",
+            "ETH/USD@kraken": "1753.67",
+            "ETH/USD@uniswapV3": "1754.1854867965797",
+            "ETH/USDT@ftx": "1756.6",
+            "ETH/USDT@huobi": "1756.0749999999998",
+            "MATIC/USD@coinbasepro": "0.581",
+            "MATIC/USD@ftx": "0.580785",
+            "MATIC/USD@gemini": "0.58078",
+            "MATIC/USD@kraken": "0.5806",
+            "MATIC/USDT@binance": "0.581",
+            "MATIC/USDT@huobi": "0.5813254999999999",
+            "USDT/USD@bitfinex": "0.99993",
+            "USDT/USD@kraken": "0.9989"
+          }
+        },
+        {
           "age": 1653731304000,
           "date": "2022-05-28T09:48:24.000Z",
           "price": 0.5765615,
@@ -3100,20 +3131,6 @@
             "MATIC/USDT@huobi": "0.6367305000000001",
             "USDT/USD@bitfinex": "0.99952",
             "USDT/USD@kraken": "0.9989"
-          }
-        },
-        {
-          "age": 1652928460000,
-          "date": "2022-05-19T02:47:40.000Z",
-          "price": 0.6309575,
-          "priceStr": "630957500000000000",
-          "traces": {
-            "binance": "0.6317580100",
-            "coinbase": "0.6309000000",
-            "ftx": "0.6310150000",
-            "gemini": "0.6303000000",
-            "huobi": "0.6311191928",
-            "kraken": "0.6309000000"
           }
         }
       ]
