@@ -1,4 +1,4 @@
-import { DAY, HOUR, MINUTE, SECOND } from '../constants/duration.const'
+import { DAY, HOUR, MINUTE, SECOND, WEEK } from '../constants/duration.const'
 
 export const formatDateTime = (date: Date) => {
 	return Intl.DateTimeFormat('en-US', {
@@ -33,7 +33,13 @@ export const prettyDuration = (ts1: Date, ts2: Date) => {
 	if (milliseconds < DAY) {
 		return `${(milliseconds / HOUR).toFixed(0)} h ago`
 	}
-	return 'More than a day ago'
+	if (milliseconds < WEEK) {
+		return `${(milliseconds / DAY).toFixed(0)} d ago`
+	}
+	if (milliseconds < 365 * DAY) {
+		return `${(milliseconds / WEEK).toFixed(0)} w ago`
+	}
+	return 'More than a year ago'
 }
 
 export function convertStringToDecimal(

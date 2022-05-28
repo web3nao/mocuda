@@ -33,9 +33,11 @@ export default observer(() => {
 			<>
 				<HStack display={{ base: 'inline-flex', sm: 'none' }}>
 					<Image src={feedIcon(feed.name)} alt={feed.name} w={5} />
-					<VStack>
+					<VStack alignItems={'start'}>
 						<Text>{feed.name}</Text>
-						<Text>{prettyDuration(new Date(), feed.latest)}</Text>
+						<Text fontSize={'xs'}>
+							{prettyDuration(new Date(), feed.latest)}
+						</Text>
 					</VStack>
 				</HStack>
 				<HStack display={{ base: 'none', sm: 'inline-flex' }}>
@@ -78,7 +80,9 @@ export default observer(() => {
 
 	if (!page.loading()) {
 		const inactiveFeedCountPerColumn =
-			Math.floor(page.feeds().deadFeeds.length / 2) + 1
+			page.feeds().deadFeeds.length % 2 === 1
+				? Math.floor(page.feeds().deadFeeds.length / 2) + 1
+				: page.feeds().deadFeeds.length / 2
 		content = (
 			<>
 				<SimpleGrid columns={{ base: 1, lg: 2 }}>
@@ -116,5 +120,10 @@ export default observer(() => {
 		)
 	}
 
-	return content
+	return (
+		<Stack gap={2}>
+			<Heading mb={2}>{t('pages.home.headings.title')}</Heading>
+			{content}
+		</Stack>
+	)
 })

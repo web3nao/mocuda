@@ -5,6 +5,35 @@
       "address": "0xc9508e9e3ccf319f5333a5b8c825418abec688ba",
       "data": [
         {
+          "age": 1653749227000,
+          "date": "2022-05-28T14:47:07.000Z",
+          "price": 0.4821843313054185,
+          "priceStr": "482184331305418500",
+          "traces": {
+            "BTC/USD@bitstamp": "28979.09",
+            "BTC/USD@bittrex": "28950",
+            "BTC/USD@coinbasepro": "28969.39",
+            "BTC/USD@gemini": "28968.24",
+            "BTC/USD@kraken": "28974.1",
+            "BTC/USDT@binance": "28995.3",
+            "ETH/BTC@binance": "0.061504",
+            "ETH/USD@bitstamp": "1782.3",
+            "ETH/USD@coinbasepro": "1782",
+            "ETH/USD@ftx": "1781.4",
+            "ETH/USD@gemini": "1781.84",
+            "ETH/USD@kraken": "1781.31",
+            "ETH/USD@uniswapV3": "1781.6889140428827",
+            "ETH/USDT@ftx": "1783.1",
+            "ETH/USDT@huobi": "1783.4850000000001",
+            "LRC/BTC@binance": "1.664e-05",
+            "LRC/ETH@uniswap": "0.0002711261459056165",
+            "LRC/USD@coinbasepro": "0.4821",
+            "LRC/USDT@gateio": "0.4827",
+            "USDT/USD@bitfinex": "0.99999",
+            "USDT/USD@kraken": "0.9989"
+          }
+        },
+        {
           "age": 1653501184000,
           "date": "2022-05-25T17:53:04.000Z",
           "price": 0.5951935074432875,
@@ -164,24 +193,24 @@
             "gateio": "0.4720731509",
             "uniswap": "0.4697957393"
           }
-        },
-        {
-          "age": 1652950417000,
-          "date": "2022-05-19T08:53:37.000Z",
-          "price": 0.44993928005,
-          "priceStr": "449939280050000000",
-          "traces": {
-            "binance": "0.4496697146",
-            "coinbase": "0.4499000000",
-            "gateio": "0.4499785601",
-            "uniswap": "0.4526074617"
-          }
         }
       ]
     },
     {
       "address": "0x3cb645a8f10fb7b0721eabae958f77a878441cb9",
       "data": [
+        {
+          "age": 1653749219000,
+          "date": "2022-05-28T14:46:59.000Z",
+          "price": 0.4816660487,
+          "priceStr": "481666048700000000",
+          "traces": {
+            "binance": "0.4819193600",
+            "coinbase": "0.4812000000",
+            "gateio": "0.4814127374",
+            "uniswap": "0.4829349972"
+          }
+        },
         {
           "age": 1653738266000,
           "date": "2022-05-28T11:44:26.000Z",
@@ -339,18 +368,6 @@
             "LRC/USDT@gateio": "0.4601",
             "USDT/USD@bitfinex": "0.99996",
             "USDT/USD@kraken": "0.9988"
-          }
-        },
-        {
-          "age": 1652917717000,
-          "date": "2022-05-18T23:48:37.000Z",
-          "price": 0.44917304625,
-          "priceStr": "449173046250000000",
-          "traces": {
-            "binance": "0.4495406820",
-            "coinbase": "0.4491000000",
-            "gateio": "0.4492164029",
-            "uniswap": "0.4491296896"
           }
         }
       ]
@@ -4190,6 +4207,18 @@
       "address": "0xa580bbcb1cee2bcec4de2ea870d20a12a964819e",
       "data": [
         {
+          "age": 1653753060000,
+          "date": "2022-05-28T15:51:00.000Z",
+          "price": 0.487840262,
+          "priceStr": "487840262000000000",
+          "traces": {
+            "binance": "0.4877805240",
+            "coinbase": "0.4879000000",
+            "gateio": "0.4876813601",
+            "uniswap": "0.4887412394"
+          }
+        },
+        {
           "age": 1653637712000,
           "date": "2022-05-27T07:48:32.000Z",
           "price": 0.484,
@@ -4394,18 +4423,6 @@
             "LRC/USDT@gateio": "0.4932",
             "USDT/USD@bitfinex": "0.99975",
             "USDT/USD@kraken": "0.9988"
-          }
-        },
-        {
-          "age": 1653083331000,
-          "date": "2022-05-20T21:48:51.000Z",
-          "price": 0.4793548416,
-          "priceStr": "479354841600000000",
-          "traces": {
-            "binance": "0.4791179081",
-            "coinbase": "0.4793000000",
-            "gateio": "0.4794096832",
-            "uniswap": "0.4865778655"
           }
         }
       ]

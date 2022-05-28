@@ -6,9 +6,49 @@
 			"request": "Request Data Feed"
 		}
 	},
+	"footer": {
+		"developers": {
+			"title": "Developers",
+			"docs": "Docs",
+			"resources": "Developer Resources",
+			"feeds": "Data Feeds",
+			"contractReference": "Contract Reference"
+		},
+		"solutions": {
+			"title": "Solutions",
+			"overview": "Overview",
+			"defi": "DeFi"
+		},
+		"community": {
+			"title": "Community",
+			"overview": "Overview",
+			"grantProgram": "Grant Program",
+			"events": "Events"
+		},
+		"ocu": {
+			"title": "Oracles Core Unit",
+			"ecosystem": "Ecosystem",
+			"blog": "Blog",
+			"team": "Team",
+			"faqs": "FAQs"
+		},
+		"contact": {
+			"title": "Contact",
+			"security": "Security",
+			"support": "Support",
+			"talkExpert": "Talk to an Expert"
+		},
+		"social": {
+			"title": "Social",
+			"twitter": "Twitter",
+			"discord": "Discord"
+		},
+		"copyright": "Maker Oracle Core Unit Dashboard. All rights reserved"
+	},
 	"pages": {
 		"home": {
 			"headings": {
+				"title": "Maker OCU Data Feeds",
 				"active": "Active Feeds",
 				"dead": "Dead Feeds",
 				"popular": "Popular Feeds",
@@ -24,6 +64,11 @@
 				"feeds": "Feeds",
 				"pairs": "Pairs",
 				"eventCounters": "Subgraph Lite: Event Counters"
+			}
+		},
+		"consumers": {
+			"headings": {
+				"title": "Consumers"
 			}
 		}
 	}

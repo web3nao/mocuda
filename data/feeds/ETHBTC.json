@@ -1159,6 +1159,20 @@
       "address": "0xc9508e9e3ccf319f5333a5b8c825418abec688ba",
       "data": [
         {
+          "age": 1653753069000,
+          "date": "2022-05-28T15:51:09.000Z",
+          "price": 0.06192138,
+          "priceStr": "61921380000000000",
+          "traces": {
+            "ETH/BTC@binance": "0.06189",
+            "ETH/BTC@bitfinex": "0.061936",
+            "ETH/BTC@coinbasepro": "0.06193",
+            "ETH/BTC@huobi": "0.0619005",
+            "ETH/BTC@kraken": "0.06194",
+            "ETH/BTC@poloniex": "0.06191276"
+          }
+        },
+        {
           "age": 1653738261000,
           "date": "2022-05-28T11:44:21.000Z",
           "price": 0.06152561,
@@ -1283,26 +1297,26 @@
             "ETH/BTC@kraken": "0.06665",
             "ETH/BTC@poloniex": "0.06665989"
           }
-        },
-        {
-          "age": 1653421484000,
-          "date": "2022-05-24T19:44:44.000Z",
-          "price": 0.066861,
-          "priceStr": "66861000000000000",
-          "traces": {
-            "ETH/BTC@binance": "0.066874",
-            "ETH/BTC@bitfinex": "0.066862",
-            "ETH/BTC@coinbasepro": "0.06684",
-            "ETH/BTC@huobi": "0.0668675",
-            "ETH/BTC@kraken": "0.06686",
-            "ETH/BTC@poloniex": "0.06684974"
-          }
         }
       ]
     },
     {
       "address": "0xe6367a7da2b20ecb94a25ef06f3b551bab2682e6",
       "data": [
+        {
+          "age": 1653753063000,
+          "date": "2022-05-28T15:51:03.000Z",
+          "price": 0.0618665,
+          "priceStr": "61866500000000000",
+          "traces": {
+            "binance": "0.0618670000",
+            "bitfinex": "0.0618650000",
+            "coinbase": "0.0618700000",
+            "huobi": "0.0618660000",
+            "kraken": "0.0619000000",
+            "poloniex": "0.0618589200"
+          }
+        },
         {
           "age": 1653728026000,
           "date": "2022-05-28T08:53:46.000Z",
@@ -1423,20 +1437,6 @@
             "ETH/BTC@huobi": "0.0671105",
             "ETH/BTC@kraken": "0.06711",
             "ETH/BTC@poloniex": "0.06711592"
-          }
-        },
-        {
-          "age": 1653195462000,
-          "date": "2022-05-22T04:57:42.000Z",
-          "price": 0.06719075,
-          "priceStr": "67190750000000000",
-          "traces": {
-            "ETH/BTC@binance": "0.067196",
-            "ETH/BTC@bitfinex": "0.067177",
-            "ETH/BTC@coinbasepro": "0.0672",
-            "ETH/BTC@huobi": "0.0671915",
-            "ETH/BTC@kraken": "0.06719",
-            "ETH/BTC@poloniex": "0.06717063"
           }
         }
       ]
@@ -1733,6 +1733,20 @@
       "address": "0xda1d2961da837891f43235fddf66bad26f41368b",
       "data": [
         {
+          "age": 1653749225000,
+          "date": "2022-05-28T14:47:05.000Z",
+          "price": 0.061495575,
+          "priceStr": "61495575000000000",
+          "traces": {
+            "ETH/BTC@binance": "0.061492",
+            "ETH/BTC@bitfinex": "0.06154",
+            "ETH/BTC@coinbasepro": "0.0615",
+            "ETH/BTC@huobi": "0.0614795",
+            "ETH/BTC@kraken": "0.06149",
+            "ETH/BTC@poloniex": "0.06149915"
+          }
+        },
+        {
           "age": 1653738257000,
           "date": "2022-05-28T11:44:17.000Z",
           "price": 0.061550944999999996,
@@ -1856,20 +1870,6 @@
             "ETH/BTC@huobi": "0.0661115",
             "ETH/BTC@kraken": "0.06611",
             "ETH/BTC@poloniex": "0.06610339"
-          }
-        },
-        {
-          "age": 1653479170000,
-          "date": "2022-05-25T11:46:10.000Z",
-          "price": 0.06611724999999999,
-          "priceStr": "66117249999999990",
-          "traces": {
-            "ETH/BTC@binance": "0.066123",
-            "ETH/BTC@bitfinex": "0.06611",
-            "ETH/BTC@coinbasepro": "0.06615",
-            "ETH/BTC@huobi": "0.06611449999999999",
-            "ETH/BTC@kraken": "0.06612",
-            "ETH/BTC@poloniex": "0.06610963"
           }
         }
       ]

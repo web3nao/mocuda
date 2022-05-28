@@ -1,28 +1,30 @@
-import { Container, HStack, Img, Kbd } from '@chakra-ui/react'
-import { observer } from 'mobx-react-lite'
-import { Link } from 'mobx-router'
-import { useTranslation } from 'react-i18next'
-import { useMst } from '../models/root'
-import routes from '../routes'
+import { MoonIcon, SearchIcon, SunIcon, HamburgerIcon } from '@chakra-ui/icons'
 import {
-	Text,
-	Box,
-	Flex,
 	Avatar,
+	Box,
 	Button,
+	Container,
+	Flex,
+	HStack,
+	Img,
+	Kbd,
+	Link,
 	Menu,
 	MenuButton,
-	MenuList,
-	MenuItem,
 	MenuDivider,
-	useDisclosure,
-	useColorModeValue,
+	MenuItem,
+	MenuList,
 	Stack,
+	Text,
 	useColorMode,
-	Center,
+	useColorModeValue,
 } from '@chakra-ui/react'
-import { MoonIcon, SearchIcon, SunIcon } from '@chakra-ui/icons'
+import { observer } from 'mobx-react-lite'
+// import { Link } from 'mobx-router'
+import { useTranslation } from 'react-i18next'
 import { BASE_COLOR } from '../constants/style.const'
+import { useMst } from '../models/root'
+import routes from '../routes'
 
 export default observer(() => {
 	const { t } = useTranslation('app')
@@ -40,17 +42,25 @@ export default observer(() => {
 			<Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
 				<Container maxW="6xl">
 					<Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-						<Box>
-							<Link route={routes.home as any} router={router as any}>
-								<HStack>
-									<Img src={'/logo.webp'} h={10} />
-									<Text>{t('title')}</Text>
-								</HStack>
-							</Link>
-						</Box>
+						<HStack>
+							<Box>
+								<Link onClick={() => router.goTo(routes.home)}>
+									<HStack>
+										<Img src={'/logo.webp'} h={10} />
+										<Text>{t('title')}</Text>
+									</HStack>
+								</Link>
+							</Box>
+
+							<Box display={{ base: 'none', md: 'inline-flex' }}>
+								<Link onClick={() => router.goTo(routes.consumers)}>
+									<Text>{t('pages.consumers.headings.title')}</Text>
+								</Link>
+							</Box>
+						</HStack>
 
 						<Flex alignItems={'center'}>
-							<Stack direction={'row'} spacing={7}>
+							<Stack direction={'row'} spacing={5}>
 								<Button onClick={quickSearch.open}>
 									<SearchIcon />
 									<HStack ml={2} display={{ base: 'none', md: 'inline-flex' }}>
@@ -74,6 +84,30 @@ export default observer(() => {
 								>
 									{t('navbar.actions.request')}
 								</Button>
+
+								<Flex
+									alignItems={'center'}
+									display={{ base: 'inline-flex', md: 'none' }}
+								>
+									<Menu>
+										<MenuButton
+											as={Button}
+											rounded={'full'}
+											variant={'link'}
+											cursor={'pointer'}
+											minW={0}
+										>
+											<HamburgerIcon />
+										</MenuButton>
+										<MenuList>
+											<MenuItem>{t('navbar.actions.request')}</MenuItem>
+											<MenuDivider />
+											<MenuItem onClick={() => router.goTo(routes.consumers)}>
+												{t('pages.consumers.headings.title')}
+											</MenuItem>
+										</MenuList>
+									</Menu>
+								</Flex>
 							</Stack>
 						</Flex>
 					</Flex>

@@ -2709,6 +2709,37 @@
       "address": "0xa8eb82456ed9bae55841529888cde9152468635a",
       "data": [
         {
+          "age": 1653753058000,
+          "date": "2022-05-28T15:50:58.000Z",
+          "price": 6.527443700277692,
+          "priceStr": "6527443700277692000",
+          "traces": {
+            "BTC/USD@bitstamp": "28989.02",
+            "BTC/USD@bittrex": "28976",
+            "BTC/USD@coinbasepro": "28968.27",
+            "BTC/USD@gemini": "28976.45",
+            "BTC/USD@kraken": "28990.7",
+            "BTC/USDT@binance": "28999.81",
+            "ETH/BTC@binance": "0.061887",
+            "ETH/USD@bitstamp": "1793.75",
+            "ETH/USD@coinbasepro": "1792.59",
+            "ETH/USD@ftx": "1793.6",
+            "ETH/USD@gemini": "1793.12",
+            "ETH/USD@kraken": "1794",
+            "ETH/USD@uniswapV3": "1794.5099581695483",
+            "ETH/USDT@ftx": "1795.2",
+            "ETH/USDT@huobi": "1794.5749999999998",
+            "LINK/BTC@binance": "0.0002253",
+            "LINK/USD@coinbasepro": "6.52",
+            "LINK/USD@ftx": "6.5255",
+            "LINK/USD@gemini": "6.53331",
+            "LINK/USD@kraken": "6.527",
+            "LINK/USDT@huobi": "6.53315",
+            "USDT/USD@bitfinex": "0.99993",
+            "USDT/USD@kraken": "0.999"
+          }
+        },
+        {
           "age": 1653660213000,
           "date": "2022-05-27T14:03:33.000Z",
           "price": 6.653588197088588,
@@ -2916,20 +2947,6 @@
             "gemini": "7.1374100000",
             "huobi": "7.1443955461",
             "kraken": "7.1428500000"
-          }
-        },
-        {
-          "age": 1652950421000,
-          "date": "2022-05-19T08:53:41.000Z",
-          "price": 6.79,
-          "priceStr": "6790000000000000000",
-          "traces": {
-            "binance": "6.7837667520",
-            "coinbase": "6.7900000000",
-            "ftx": "6.7920000000",
-            "gemini": "6.7900000000",
-            "huobi": "6.7799130184",
-            "kraken": "6.8017100000"
           }
         }
       ]
