@@ -71,27 +71,40 @@ export const SubgraphLite = types
 
 				const { components } = getRootStore(self)
 
+				if (response?.data?.eventCounters) {
+					response?.data?.eventCounters.sort(
+						(a: any, b: any) => Number(b.latest) - Number(a.latest),
+					)
+				}
 				self.eventCounters.clear()
 				for (const eventCounter of response?.data?.eventCounters) {
-					self.eventCounters.push({
-						id: eventCounter.id,
-						name: eventCounter.name,
-						count: eventCounter.count,
-						first: Number(`${eventCounter.first}000`),
-						latest: Number(`${eventCounter.latest}000`),
-						latestValue: String(convertStringToDecimal(eventCounter.val, 18)),
-					})
-					components.quickSearch.addAction({
-						id: eventCounter.id,
-						title: eventCounter.name,
-						tag:
-							Number(`${eventCounter.latest}000`) > Date.now() - DAY
-								? 'inactive'
-								: undefined,
-						subtitle: `Show details for Feed Pair ${eventCounter.name}`,
-						action: () =>
-							getRouter().goTo(routes.feed, { address: eventCounter.name }),
-					})
+					if (
+						!self.eventCounters.find(
+							(currentEventCounter) =>
+								currentEventCounter.name.toLowerCase() ===
+								eventCounter.name.toLowerCase(),
+						)
+					) {
+						self.eventCounters.push({
+							id: eventCounter.id,
+							name: eventCounter.name,
+							count: eventCounter.count,
+							first: Number(`${eventCounter.first}000`),
+							latest: Number(`${eventCounter.latest}000`),
+							latestValue: String(convertStringToDecimal(eventCounter.val, 18)),
+						})
+						components.quickSearch.addAction({
+							id: eventCounter.id,
+							title: eventCounter.name,
+							tag:
+								Number(`${eventCounter.latest}000`) < Date.now() - DAY
+									? 'inactive'
+									: undefined,
+							subtitle: eventCounter.id,
+							action: () =>
+								getRouter().goTo(routes.feed, { address: eventCounter.name }),
+						})
+					}
 				}
 				api.stateAndCache.updateToDone(stateAndCacheKey)
 			} catch (error) {

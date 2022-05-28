@@ -78,7 +78,9 @@ export default observer(() => {
 
 	if (!page.loading()) {
 		const inactiveFeedCountPerColumn =
-			Math.floor(page.feeds().deadFeeds.length / 2) + 1
+			page.feeds().deadFeeds.length % 2 === 1
+				? Math.floor(page.feeds().deadFeeds.length / 2) + 1
+				: page.feeds().deadFeeds.length / 2
 		content = (
 			<>
 				<SimpleGrid columns={{ base: 1, lg: 2 }}>
