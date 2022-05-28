@@ -90,7 +90,7 @@ export const SubgraphLite = types
 								: undefined,
 						subtitle: `Show details for Feed Pair ${eventCounter.name}`,
 						action: () =>
-							getRouter().goTo(routes.feed, { address: eventCounter.id }),
+							getRouter().goTo(routes.feed, { address: eventCounter.name }),
 					})
 				}
 				api.stateAndCache.updateToDone(stateAndCacheKey)
@@ -161,9 +161,16 @@ export const SubgraphLite = types
 	.views((self) => ({
 		nameByAddress(address: string) {
 			const foundCounter = self.eventCounters.find(
-				(counter) => counter.id === address,
+				(counter) => counter.id.toLowerCase() === address.toLowerCase(),
 			)
 			return foundCounter?.name ?? 'Address Not Found'
+		},
+
+		addressbyName(name: string) {
+			const foundCounter = self.eventCounters.find(
+				(counter) => counter.name.toLowerCase() === name.toLowerCase(),
+			)
+			return foundCounter?.id ?? 'Name Not Found'
 		},
 
 		medianPricesByAddress(address: string) {

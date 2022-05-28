@@ -24,21 +24,35 @@ export const FeedPage = types
 	.actions((self) => ({
 		// INITIALIZATION
 		initialisePage(address: string) {
-			self.address = address
+			// self.address = address
 			const { api } = getRootStore(self)
 			api.subgraphLite.getEventCounters().then(() => {
-				const feed = api.subgraphLite.nameByAddress(self.address)
-				this.updateFeedName(feed)
-				api.feeds.getFeedData({ feed })
+				if (address.startsWith('0x')) {
+					api.subgraphLite.getMedianPrices({ address })
+					const feed = api.subgraphLite.nameByAddress(address)
+					this.updateFeedAddress(address)
+					this.updateFeedName(feed)
+					api.feeds.getFeedData({ feed })
+				} else {
+					const feed = address.toUpperCase()
+					api.feeds.getFeedData({ feed })
+					const resolvedAddress = api.subgraphLite.addressbyName(feed)
+					api.subgraphLite.getMedianPrices({ address: resolvedAddress })
+					this.updateFeedAddress(resolvedAddress)
+					this.updateFeedName(feed)
+				}
 			})
 			api.makerOracles.getOracles()
-			api.subgraphLite.getMedianPrices({ address })
 		},
 
 		updateFeedName(feed: string) {
 			self.feed = feed
 			const { api } = getRootStore(self)
 			api.helmet.updateTitle({ title: feed, concatenateAppname: true })
+		},
+
+		updateFeedAddress(address: string) {
+			self.address = address
 		},
 	}))
 	.views((self) => ({
@@ -81,8 +95,7 @@ export const FeedPage = types
 		},
 
 		feedName() {
-			const { api } = getRootStore(self)
-			return api.subgraphLite.nameByAddress(self.address)
+			return self.feed
 		},
 
 		lineChartOptions(): LineChartOptions {
