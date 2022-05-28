@@ -23,8 +23,14 @@ import makeBlockie from 'ethereum-blockies-base64'
 import { observer } from 'mobx-react-lite'
 import { useTranslation } from 'react-i18next'
 import LineChart from '../../components/charts/LineChart'
+import CopyToClipboard from '../../components/copytoclipboard'
 import { AddressToConsumer } from '../../constants/consumers.const'
-import { feedIcon, formatDateTime, prettyDuration } from '../../helpers/ui'
+import {
+	feedIcon,
+	formatDateTime,
+	prettyDuration,
+	shortenAddress,
+} from '../../helpers/ui'
 import { useMst } from '../../models/root'
 
 export default observer(() => {
@@ -69,7 +75,7 @@ export default observer(() => {
 									<Stat>
 										<StatLabel>Medianizer</StatLabel>
 										<StatNumber>
-											{page.latestMedianizerPrice().curValue}
+											{Number(page.latestMedianizerPrice().curValue).toFixed(2)}
 										</StatNumber>
 									</Stat>
 									<Divider />
@@ -87,14 +93,18 @@ export default observer(() => {
 									<Stat>
 										<StatLabel>OSM</StatLabel>
 										<StatNumber>
-											{page.osm()?.length > 0 ? page.osm()[0].curValue : 'n/a'}
+											{page.osm()?.length > 0
+												? Number(page.osm()[0].curValue).toFixed(2)
+												: 'n/a'}
 										</StatNumber>
 									</Stat>
 									<Divider />
 									<Stat>
 										<StatLabel>OSM next value</StatLabel>
 										<StatNumber>
-											{page.osm()?.length > 0 ? page.osm()[0].nextValue : 'n/a'}
+											{page.osm()?.length > 0
+												? Number(page.osm()[0].nextValue).toFixed(2)
+												: 'n/a'}
 										</StatNumber>
 									</Stat>
 								</VStack>
@@ -102,7 +112,19 @@ export default observer(() => {
 							<Divider />
 							<Box>
 								<Text fontSize={'xs'}>Contract Address</Text>
-								<Text fontSize={{ base: 'sm', md: 'xl' }}>{page.address}</Text>
+								<Text
+									fontSize={'xl'}
+									display={{ base: 'inline-flex', md: 'none' }}
+								>
+									{shortenAddress(page.address, { maxLength: 26 })}{' '}
+									<CopyToClipboard toCopy={page.address} />
+								</Text>
+								<Text
+									fontSize={'xl'}
+									display={{ base: 'none', md: 'inline-flex' }}
+								>
+									{page.address} <CopyToClipboard toCopy={page.address} />
+								</Text>
 							</Box>
 						</VStack>
 					</Box>
@@ -128,7 +150,11 @@ export default observer(() => {
 							{page.oracles().map((oracle) => (
 								<GridItem key={oracle.address} w="100%">
 									<Center>
-										<Box rounded={'md'} w={100} h={100}>
+										<Box
+											rounded={'md'}
+											w={{ base: 90, md: 100 }}
+											h={{ base: 90, md: 100 }}
+										>
 											<Center>
 												<VStack>
 													<Avatar src={makeBlockie(oracle.address)} />

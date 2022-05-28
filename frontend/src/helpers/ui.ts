@@ -109,3 +109,22 @@ export function feedIcon(feed: string): string {
 	}
 	return `${base}/ethereum.png`
 }
+
+export function shortenAddress(
+	address: string,
+	options: { maxLength: number },
+): string {
+	if (address.length <= options.maxLength) {
+		return address
+	}
+	const DOTS = `...`
+	const addressWithout0x = address.substring(2)
+	const substringLength = Math.floor((options.maxLength - DOTS.length - 2) / 2)
+	const shortened = `0x${addressWithout0x.substring(
+		0,
+		substringLength,
+	)}${DOTS}${addressWithout0x.substring(
+		addressWithout0x.length - substringLength,
+	)}`
+	return shortened
+}
