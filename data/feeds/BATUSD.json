@@ -1129,6 +1129,23 @@
       "address": "0x83e23c207a67a9f9cb680ce84869b91473403e7d",
       "data": [
         {
+          "age": 1653743372000,
+          "date": "2022-05-28T13:09:32.000Z",
+          "price": 0.365,
+          "priceStr": "365000000000000000",
+          "traces": {
+            "BAT/BTC@binance": "1.263e-05",
+            "BAT/BTC@bittrex": "1.246e-05",
+            "BAT/KRW@upbit": "468",
+            "BAT/USD@coinbasepro": "0.365",
+            "BTC/USD@bitstamp": "28936.66",
+            "BTC/USD@bittrex": "28916.851",
+            "BTC/USD@coinbasepro": "28924.47",
+            "BTC/USD@gemini": "28931.15",
+            "BTC/USD@kraken": "28949.8"
+          }
+        },
+        {
           "age": 1653734980000,
           "date": "2022-05-28T10:49:40.000Z",
           "price": 0.360296,
@@ -1263,24 +1280,6 @@
             "BTC/USD@coinbasepro": "30281",
             "BTC/USD@gemini": "30280.68",
             "BTC/USD@kraken": "30266.9"
-          }
-        },
-        {
-          "age": 1653025648000,
-          "date": "2022-05-20T05:47:28.000Z",
-          "price": 0.39991255000000003,
-          "priceStr": "399912550000000030",
-          "traces": {
-            "BAT/BTC@binance": "1.327e-05",
-            "BAT/BTC@bittrex": "1.326e-05",
-            "BAT/KRW@upbit": "515",
-            "BAT/USD@coinbasepro": "0.4",
-            "BTC/USD@bitstamp": "30130",
-            "BTC/USD@bittrex": "30142.378",
-            "BTC/USD@coinbasepro": "30108.94",
-            "BTC/USD@gemini": "30136.3",
-            "BTC/USD@kraken": "30122.7",
-            "KRW/USD@openexchangerates": "0.000789"
           }
         }
       ]
@@ -1833,6 +1832,17 @@
       "address": "0x3cb645a8f10fb7b0721eabae958f77a878441cb9",
       "data": [
         {
+          "age": 1653745885000,
+          "date": "2022-05-28T13:51:25.000Z",
+          "price": 0.366025842,
+          "priceStr": "366025842000000000",
+          "traces": {
+            "binance": "0.3660258420",
+            "bittrex": "0.3619588882",
+            "coinbase": "0.3666410000"
+          }
+        },
+        {
           "age": 1653657888000,
           "date": "2022-05-27T13:24:48.000Z",
           "price": 0.37241649239999997,
@@ -1951,30 +1961,29 @@
             "BTC/USD@kraken": "30465.2",
             "KRW/USD@openexchangerates": "0.000791"
           }
-        },
-        {
-          "age": 1653284992000,
-          "date": "2022-05-23T05:49:52.000Z",
-          "price": 0.40616255925,
-          "priceStr": "406162559250000000",
-          "traces": {
-            "BAT/BTC@binance": "1.35e-05",
-            "BAT/BTC@bittrex": "1.325e-05",
-            "BAT/KRW@upbit": "523",
-            "BAT/USD@coinbasepro": "0.405",
-            "BTC/USD@bitstamp": "30175.12",
-            "BTC/USD@bittrex": "30172.231",
-            "BTC/USD@coinbasepro": "30169.79",
-            "BTC/USD@gemini": "30173.34",
-            "BTC/USD@kraken": "30152.6",
-            "KRW/USD@openexchangerates": "0.000789"
-          }
         }
       ]
     },
     {
       "address": "0x8de9c5f1ac1d4d02bbfc25fd178f5daa4d5b26dc",
       "data": [
+        {
+          "age": 1653743367000,
+          "date": "2022-05-28T13:09:27.000Z",
+          "price": 0.3654700158,
+          "priceStr": "365470015800000000",
+          "traces": {
+            "BAT/BTC@binance": "1.263e-05",
+            "BAT/BTC@bittrex": "1.246e-05",
+            "BAT/KRW@upbit": "467",
+            "BAT/USD@coinbasepro": "0.366",
+            "BTC/USD@bitstamp": "28936.66",
+            "BTC/USD@bittrex": "28916.851",
+            "BTC/USD@coinbasepro": "28937.95",
+            "BTC/USD@gemini": "28931.15",
+            "BTC/USD@kraken": "28949.8"
+          }
+        },
         {
           "age": 1653677742000,
           "date": "2022-05-27T18:55:42.000Z",
@@ -2093,17 +2102,6 @@
             "binance": "0.3774788084",
             "bittrex": "0.3727823380",
             "coinbase": "0.3753270000"
-          }
-        },
-        {
-          "age": 1652953793000,
-          "date": "2022-05-19T09:49:53.000Z",
-          "price": 0.366186,
-          "priceStr": "366186000000000000",
-          "traces": {
-            "binance": "0.3668894020",
-            "bittrex": "0.3640027820",
-            "coinbase": "0.3661860000"
           }
         }
       ]
@@ -3245,6 +3243,22 @@
       "address": "0xfeed00aa3f0845afe52df9ecfe372549b74c69d2",
       "data": [
         {
+          "age": 1653743377000,
+          "date": "2022-05-28T13:09:37.000Z",
+          "price": 0.365528619,
+          "priceStr": "365528619000000000",
+          "traces": {
+            "BAT/BTC@binance": "1.263e-05",
+            "BAT/BTC@bittrex": "1.246e-05",
+            "BAT/USD@coinbasepro": "0.366",
+            "BTC/USD@bitstamp": "28946.46",
+            "BTC/USD@bittrex": "28934.875",
+            "BTC/USD@coinbasepro": "28941.3",
+            "BTC/USD@gemini": "28931.15",
+            "BTC/USD@kraken": "28949.9"
+          }
+        },
+        {
           "age": 1653651964000,
           "date": "2022-05-27T11:46:04.000Z",
           "price": 0.3684532248,
@@ -3377,17 +3391,6 @@
             "BTC/USD@gemini": "30387.39",
             "BTC/USD@kraken": "30394",
             "KRW/USD@openexchangerates": "0.000779"
-          }
-        },
-        {
-          "age": 1652667884000,
-          "date": "2022-05-16T02:24:44.000Z",
-          "price": 0.415696,
-          "priceStr": "415696000000000000",
-          "traces": {
-            "binance": "0.4173005228",
-            "bittrex": "0.4142589738",
-            "coinbase": "0.4156960000"
           }
         }
       ]

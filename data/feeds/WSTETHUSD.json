@@ -1318,6 +1318,29 @@
       "address": "0x71ecff5261baa115dcb1d9335c88678324b8a987",
       "data": [
         {
+          "age": 1653738261000,
+          "date": "2022-05-28T11:44:21.000Z",
+          "price": 1863.5172095236544,
+          "priceStr": "1863517209523654400000",
+          "traces": {
+            "BTC/USD@bitstamp": "28858.28",
+            "BTC/USD@bittrex": "28843.026",
+            "BTC/USD@coinbasepro": "28852.3",
+            "BTC/USD@gemini": "28839.54",
+            "BTC/USD@kraken": "28846.2",
+            "ETH/BTC@binance": "0.061612",
+            "ETH/USD@bitstamp": "1776.6",
+            "ETH/USD@coinbasepro": "1777.15",
+            "ETH/USD@ftx": "1777.5",
+            "ETH/USD@gemini": "1776.68",
+            "ETH/USD@kraken": "1777.14",
+            "ETH/USD@uniswapV3": "1776.9462441058654",
+            "STETH/ETH@balancerV2": "0.9771647624110493",
+            "STETH/ETH@curve": "0.9777141608148504",
+            "WSTETH/STETH@wsteth": "1.0728077374051523"
+          }
+        },
+        {
           "age": 1653671218000,
           "date": "2022-05-27T17:06:58.000Z",
           "price": 1831.5242678277,
@@ -1445,16 +1468,6 @@
             "STETH/ETH@curve": "0.9833364536656531",
             "WSTETH/STETH@wsteth": "1.0719986835554307"
           }
-        },
-        {
-          "age": 1653075859000,
-          "date": "2022-05-20T19:44:19.000Z",
-          "price": 2061.2925823907,
-          "priceStr": "2061292582390700000000",
-          "traces": {
-            "balancer_v2": "2062.1500742170",
-            "curve": "2060.4350905644"
-          }
         }
       ]
     },
@@ -1566,6 +1579,16 @@
     {
       "address": "0xda1d2961da837891f43235fddf66bad26f41368b",
       "data": [
+        {
+          "age": 1653743370000,
+          "date": "2022-05-28T13:09:30.000Z",
+          "price": 1871.2668221791,
+          "priceStr": "1871266822179100000000",
+          "traces": {
+            "wstethusd@balancer_v2": "1870.8581640763",
+            "wstethusd@curve": "1871.6754802819"
+          }
+        },
         {
           "age": 1653688082000,
           "date": "2022-05-27T21:48:02.000Z",
@@ -1745,29 +1768,6 @@
             "STETH/ETH@balancerV2": "0.9754074478962477",
             "STETH/ETH@curve": "0.9750281042165997",
             "WSTETH/STETH@wsteth": "1.072225640994837"
-          }
-        },
-        {
-          "age": 1653186725000,
-          "date": "2022-05-22T02:32:05.000Z",
-          "price": 2061.705741206094,
-          "priceStr": "2061705741206094000000",
-          "traces": {
-            "BTC/USD@bitstamp": "29414.37",
-            "BTC/USD@bittrex": "29412.72",
-            "BTC/USD@coinbasepro": "29404.22",
-            "BTC/USD@gemini": "29412.81",
-            "BTC/USD@kraken": "29414",
-            "ETH/BTC@binance": "0.067082",
-            "ETH/USD@bitstamp": "1973.91",
-            "ETH/USD@coinbasepro": "1972.27",
-            "ETH/USD@ftx": "1972.6",
-            "ETH/USD@gemini": "1973.14",
-            "ETH/USD@kraken": "1972.61",
-            "ETH/USD@uniswapV3": "1973.3920259544714",
-            "STETH/ETH@balancerV2": "0.974919866077912",
-            "STETH/ETH@curve": "0.9743602279082173",
-            "WSTETH/STETH@wsteth": "1.0721113861021803"
           }
         }
       ]
@@ -3401,6 +3401,29 @@
       "address": "0x4f95d9b4d842b2e2b1d1ac3f2cf548b93fd77c67",
       "data": [
         {
+          "age": 1653743376000,
+          "date": "2022-05-28T13:09:36.000Z",
+          "price": 1869.2597449201671,
+          "priceStr": "1869259744920167100000",
+          "traces": {
+            "BTC/USD@bitstamp": "28946.46",
+            "BTC/USD@bittrex": "28934.875",
+            "BTC/USD@coinbasepro": "28941.53",
+            "BTC/USD@gemini": "28937.04",
+            "BTC/USD@kraken": "28949.9",
+            "ETH/BTC@binance": "0.0616",
+            "ETH/USD@bitstamp": "1782.79",
+            "ETH/USD@coinbasepro": "1781.96",
+            "ETH/USD@ftx": "1782",
+            "ETH/USD@gemini": "1781.81",
+            "ETH/USD@kraken": "1781.94",
+            "ETH/USD@uniswapV3": "1782.1209073112764",
+            "STETH/ETH@balancerV2": "0.9774579558165845",
+            "STETH/ETH@curve": "0.9778812658142318",
+            "WSTETH/STETH@wsteth": "1.0729261680573974"
+          }
+        },
+        {
           "age": 1653728024000,
           "date": "2022-05-28T08:53:44.000Z",
           "price": 1845.6848730994138,
@@ -3605,29 +3628,6 @@
             "STETH/ETH@balancerV2": "0.9719022941461366",
             "STETH/ETH@curve": "0.9715811480659108",
             "WSTETH/STETH@wsteth": "1.0719986835554307"
-          }
-        },
-        {
-          "age": 1653032777000,
-          "date": "2022-05-20T07:46:17.000Z",
-          "price": 2138.4139111153213,
-          "priceStr": "2138413911115321300000",
-          "traces": {
-            "BTC/USD@bitstamp": "30261",
-            "BTC/USD@bittrex": "30233.168",
-            "BTC/USD@coinbasepro": "30241.61",
-            "BTC/USD@gemini": "30237.9",
-            "BTC/USD@kraken": "30237",
-            "ETH/BTC@binance": "0.067033",
-            "ETH/USD@bitstamp": "2028.41",
-            "ETH/USD@coinbasepro": "2027.73",
-            "ETH/USD@ftx": "2027.7",
-            "ETH/USD@gemini": "2027.9",
-            "ETH/USD@kraken": "2026.57",
-            "ETH/USD@uniswapV3": "2025.450218233549",
-            "STETH/ETH@balancerV2": "0.9840289122437522",
-            "STETH/ETH@curve": "0.9837162527857009",
-            "WSTETH/STETH@wsteth": "1.0718875127887435"
           }
         }
       ]

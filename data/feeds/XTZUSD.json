@@ -626,6 +626,21 @@
       "address": "0xe6367a7da2b20ecb94a25ef06f3b551bab2682e6",
       "data": [
         {
+          "age": 1653738258000,
+          "date": "2022-05-28T11:44:18.000Z",
+          "price": 1.94,
+          "priceStr": "1940000000000000000",
+          "traces": {
+            "BTC/USD@bittrex": "28843.026",
+            "BTC/USD@coinbasepro": "28854.21",
+            "BTC/USD@gemini": "28839.54",
+            "ETH/USD@coinbasepro": "1776.67",
+            "ETH/USD@gemini": "1776.68",
+            "ETH/USD@uniswapV3": "1776.7103559171933",
+            "XTZ/USD@coinbasepro": "1.94"
+          }
+        },
+        {
           "age": 1653684547000,
           "date": "2022-05-27T20:49:07.000Z",
           "price": 1.8401,
@@ -783,36 +798,6 @@
             "coinbase": "1.9400000000",
             "hitbtc": "1.9449460000",
             "kraken": "1.9453000000"
-          }
-        },
-        {
-          "age": 1653176886000,
-          "date": "2022-05-21T23:48:06.000Z",
-          "price": 1.825437,
-          "priceStr": "1825437000000000000",
-          "traces": {
-            "BTC/USD@bitstamp": "29437.65",
-            "BTC/USD@bittrex": "29449.68",
-            "BTC/USD@coinbasepro": "29420.01",
-            "BTC/USD@gemini": "29432.14",
-            "BTC/USD@kraken": "29421.8",
-            "BTC/USDT@binance": "29461.23",
-            "ETH/BTC@binance": "0.067073",
-            "ETH/USD@bitstamp": "1975.19",
-            "ETH/USD@coinbasepro": "1973.17",
-            "ETH/USD@ftx": "1974.7",
-            "ETH/USD@gemini": "1974.86",
-            "ETH/USD@kraken": "1974.32",
-            "ETH/USD@uniswapV3": "1975.2060930308655",
-            "ETH/USDT@ftx": "1978.2",
-            "ETH/USDT@huobi": "1976.8249999999998",
-            "USDT/USD@bitfinex": "0.99983",
-            "USDT/USD@kraken": "0.9987",
-            "XTZ/USD@bitfinex": "1.8257",
-            "XTZ/USD@coinbasepro": "1.83",
-            "XTZ/USD@hitbtc": "1.825437",
-            "XTZ/USD@kraken": "1.8251",
-            "XTZ/USDT@binance": "1.825"
           }
         }
       ]
@@ -1198,6 +1183,19 @@
       "address": "0xd27fa2361bc2cfb9a591fb289244c538e190684b",
       "data": [
         {
+          "age": 1653738267000,
+          "date": "2022-05-28T11:44:27.000Z",
+          "price": 1.9353,
+          "priceStr": "1935300000000000000",
+          "traces": {
+            "binance": "1.9337257930",
+            "bitfinex": "1.9353000000",
+            "coinbase": "1.9400000000",
+            "hitbtc": "1.9318680000",
+            "kraken": "1.9356000000"
+          }
+        },
+        {
           "age": 1653584830000,
           "date": "2022-05-26T17:07:10.000Z",
           "price": 1.9475254847366121,
@@ -1416,35 +1414,6 @@
             "USDT/USD@bitfinex": "0.99974",
             "XTZ/USD@bitfinex": "1.8294",
             "XTZ/USD@coinbasepro": "1.82"
-          }
-        },
-        {
-          "age": 1653159184000,
-          "date": "2022-05-21T18:53:04.000Z",
-          "price": 1.8363049999999999,
-          "priceStr": "1836304999999999900",
-          "traces": {
-            "BTC/USD@bitstamp": "29403.55",
-            "BTC/USD@bittrex": "29406.545",
-            "BTC/USD@coinbasepro": "29401.46",
-            "BTC/USD@gemini": "29403.39",
-            "BTC/USD@kraken": "29409.1",
-            "BTC/USDT@binance": "29436.74",
-            "ETH/BTC@binance": "0.067242",
-            "ETH/USD@bitstamp": "1976.75",
-            "ETH/USD@coinbasepro": "1976.73",
-            "ETH/USD@ftx": "1976.8",
-            "ETH/USD@gemini": "1976.78",
-            "ETH/USD@kraken": "1976.77",
-            "ETH/USD@uniswapV3": "1976.9929202472672",
-            "ETH/USDT@ftx": "1979.3",
-            "ETH/USDT@huobi": "1979.3649999999998",
-            "USDT/USD@bitfinex": "0.99972",
-            "USDT/USD@kraken": "0.9987",
-            "XTZ/USD@bitfinex": "1.8352",
-            "XTZ/USD@coinbasepro": "1.84",
-            "XTZ/USD@hitbtc": "1.83541",
-            "XTZ/USD@kraken": "1.8372"
           }
         }
       ]

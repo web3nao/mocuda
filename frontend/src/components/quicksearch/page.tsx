@@ -44,6 +44,9 @@ export default observer(() => {
 								p={2}
 								rounded={'md'}
 								key={action.id}
+								onClick={action.action}
+								cursor={'pointer'}
+								_hover={{ bg: 'pink.300' }}
 							>
 								<Text>
 									{action.title}

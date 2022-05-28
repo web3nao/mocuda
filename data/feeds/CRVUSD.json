@@ -431,6 +431,20 @@
       "address": "0xd72ba9402e9f3ff01959d6c841ddd13615ffff42",
       "data": [
         {
+          "age": 1653745877000,
+          "date": "2022-05-28T13:51:17.000Z",
+          "price": 1.2711160747,
+          "priceStr": "1271116074700000000",
+          "traces": {
+            "binance": "1.2719653839",
+            "gemini": "1.2721000000",
+            "huobi": "1.2702667655",
+            "kraken": "1.2700000000",
+            "sushiswap": "1.2745447899",
+            "uniswap_v3": "1.2693516917"
+          }
+        },
+        {
           "age": 1653720950000,
           "date": "2022-05-28T06:55:50.000Z",
           "price": 1.23955,
@@ -639,20 +653,6 @@
             "ETH/USDT@huobi": "1942.955",
             "USDT/USD@bitfinex": "0.99958",
             "USDT/USD@kraken": "0.9989"
-          }
-        },
-        {
-          "age": 1652957493000,
-          "date": "2022-05-19T10:51:33.000Z",
-          "price": 1.1436333932,
-          "priceStr": "1143633393200000000",
-          "traces": {
-            "binance": "1.1467630151",
-            "gemini": "1.1463000000",
-            "huobi": "1.1432667864",
-            "kraken": "1.1440000000",
-            "sushiswap": "1.1331327105",
-            "uniswap_v3": "1.1370253126"
           }
         }
       ]
@@ -4506,6 +4506,20 @@
       "address": "0xa8eb82456ed9bae55841529888cde9152468635a",
       "data": [
         {
+          "age": 1653738253000,
+          "date": "2022-05-28T11:44:13.000Z",
+          "price": 1.2531347416,
+          "priceStr": "1253134741600000000",
+          "traces": {
+            "binance": "1.2519395945",
+            "gemini": "1.2573000000",
+            "huobi": "1.2513401023",
+            "kraken": "1.2500000000",
+            "sushiswap": "1.2543298887",
+            "uniswap_v3": "1.2561431099"
+          }
+        },
+        {
           "age": 1653641613000,
           "date": "2022-05-27T08:53:33.000Z",
           "price": 1.1714130686,
@@ -4692,20 +4706,6 @@
             "ETH/USDT@huobi": "2308.1949999999997",
             "USDT/USD@bitfinex": "1.0005",
             "USDT/USD@kraken": "0.9988"
-          }
-        },
-        {
-          "age": 1652168428000,
-          "date": "2022-05-10T07:40:28.000Z",
-          "price": 2.0810545222,
-          "priceStr": "2081054522200000000",
-          "traces": {
-            "binance": "2.0817044299",
-            "gemini": "2.0837000000",
-            "huobi": "2.0804046145",
-            "kraken": "2.0710000000",
-            "sushiswap": "2.0691164110",
-            "uniswap_v3": "2.0941970877"
           }
         }
       ]
@@ -5453,6 +5453,37 @@
     {
       "address": "0xd94bbe83b4a68940839cd151478852d16b3ef891",
       "data": [
+        {
+          "age": 1653738250000,
+          "date": "2022-05-28T11:44:10.000Z",
+          "price": 1.2519361693755777,
+          "priceStr": "1251936169375577700",
+          "traces": {
+            "BTC/USD@bitstamp": "28850",
+            "BTC/USD@bittrex": "28851.357",
+            "BTC/USD@coinbasepro": "28843.13",
+            "BTC/USD@gemini": "28848.58",
+            "BTC/USD@kraken": "28846.2",
+            "BTC/USDT@binance": "28870.59",
+            "CRV/ETH@sushiswap": "0.0007068160255290911",
+            "CRV/ETH@uniswapV3": "0.0007078019152776635",
+            "CRV/USD@gemini": "1.2503",
+            "CRV/USD@kraken": "1.25",
+            "CRV/USDT@binance": "1.253",
+            "CRV/USDT@huobi": "1.2535",
+            "ETH/BTC@binance": "0.061621",
+            "ETH/USD@bitstamp": "1777.56",
+            "ETH/USD@coinbasepro": "1777.09",
+            "ETH/USD@ftx": "1777.1",
+            "ETH/USD@gemini": "1777.38",
+            "ETH/USD@kraken": "1777.14",
+            "ETH/USD@uniswapV3": "1776.936833392718",
+            "ETH/USDT@ftx": "1779.1",
+            "ETH/USDT@huobi": "1779.005",
+            "USDT/USD@bitfinex": "0.99999",
+            "USDT/USD@kraken": "0.9988"
+          }
+        },
         {
           "age": 1653487461000,
           "date": "2022-05-25T14:04:21.000Z",

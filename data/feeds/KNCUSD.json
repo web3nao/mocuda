@@ -2437,6 +2437,31 @@
       "address": "0xfbaf3a7eb4ec2962bd1847687e56aaee855f5d00",
       "data": [
         {
+          "age": 1653743359000,
+          "date": "2022-05-28T13:09:19.000Z",
+          "price": 1.9396175685,
+          "priceStr": "1939617568500000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28964.7",
+            "BTC/USD@bittrex": "28992.115",
+            "BTC/USD@coinbasepro": "28943.63",
+            "BTC/USD@gemini": "28955.79",
+            "BTC/USD@kraken": "28983.4",
+            "ETH/BTC@binance": "0.061658",
+            "ETH/USD@bitstamp": "1784.65",
+            "ETH/USD@coinbasepro": "1783.4",
+            "ETH/USD@ftx": "1785.4",
+            "ETH/USD@gemini": "1783.65",
+            "ETH/USD@kraken": "1786.57",
+            "ETH/USD@uniswapV3": "1785.8784179634895",
+            "KNC/BTC@binance": "6.671e-05",
+            "KNC/BTC@huobi": "6.667500000000001e-05",
+            "KNC/KRW@upbit": "2470",
+            "KNC/USD@coinbasepro": "1.947",
+            "KRW/USD@openexchangerates": "0.000797"
+          }
+        },
+        {
           "age": 1652727606000,
           "date": "2022-05-16T19:00:06.000Z",
           "price": 1.5762970659000002,
@@ -2804,6 +2829,31 @@
       "address": "0x71ecff5261baa115dcb1d9335c88678324b8a987",
       "data": [
         {
+          "age": 1653743369000,
+          "date": "2022-05-28T13:09:29.000Z",
+          "price": 1.940785307,
+          "priceStr": "1940785307000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28933.1",
+            "BTC/USD@bittrex": "28934.875",
+            "BTC/USD@coinbasepro": "28939.45",
+            "BTC/USD@gemini": "28936.24",
+            "BTC/USD@kraken": "28949.8",
+            "ETH/BTC@binance": "0.061616",
+            "ETH/USD@bitstamp": "1782.79",
+            "ETH/USD@coinbasepro": "1782.88",
+            "ETH/USD@ftx": "1782.6",
+            "ETH/USD@gemini": "1781.81",
+            "ETH/USD@kraken": "1782.5",
+            "ETH/USD@uniswapV3": "1782.1340642986831",
+            "KNC/BTC@binance": "6.667e-05",
+            "KNC/BTC@huobi": "6.6725e-05",
+            "KNC/KRW@upbit": "2470",
+            "KNC/USD@coinbasepro": "1.9508",
+            "KRW/USD@openexchangerates": "0.000797"
+          }
+        },
+        {
           "age": 1653713900000,
           "date": "2022-05-28T04:58:20.000Z",
           "price": 1.924,
@@ -2983,23 +3033,23 @@
             "KNC/USD@coinbasepro": "1.706",
             "KRW/USD@openexchangerates": "0.000782"
           }
-        },
-        {
-          "age": 1652482172000,
-          "date": "2022-05-13T22:49:32.000Z",
-          "price": 1.6074748752,
-          "priceStr": "1607474875200000000",
-          "traces": {
-            "binance": "1.6074748752",
-            "coinbase": "1.7095000000",
-            "huobi": "1.6018147524"
-          }
         }
       ]
     },
     {
       "address": "0xac8519b3495d8a3e3e44c041521cf7ac3f8f63b3",
       "data": [
+        {
+          "age": 1653743374000,
+          "date": "2022-05-28T13:09:34.000Z",
+          "price": 1.9295491393,
+          "priceStr": "1929549139300000000",
+          "traces": {
+            "binance": "1.9295491393",
+            "coinbase": "1.9508000000",
+            "huobi": "1.9269443782"
+          }
+        },
         {
           "age": 1653645006000,
           "date": "2022-05-27T09:50:06.000Z",
@@ -3178,31 +3228,6 @@
             "KNC/BTC@huobi": "8.7965e-05",
             "KNC/KRW@upbit": "3340",
             "KNC/USD@coinbasepro": "2.6182",
-            "KRW/USD@openexchangerates": "0.000785"
-          }
-        },
-        {
-          "age": 1653112024000,
-          "date": "2022-05-21T05:47:04.000Z",
-          "price": 2.5955377101000003,
-          "priceStr": "2595537710100000300",
-          "traces": {
-            "BTC/USD@bitstamp": "29252.72",
-            "BTC/USD@bittrex": "29245.664",
-            "BTC/USD@coinbasepro": "29240.46",
-            "BTC/USD@gemini": "29247.82",
-            "BTC/USD@kraken": "29252.4",
-            "ETH/BTC@binance": "0.067148",
-            "ETH/USD@bitstamp": "1964.28",
-            "ETH/USD@coinbasepro": "1964.14",
-            "ETH/USD@ftx": "1963.7",
-            "ETH/USD@gemini": "1964.08",
-            "ETH/USD@kraken": "1963.81",
-            "ETH/USD@uniswapV3": "1964.517236377497",
-            "KNC/BTC@binance": "8.798e-05",
-            "KNC/BTC@huobi": "8.811e-05",
-            "KNC/KRW@upbit": "3330",
-            "KNC/USD@coinbasepro": "2.7255",
             "KRW/USD@openexchangerates": "0.000785"
           }
         }

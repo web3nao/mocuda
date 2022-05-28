@@ -286,6 +286,37 @@
       "address": "0xe6367a7da2b20ecb94a25ef06f3b551bab2682e6",
       "data": [
         {
+          "age": 1653743378000,
+          "date": "2022-05-28T13:09:38.000Z",
+          "price": 57.019290487432926,
+          "priceStr": "57019290487432926000",
+          "traces": {
+            "BTC/USD@bitstamp": "28946.46",
+            "BTC/USD@bittrex": "28934.875",
+            "BTC/USD@coinbasepro": "28939.81",
+            "BTC/USD@gemini": "28937.53",
+            "BTC/USD@kraken": "28949.9",
+            "BTC/USDT@binance": "28963.37",
+            "COMP/ETH@uniswapV3": "0.0322458922872282",
+            "COMP/USD@coinbasepro": "56.94",
+            "COMP/USD@kraken": "57.02",
+            "COMP/USDT@binance": "57",
+            "COMP/USDT@huobi": "57.065",
+            "COMP/USDT@kucoin": "57.11",
+            "ETH/BTC@binance": "0.0616",
+            "ETH/USD@bitstamp": "1782.79",
+            "ETH/USD@coinbasepro": "1782.03",
+            "ETH/USD@ftx": "1782.3",
+            "ETH/USD@gemini": "1781.81",
+            "ETH/USD@kraken": "1781.94",
+            "ETH/USD@uniswapV3": "1782.1209073112764",
+            "ETH/USDT@ftx": "1783.5",
+            "ETH/USDT@huobi": "1783.6750000000002",
+            "USDT/USD@bitfinex": "0.99999",
+            "USDT/USD@kraken": "0.9989"
+          }
+        },
+        {
           "age": 1653637706000,
           "date": "2022-05-27T07:48:26.000Z",
           "price": 57.881260499999996,
@@ -460,20 +491,6 @@
             "kraken": "69.3100000000",
             "kucoin": "69.2923717765",
             "uniswap_v3": "69.4793380698"
-          }
-        },
-        {
-          "age": 1653152561000,
-          "date": "2022-05-21T17:02:41.000Z",
-          "price": 68.37315745625,
-          "priceStr": "68373157456250000000",
-          "traces": {
-            "binance": "68.4131067156",
-            "coinbase": "68.4200000000",
-            "huobi": "68.3332081969",
-            "kraken": "68.2900000000",
-            "kucoin": "68.5229671790",
-            "uniswap_v3": "67.6874896363"
           }
         }
       ]
