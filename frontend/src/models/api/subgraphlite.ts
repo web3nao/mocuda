@@ -6,7 +6,8 @@ import {
 } from '../../constants/env.const'
 import { request } from '../../helpers/api'
 import { convertStringToDecimal } from '../../helpers/ui'
-import { getRootStore } from '../helpers'
+import routes from '../../routes'
+import { getRootStore, getRouter } from '../helpers'
 import { StateAndCacheKey } from './stateAndCache'
 
 export const EventCounter = types.model({
@@ -67,6 +68,8 @@ export const SubgraphLite = types
 					headers: naoRequest.headers,
 				})
 
+				const { components } = getRootStore(self)
+
 				self.eventCounters.clear()
 				for (const eventCounter of response?.data?.eventCounters) {
 					self.eventCounters.push({
@@ -76,6 +79,13 @@ export const SubgraphLite = types
 						first: Number(`${eventCounter.first}000`),
 						latest: Number(`${eventCounter.latest}000`),
 						latestValue: String(convertStringToDecimal(eventCounter.val, 18)),
+					})
+					components.quickSearch.addAction({
+						id: eventCounter.id,
+						title: eventCounter.name,
+						subtitle: `Show details for Feed Pair ${eventCounter.name}`,
+						action: () =>
+							getRouter().goTo(routes.feed, { address: eventCounter.id }),
 					})
 				}
 				api.stateAndCache.updateToDone(stateAndCacheKey)

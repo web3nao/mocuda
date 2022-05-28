@@ -1,4 +1,4 @@
-import { Container, HStack, Img } from '@chakra-ui/react'
+import { Container, HStack, Img, Kbd } from '@chakra-ui/react'
 import { observer } from 'mobx-react-lite'
 import { Link } from 'mobx-router'
 import { useTranslation } from 'react-i18next'
@@ -21,14 +21,16 @@ import {
 	useColorMode,
 	Center,
 } from '@chakra-ui/react'
-import { MoonIcon, SunIcon } from '@chakra-ui/icons'
+import { MoonIcon, SearchIcon, SunIcon } from '@chakra-ui/icons'
 import { BASE_COLOR } from '../constants/style.const'
 
 export default observer(() => {
 	const { t } = useTranslation('app')
 	const {
 		router,
-		root: {},
+		root: {
+			components: { quickSearch },
+		},
 	} = useMst()
 
 	const { colorMode, toggleColorMode } = useColorMode()
@@ -49,6 +51,13 @@ export default observer(() => {
 
 						<Flex alignItems={'center'}>
 							<Stack direction={'row'} spacing={7}>
+								<Button onClick={quickSearch.open}>
+									<SearchIcon />
+								</Button>
+								<HStack display={{ base: 'none', md: 'inline-flex' }}>
+									<Kbd>ctrl</Kbd> <Text>+</Text> <Kbd>k</Kbd>
+								</HStack>
+
 								<Button onClick={toggleColorMode}>
 									{colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
 								</Button>

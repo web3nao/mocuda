@@ -16,7 +16,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 import Navbar from './components/navbar'
-import QuickSearch from './components/quicksearch'
+import QuickSearch from './components/quicksearch/page'
 import events, { LogLevel } from './events/events'
 import './i18n/config'
 import './index.scss'
@@ -41,13 +41,15 @@ ChartJS.register(
 
 const App = observer(() => {
 	const {
-		root: { api },
+		root: { api, components },
 		router,
 	} = useMst()
 
 	startRouter(routes, rootStore, {
 		notfound: () => rootStore.router.goTo(routes.notFound),
 	})
+
+	components.quickSearch.initialise()
 
 	return (
 		<>
