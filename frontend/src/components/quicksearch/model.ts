@@ -50,6 +50,12 @@ export const QuickSearchComponent = types
 					subtitle: 'Go back to Home Screen',
 					action: () => getRouter().goTo(routes.home),
 				})
+				this.addAction({
+					id: 'navigateConsumers',
+					title: 'Consumers',
+					subtitle: 'See all Consumers',
+					action: () => getRouter().goTo(routes.consumers),
+				})
 
 				self.initStatus = 'success'
 			}

@@ -16,6 +16,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 import Navbar from './components/navbar'
+import Footer from './components/footer'
 import QuickSearch from './components/quicksearch/page'
 import events, { LogLevel } from './events/events'
 import './i18n/config'
@@ -66,6 +67,7 @@ const App = observer(() => {
 						<MobxRouter store={rootStore} />
 					</Container>
 				</Box>
+				<Footer />
 			</ChakraProvider>
 		</>
 	)
