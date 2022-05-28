@@ -1,5 +1,6 @@
-import { MoonIcon, SearchIcon, SunIcon } from '@chakra-ui/icons'
+import { MoonIcon, SearchIcon, SunIcon, HamburgerIcon } from '@chakra-ui/icons'
 import {
+	Avatar,
 	Box,
 	Button,
 	Container,
@@ -8,6 +9,11 @@ import {
 	Img,
 	Kbd,
 	Link,
+	Menu,
+	MenuButton,
+	MenuDivider,
+	MenuItem,
+	MenuList,
 	Stack,
 	Text,
 	useColorMode,
@@ -46,7 +52,7 @@ export default observer(() => {
 								</Link>
 							</Box>
 
-							<Box>
+							<Box display={{ base: 'none', md: 'inline-flex' }}>
 								<Link onClick={() => router.goTo(routes.consumers)}>
 									<Text>{t('pages.consumers.headings.title')}</Text>
 								</Link>
@@ -54,7 +60,7 @@ export default observer(() => {
 						</HStack>
 
 						<Flex alignItems={'center'}>
-							<Stack direction={'row'} spacing={7}>
+							<Stack direction={'row'} spacing={5}>
 								<Button onClick={quickSearch.open}>
 									<SearchIcon />
 									<HStack ml={2} display={{ base: 'none', md: 'inline-flex' }}>
@@ -78,6 +84,30 @@ export default observer(() => {
 								>
 									{t('navbar.actions.request')}
 								</Button>
+
+								<Flex
+									alignItems={'center'}
+									display={{ base: 'inline-flex', md: 'none' }}
+								>
+									<Menu>
+										<MenuButton
+											as={Button}
+											rounded={'full'}
+											variant={'link'}
+											cursor={'pointer'}
+											minW={0}
+										>
+											<HamburgerIcon />
+										</MenuButton>
+										<MenuList>
+											<MenuItem>{t('navbar.actions.request')}</MenuItem>
+											<MenuDivider />
+											<MenuItem onClick={() => router.goTo(routes.consumers)}>
+												{t('pages.consumers.headings.title')}
+											</MenuItem>
+										</MenuList>
+									</Menu>
+								</Flex>
 							</Stack>
 						</Flex>
 					</Flex>

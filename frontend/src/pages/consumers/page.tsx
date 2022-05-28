@@ -34,7 +34,7 @@ export default observer(() => {
 			<>
 				<SimpleGrid columns={{ base: 2, md: 4 }} gap={5}>
 					{page.consumers().map((consumer) => (
-						<Box boxShadow={'lg'} rounded={'lg'} p={5}>
+						<Box boxShadow={'lg'} rounded={'lg'} p={5} key={consumer.id}>
 							<Stack>
 								<Image
 									src={ConsumerLogo(consumer)}
