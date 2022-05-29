@@ -13,6 +13,10 @@ import {
 import { observer } from 'mobx-react-lite'
 import { Instance } from 'mobx-state-tree'
 import { useTranslation } from 'react-i18next'
+import {
+	BOX_BORDER_COLOR_DARK,
+	BOX_BORDER_COLOR_LIGHT,
+} from '../../constants/style.const'
 import { feedIcon, prettyDuration } from '../../helpers/ui'
 import { EventCounter } from '../../models/api/subgraphlite'
 import { useMst } from '../../models/root'
@@ -56,7 +60,9 @@ export default observer(() => {
 				onClick={() => router.goTo(routes.feed, { address: feed.name })}
 				cursor={'pointer'}
 				key={feed.id}
-				borderColor={colorMode === 'light' ? 'gray.200' : 'gray.600'}
+				borderColor={
+					colorMode === 'light' ? BOX_BORDER_COLOR_LIGHT : BOX_BORDER_COLOR_DARK
+				}
 				borderWidth={1}
 			>
 				<SimpleGrid columns={{ base: 2, sm: 3 }}>
