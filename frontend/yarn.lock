@@ -568,7 +568,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/icons@npm:^2.0.0-next.1":
+"@chakra-ui/icons@npm:^2.0.1":
   version: 2.0.1
   resolution: "@chakra-ui/icons@npm:2.0.1"
   dependencies:
@@ -832,7 +832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/react@npm:^2.0.0-next.4":
+"@chakra-ui/react@npm:^2.1.2":
   version: 2.1.2
   resolution: "@chakra-ui/react@npm:2.1.2"
   dependencies:
@@ -1241,7 +1241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11":
+"@emotion/react@npm:^11.9.0":
   version: 11.9.0
   resolution: "@emotion/react@npm:11.9.0"
   dependencies:
@@ -1473,10 +1473,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:17.0.23":
-  version: 17.0.23
-  resolution: "@types/node@npm:17.0.23"
-  checksum: a3517554737cbb042e76c30d0e5482192ac4d9bea0eeb086e2622d9cabf460a0eb52a696b99fcd18e7fcc93c96db6cc7ae507f6608f256ef0b5c1d8c87a5a470
+"@types/node@npm:17.0.36":
+  version: 17.0.36
+  resolution: "@types/node@npm:17.0.36"
+  checksum: 11055fde0a1e1421113849b5e32c7022911efc0be670729947bf0162970e79962d804b1eb8a9afb291380cac97cf0e684511415d586ae5fe1560322c940fe188
   languageName: node
   linkType: hard
 
@@ -1494,12 +1494,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.3":
-  version: 18.0.3
-  resolution: "@types/react-dom@npm:18.0.3"
+"@types/react-dom@npm:18.0.5":
+  version: 18.0.5
+  resolution: "@types/react-dom@npm:18.0.5"
   dependencies:
     "@types/react": "*"
-  checksum: 5c87fb610e212f0942ebbf522dfca4c9dc2ac8afa4c601454415e7c42f993518868207faff7658d11974142937ba7af2f80e274c3a3f5e0e697bdd5547dbe1b0
+  checksum: cd48b81950f499b52a3f0c08261f00046f9b7c96699fa249c9664e257e820daf6ecac815cd1028cebc9d105094adc39d047d1efd79214394b8b2d515574c0787
   languageName: node
   linkType: hard
 
@@ -1537,10 +1537,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@web3nao/http-configs@npm:^0.0.15":
-  version: 0.0.15
-  resolution: "@web3nao/http-configs@npm:0.0.15"
-  checksum: 94a6aa691f82f273e8631037628e1a4078d2ffdbcac56091b2ae995690fbb4a9bf936c858209d8acac55b0c522adf4022f966a10708d3408e643de8071657ba7
+"@web3nao/http-configs@npm:^0.0.24":
+  version: 0.0.24
+  resolution: "@web3nao/http-configs@npm:0.0.24"
+  checksum: b258055a7d18666c85ae5ecebe28b27ff2d648f9e3bc7384919e82bc8d7a85b3ce6671f46d2890ac80e1cd2f9e94a26b4bd36e708010c1372687b2baa176da17
   languageName: node
   linkType: hard
 
@@ -1811,7 +1811,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:^3.7.1":
+"chart.js@npm:^3.8.0":
   version: 3.8.0
   resolution: "chart.js@npm:3.8.0"
   checksum: 0360212bf5d534effc8475a1aa705ba7257a315af368b5e8eecf476f0bd57a6bb80ad740e870d552f2d11e134dd1497ccef02950d7e626c21a400ff00ecf59af
@@ -2396,7 +2396,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^6.3.3":
+"framer-motion@npm:^6.3.4":
   version: 6.3.4
   resolution: "framer-motion@npm:6.3.4"
   dependencies:
@@ -2666,12 +2666,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^21.7.1":
-  version: 21.8.4
-  resolution: "i18next@npm:21.8.4"
+"i18next@npm:^21.8.5":
+  version: 21.8.5
+  resolution: "i18next@npm:21.8.5"
   dependencies:
     "@babel/runtime": ^7.17.2
-  checksum: 6ebe9b16014057d924c8c1dc5f5b1648485c6c27ce469cb7674aa01b79e30d9d80ca541571c43253c65f5633d5490248563d2f62f759f48b57640de0f9f7307f
+  checksum: 2652935c3bc0ff376f46bb7a777432d1a5ead2941302248abc3f4f51008dcbbb2459bf37c481095d1e81b83fb226ecacc6acb3a18cf4342a685f9acb498bf948
   languageName: node
   linkType: hard
 
@@ -3074,9 +3074,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mobx-react@npm:7.4.0":
-  version: 7.4.0
-  resolution: "mobx-react@npm:7.4.0"
+"mobx-react@npm:7.5.0":
+  version: 7.5.0
+  resolution: "mobx-react@npm:7.5.0"
   dependencies:
     mobx-react-lite: ^3.4.0
   peerDependencies:
@@ -3087,7 +3087,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 16076a6acdcb5474c20282f6d882c35ae41e9c93f57d9a53899a6c15ad355a5c54163b2efa13a2342edb59f1d052cb949985420025e81a9b32980061331f7bf6
+  checksum: a1e3cf182bbec7d190eea247eaabeb81b9cbf8bbd5fe51513889de7c6f73d2ffe2655befece7873f41fb897996ab6e31834e309917b47ae7db7e111240cdd078
   languageName: node
   linkType: hard
 
@@ -3105,19 +3105,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mobx-state-tree@npm:5.1.4":
-  version: 5.1.4
-  resolution: "mobx-state-tree@npm:5.1.4"
+"mobx-state-tree@npm:5.1.5":
+  version: 5.1.5
+  resolution: "mobx-state-tree@npm:5.1.5"
   peerDependencies:
     mobx: ^6.3.0
-  checksum: 12f7d559d4a5ca51a84af59eae51d11c9bfbb98e2bdc1c04fb44ef7ac38fb4e2c2394e1cc9c0fb9c50686ea78effeb074d67853e92986ef201a9792ec9cc5370
+  checksum: 7d88e6018668e0fe21908301848a724810640d8271e287bc90cbe63f87172d8353dc9f7fb922899e0ba70efba290c6cc7166b90032c76b957faec42a4dd27923
   languageName: node
   linkType: hard
 
-"mobx@npm:6.5.0":
-  version: 6.5.0
-  resolution: "mobx@npm:6.5.0"
-  checksum: 1210fb0b1c515b5f0ec2916296c32ca19b733e03b34f180af382d44b90668a15b4143c69bb06ca8785ebc3da3e761c6c60d0e72c945c199efc823088af1941ab
+"mobx@npm:6.6.0":
+  version: 6.6.0
+  resolution: "mobx@npm:6.6.0"
+  checksum: 369b8d6830ec286e9c856c80002c7a554d46bca739b7f76432cb56b3ce1fe0a7ed7e5a994b9793d30023beeff0dd16300a501e831fa97107104e4fedc7d4af8f
   languageName: node
   linkType: hard
 
@@ -3125,29 +3125,29 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mocuda-frontend@workspace:."
   dependencies:
-    "@chakra-ui/icons": ^2.0.0-next.1
-    "@chakra-ui/react": ^2.0.0-next.4
-    "@emotion/react": ^11
+    "@chakra-ui/icons": ^2.0.1
+    "@chakra-ui/react": ^2.1.2
+    "@emotion/react": ^11.9.0
     "@emotion/styled": ^11
-    "@types/node": 17.0.23
+    "@types/node": 17.0.36
     "@types/react": 18.0.9
-    "@types/react-dom": 18.0.3
+    "@types/react-dom": 18.0.5
     "@vitejs/plugin-react": 1.3.2
-    "@web3nao/http-configs": ^0.0.15
+    "@web3nao/http-configs": ^0.0.24
     autoprefixer: ^10.4.7
-    chart.js: ^3.7.1
+    chart.js: ^3.8.0
     ethereum-blockies-base64: ^1.0.2
-    framer-motion: ^6.3.3
-    i18next: ^21.7.1
+    framer-motion: ^6.3.4
+    i18next: ^21.8.5
     i18next-xhr-backend: ^3.2.2
-    mobx: 6.5.0
+    mobx: 6.6.0
     mobx-devtools-mst: ^0.9.30
-    mobx-react: 7.4.0
+    mobx-react: 7.5.0
     mobx-react-lite: ^3.4.0
     mobx-router: 1.0.0
-    mobx-state-tree: 5.1.4
-    mst-middlewares: 5.1.4
-    postcss: ^8.4.13
+    mobx-state-tree: 5.1.5
+    mst-middlewares: 5.1.5
+    postcss: ^8.4.14
     prettier: 2.6.2
     react: 18.1.0
     react-chartjs-2: ^4.1.0
@@ -3156,7 +3156,7 @@ __metadata:
     react-i18next: ^11.16.9
     react-icons: ^4.3.1
     rollup-plugin-analyzer: 4.0.0
-    sass: 1.51.0
+    sass: 1.52.1
     tailwindcss: ^3.0.24
     vite: 2.9.9
   languageName: unknown
@@ -3176,12 +3176,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mst-middlewares@npm:5.1.4":
-  version: 5.1.4
-  resolution: "mst-middlewares@npm:5.1.4"
+"mst-middlewares@npm:5.1.5":
+  version: 5.1.5
+  resolution: "mst-middlewares@npm:5.1.5"
   peerDependencies:
     mobx-state-tree: ^5.0.0
-  checksum: 19fb511bd4614798f7aa8629f4350725cd7f4179228821402304c8d391f5bf21d27b7c9e344889b67849233ff89d6c85e8213446885d7bc903666306e5cd3547
+  checksum: 14da8f17ca787fedb737f78ca622557d7561bfab1025f27508deeb59e56c9d5734e104682303db6b7c96ca1f959121552ddf365857614e8e3c03cd58e592f662
   languageName: node
   linkType: hard
 
@@ -3429,7 +3429,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.12, postcss@npm:^8.4.13":
+"postcss@npm:^8.4.12, postcss@npm:^8.4.13, postcss@npm:^8.4.14":
   version: 8.4.14
   resolution: "postcss@npm:8.4.14"
   dependencies:
@@ -3818,16 +3818,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.51.0":
-  version: 1.51.0
-  resolution: "sass@npm:1.51.0"
+"sass@npm:1.52.1":
+  version: 1.52.1
+  resolution: "sass@npm:1.52.1"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: d674fd87be863961d5e5233a148e381a72b06ca1749ffd95a08be2c3f4aa8fc77e3e21840347a84d7d4542cbf97cd6f9bfae19ecb1f5eefa6c207a3d8f923dbc
+  checksum: a0508c88b149641202e8fb589f731e0cb09a15650128dfee6d0d1ee4a868cb57f1e71575535ccd72f54c5313b684a8beb208d293402ca8d32084ee1709d9f26d
   languageName: node
   linkType: hard
 
