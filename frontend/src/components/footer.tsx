@@ -12,6 +12,10 @@ import {
 import { observer } from 'mobx-react-lite'
 import { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
+import {
+	BOX_BORDER_COLOR_DARK,
+	BOX_BORDER_COLOR_LIGHT,
+} from '../constants/style.const'
 import { useMst } from '../models/root'
 
 const ListHeader = ({ children }: { children: ReactNode }) => {
@@ -138,7 +142,7 @@ export default observer(() => {
 	return (
 		<Box
 			bg={useColorModeValue('gray.50', 'gray.900')}
-			color={useColorModeValue('gray.700', 'gray.200')}
+			color={useColorModeValue(BOX_BORDER_COLOR_DARK, BOX_BORDER_COLOR_LIGHT)}
 		>
 			<Container as={Stack} maxW={'6xl'} py={10}>
 				<SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
@@ -166,19 +170,25 @@ export default observer(() => {
 					_before={{
 						content: '""',
 						borderBottom: '1px solid',
-						borderColor: useColorModeValue('gray.200', 'gray.700'),
+						borderColor: useColorModeValue(
+							BOX_BORDER_COLOR_LIGHT,
+							BOX_BORDER_COLOR_DARK,
+						),
 						flexGrow: 1,
 						mr: 8,
 					}}
 					_after={{
 						content: '""',
 						borderBottom: '1px solid',
-						borderColor: useColorModeValue('gray.200', 'gray.700'),
+						borderColor: useColorModeValue(
+							BOX_BORDER_COLOR_LIGHT,
+							BOX_BORDER_COLOR_DARK,
+						),
 						flexGrow: 1,
 						ml: 8,
 					}}
 				>
-					<Image src={'/logo.png'} alt={'mocuda'} w={10} h={10} />
+					<Image src={'/logo100.webp'} alt={'mocuda'} w={10} h={10} />
 				</Flex>
 				<Text pt={6} fontSize={'sm'} textAlign={'center'}>
 					© {new Date().getFullYear()} {t('footer.copyright')}
