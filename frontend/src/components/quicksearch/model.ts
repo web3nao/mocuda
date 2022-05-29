@@ -88,14 +88,16 @@ export const QuickSearchComponent = types
 				}
 			}
 			if (event.key === 'Enter') {
-				const action = ACTIONS.find(
-					(currentAction) => currentAction.id === self.selectedId,
-				)
-				if (action) {
-					action.action()
-				}
-				this.close()
+				this.performAction(self.selectedId)
 			}
+		},
+
+		performAction(id: string) {
+			const action = ACTIONS.find((currentAction) => currentAction.id === id)
+			if (action) {
+				action.action()
+			}
+			this.close()
 		},
 
 		addAction(action: QuickSearchAction) {

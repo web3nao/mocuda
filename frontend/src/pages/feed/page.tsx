@@ -26,6 +26,10 @@ import LineChart from '../../components/charts/LineChart'
 import CopyToClipboard from '../../components/copytoclipboard'
 import { AddressToConsumer } from '../../constants/consumers.const'
 import {
+	BOX_BORDER_COLOR_DARK,
+	BOX_BORDER_COLOR_LIGHT,
+} from '../../constants/style.const'
+import {
 	feedIcon,
 	formatDateTime,
 	prettyDuration,
@@ -66,7 +70,11 @@ export default observer(() => {
 						rounded={'md'}
 						boxShadow={{ base: 'lg' }}
 						p={5}
-						borderColor={colorMode === 'light' ? 'gray.200' : 'gray.600'}
+						borderColor={
+							colorMode === 'light'
+								? BOX_BORDER_COLOR_LIGHT
+								: BOX_BORDER_COLOR_DARK
+						}
 						borderWidth={1}
 					>
 						<VStack alignItems={'start'}>
@@ -132,7 +140,11 @@ export default observer(() => {
 						rounded={'md'}
 						boxShadow={{ base: 'lg' }}
 						p={5}
-						borderColor={colorMode === 'light' ? 'gray.200' : 'gray.600'}
+						borderColor={
+							colorMode === 'light'
+								? BOX_BORDER_COLOR_LIGHT
+								: BOX_BORDER_COLOR_DARK
+						}
 						borderWidth={1}
 					>
 						<Heading size={'sm'} p={5}>
@@ -161,12 +173,6 @@ export default observer(() => {
 													<Text textAlign={'center'} fontSize={'xs'}>
 														{oracle.data[0].price.toFixed(2)}
 													</Text>
-													{/* <Text fontSize={'xs'} textAlign={'center'}>
-														{prettyDuration(
-															new Date(),
-															new Date(oracle.data[0].date),
-														)}
-													</Text> */}
 												</VStack>
 											</Center>
 										</Box>
@@ -180,7 +186,11 @@ export default observer(() => {
 					rounded={'md'}
 					boxShadow={{ base: 'lg' }}
 					p={5}
-					borderColor={colorMode === 'light' ? 'gray.200' : 'gray.600'}
+					borderColor={
+						colorMode === 'light'
+							? BOX_BORDER_COLOR_LIGHT
+							: BOX_BORDER_COLOR_DARK
+					}
 					borderWidth={1}
 				>
 					<Heading size={'sm'} p={5}>
@@ -226,7 +236,11 @@ export function Consumers(options: {
 			rounded={'md'}
 			boxShadow={{ base: 'lg' }}
 			p={5}
-			borderColor={options.colorMode === 'light' ? 'gray.200' : 'gray.600'}
+			borderColor={
+				options.colorMode === 'light'
+					? BOX_BORDER_COLOR_LIGHT
+					: BOX_BORDER_COLOR_DARK
+			}
 			borderWidth={1}
 		>
 			<Heading size={'sm'} p={5}>

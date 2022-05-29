@@ -14,6 +14,7 @@ import {
 } from '@chakra-ui/react'
 import { observer } from 'mobx-react-lite'
 import { useTranslation } from 'react-i18next'
+import { BASE_COLOR } from '../../constants/style.const'
 import { useMst } from '../../models/root'
 import { SEARCH_ID } from './model'
 
@@ -40,13 +41,17 @@ export default observer(() => {
 					{component.getSearchResults().map((action) => {
 						return (
 							<Box
-								bg={component.selectedId === action.id ? 'pink.300' : undefined}
+								bg={
+									component.selectedId === action.id
+										? BASE_COLOR(300)
+										: undefined
+								}
 								p={2}
 								rounded={'md'}
 								key={action.id}
-								onClick={action.action}
+								onClick={() => component.performAction(action.id)}
 								cursor={'pointer'}
-								_hover={{ bg: 'pink.300' }}
+								_hover={{ bg: BASE_COLOR(300) }}
 							>
 								<Text>
 									{action.title}

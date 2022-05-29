@@ -43,19 +43,27 @@ export default observer(() => {
 				<Container maxW="6xl">
 					<Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
 						<HStack>
-							<Box>
+							<HStack>
 								<Link onClick={() => router.goTo(routes.home)}>
-									<HStack>
-										<Img src={'/logo.webp'} h={10} />
-										<Text>{t('title')}</Text>
-									</HStack>
+									<Img src={'/logo100.webp'} h={10} alt="logo" />
 								</Link>
-							</Box>
+								<Button
+									colorScheme="blue"
+									variant="ghost"
+									onClick={() => router.goTo(routes.home)}
+								>
+									{t('title')}
+								</Button>
+							</HStack>
 
 							<Box display={{ base: 'none', md: 'inline-flex' }}>
-								<Link onClick={() => router.goTo(routes.consumers)}>
-									<Text>{t('pages.consumers.headings.title')}</Text>
-								</Link>
+								<Button
+									colorScheme="blue"
+									variant="ghost"
+									onClick={() => router.goTo(routes.consumers)}
+								>
+									{t('pages.consumers.headings.title')}
+								</Button>
 							</Box>
 						</HStack>
 
@@ -73,14 +81,9 @@ export default observer(() => {
 								</Button>
 
 								<Button
+									colorScheme="blue"
+									variant="outline"
 									display={{ base: 'none', md: 'inline-flex' }}
-									fontSize={'sm'}
-									fontWeight={600}
-									color={'black'}
-									bg={BASE_COLOR(400)}
-									_hover={{
-										bg: BASE_COLOR(300),
-									}}
 								>
 									{t('navbar.actions.request')}
 								</Button>

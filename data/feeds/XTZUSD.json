@@ -191,6 +191,19 @@
       "address": "0x8de9c5f1ac1d4d02bbfc25fd178f5daa4d5b26dc",
       "data": [
         {
+          "age": 1653797520000,
+          "date": "2022-05-29T04:12:00.000Z",
+          "price": 1.936523,
+          "priceStr": "1936523000000000000",
+          "traces": {
+            "binance": "1.9351767742",
+            "bitfinex": "1.9386000000",
+            "coinbase": "1.9400000000",
+            "hitbtc": "1.9365230000",
+            "kraken": "1.9359000000"
+          }
+        },
+        {
           "age": 1653713907000,
           "date": "2022-05-28T04:58:27.000Z",
           "price": 1.8830804564,
@@ -322,19 +335,6 @@
             "coinbase": "1.9800000000",
             "hitbtc": "1.9781010000",
             "kraken": "1.9758000000"
-          }
-        },
-        {
-          "age": 1653148245000,
-          "date": "2022-05-21T15:50:45.000Z",
-          "price": 1.8297,
-          "priceStr": "1829700000000000000",
-          "traces": {
-            "binance": "1.8296973808",
-            "bitfinex": "1.8324000000",
-            "coinbase": "1.8300000000",
-            "hitbtc": "1.8252610000",
-            "kraken": "1.8297000000"
           }
         }
       ]
@@ -626,6 +626,19 @@
       "address": "0xe6367a7da2b20ecb94a25ef06f3b551bab2682e6",
       "data": [
         {
+          "age": 1653781732000,
+          "date": "2022-05-28T23:48:52.000Z",
+          "price": 1.9614,
+          "priceStr": "1961400000000000000",
+          "traces": {
+            "binance": "1.9615005388",
+            "bitfinex": "1.9614000000",
+            "coinbase": "1.9700000000",
+            "hitbtc": "1.9578340000",
+            "kraken": "1.9600000000"
+          }
+        },
+        {
           "age": 1653738258000,
           "date": "2022-05-28T11:44:18.000Z",
           "price": 1.94,
@@ -786,25 +799,42 @@
             "hitbtc": "1.9749910000",
             "kraken": "1.9758000000"
           }
-        },
-        {
-          "age": 1653273408000,
-          "date": "2022-05-23T02:36:48.000Z",
-          "price": 1.9416,
-          "priceStr": "1941600000000000000",
-          "traces": {
-            "binance": "1.9415446920",
-            "bitfinex": "1.9416000000",
-            "coinbase": "1.9400000000",
-            "hitbtc": "1.9449460000",
-            "kraken": "1.9453000000"
-          }
         }
       ]
     },
     {
       "address": "0xc9508e9e3ccf319f5333a5b8c825418abec688ba",
       "data": [
+        {
+          "age": 1653757467000,
+          "date": "2022-05-28T17:04:27.000Z",
+          "price": 1.9348,
+          "priceStr": "1934800000000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28887.9",
+            "BTC/USD@bittrex": "28892.346",
+            "BTC/USD@coinbasepro": "28877.73",
+            "BTC/USD@gemini": "28887.14",
+            "BTC/USD@kraken": "28876.7",
+            "BTC/USDT@binance": "28900",
+            "ETH/BTC@binance": "0.061323",
+            "ETH/USD@bitstamp": "1771.84",
+            "ETH/USD@coinbasepro": "1770.87",
+            "ETH/USD@ftx": "1770.2",
+            "ETH/USD@gemini": "1772.24",
+            "ETH/USD@kraken": "1773",
+            "ETH/USD@uniswapV3": "1771.1352204711004",
+            "ETH/USDT@ftx": "1772",
+            "ETH/USDT@huobi": "1772.125",
+            "USDT/USD@bitfinex": "1",
+            "USDT/USD@kraken": "0.999",
+            "XTZ/USD@bitfinex": "1.9348",
+            "XTZ/USD@coinbasepro": "1.94",
+            "XTZ/USD@hitbtc": "1.931063",
+            "XTZ/USD@kraken": "1.9423",
+            "XTZ/USDT@binance": "1.934"
+          }
+        },
         {
           "age": 1653723936000,
           "date": "2022-05-28T07:45:36.000Z",
@@ -944,42 +974,85 @@
             "hitbtc": "1.9995520000",
             "kraken": "2.0041000000"
           }
-        },
-        {
-          "age": 1652893722000,
-          "date": "2022-05-18T17:08:42.000Z",
-          "price": 1.7211659469655154,
-          "priceStr": "1721165946965515400",
-          "traces": {
-            "BTC/USD@bitstamp": "29109.86",
-            "BTC/USD@bittrex": "29128.985",
-            "BTC/USD@coinbasepro": "29102.06",
-            "BTC/USD@gemini": "29106.32",
-            "BTC/USD@kraken": "29130.2",
-            "BTC/USDT@binance": "29162.61",
-            "ETH/BTC@binance": "0.067608",
-            "ETH/USD@bitstamp": "1967.92",
-            "ETH/USD@coinbasepro": "1966.8",
-            "ETH/USD@ftx": "1968.2",
-            "ETH/USD@gemini": "1967.44",
-            "ETH/USD@kraken": "1970.19",
-            "ETH/USD@uniswapV3": "1971.0313840524302",
-            "ETH/USDT@ftx": "1971.3",
-            "ETH/USDT@huobi": "1971.6149999999998",
-            "USDT/USD@bitfinex": "0.99941",
-            "USDT/USD@kraken": "0.9986",
-            "XTZ/USD@bitfinex": "1.725",
-            "XTZ/USD@coinbasepro": "1.73",
-            "XTZ/USD@hitbtc": "1.721138",
-            "XTZ/USD@kraken": "1.7207",
-            "XTZ/USDT@binance": "1.724"
-          }
         }
       ]
     },
     {
       "address": "0x60da93d9903cb7d3ed450d4f81d402f7c4f71dd9",
       "data": [
+        {
+          "age": 1653803315000,
+          "date": "2022-05-29T05:48:35.000Z",
+          "price": 1.94417,
+          "priceStr": "1944170000000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28993.07",
+            "BTC/USD@bittrex": "28970.908",
+            "BTC/USD@coinbasepro": "28987.88",
+            "BTC/USD@gemini": "28997.84",
+            "BTC/USD@kraken": "28990.8",
+            "BTC/USDT@binance": "29012.53",
+            "ETH/BTC@binance": "0.061433",
+            "ETH/USD@bitstamp": "1780.54",
+            "ETH/USD@coinbasepro": "1779.98",
+            "ETH/USD@ftx": "1780.7",
+            "ETH/USD@gemini": "1780.86",
+            "ETH/USD@kraken": "1780.47",
+            "ETH/USD@uniswapV3": "1780.512576365953",
+            "ETH/USDT@ftx": "1782.5",
+            "ETH/USDT@huobi": "1781.7849999999999",
+            "USDT/USD@bitfinex": "1",
+            "USDT/USD@kraken": "0.9989",
+            "XTZ/USD@bitfinex": "1.947",
+            "XTZ/USD@coinbasepro": "1.95",
+            "XTZ/USD@hitbtc": "1.94417",
+            "XTZ/USD@kraken": "1.9437",
+            "XTZ/USDT@binance": "1.945"
+          }
+        },
+        {
+          "age": 1653800696000,
+          "date": "2022-05-29T05:04:56.000Z",
+          "price": 1.929552294250282,
+          "priceStr": "1929552294250282000",
+          "traces": {
+            "BTC/USD@bitstamp": "28917.79",
+            "BTC/USD@bittrex": "28908.787",
+            "BTC/USD@coinbasepro": "28915.89",
+            "BTC/USD@gemini": "28916.12",
+            "BTC/USD@kraken": "28915.5",
+            "BTC/USDT@binance": "28937.85",
+            "ETH/BTC@binance": "0.061308",
+            "ETH/USD@bitstamp": "1772.82",
+            "ETH/USD@coinbasepro": "1772.07",
+            "ETH/USD@ftx": "1771.7",
+            "ETH/USD@gemini": "1772.61",
+            "ETH/USD@kraken": "1772.67",
+            "ETH/USD@uniswapV3": "1773.0973539084553",
+            "ETH/USDT@ftx": "1774",
+            "ETH/USDT@huobi": "1773.8649999999998",
+            "USDT/USD@bitfinex": "1",
+            "USDT/USD@kraken": "0.9989",
+            "XTZ/USD@bitfinex": "1.93",
+            "XTZ/USD@coinbasepro": "1.93",
+            "XTZ/USD@hitbtc": "1.928863",
+            "XTZ/USD@kraken": "1.9294",
+            "XTZ/USDT@binance": "1.931"
+          }
+        },
+        {
+          "age": 1653764009000,
+          "date": "2022-05-28T18:53:29.000Z",
+          "price": 1.94,
+          "priceStr": "1940000000000000000",
+          "traces": {
+            "BTC/USD@coinbasepro": "28952.68",
+            "BTC/USD@gemini": "28953.08",
+            "ETH/USD@coinbasepro": "1784.34",
+            "ETH/USD@uniswapV3": "1784.441524409377",
+            "XTZ/USD@coinbasepro": "1.94"
+          }
+        },
         {
           "age": 1653641624000,
           "date": "2022-05-27T08:53:44.000Z",
@@ -1103,85 +1176,25 @@
             "hitbtc": "2.0294920000",
             "kraken": "2.0184000000"
           }
-        },
-        {
-          "age": 1653306340000,
-          "date": "2022-05-23T11:45:40.000Z",
-          "price": 2.018702,
-          "priceStr": "2018702000000000000",
-          "traces": {
-            "BTC/USD@bitstamp": "30417.34",
-            "BTC/USD@bittrex": "30420.052",
-            "BTC/USD@coinbasepro": "30409.88",
-            "BTC/USD@gemini": "30403.47",
-            "BTC/USD@kraken": "30410.1",
-            "BTC/USDT@binance": "30441.64",
-            "ETH/BTC@binance": "0.068129",
-            "ETH/USD@bitstamp": "2072.33",
-            "ETH/USD@coinbasepro": "2072.34",
-            "ETH/USD@ftx": "2072.2",
-            "ETH/USD@gemini": "2072.75",
-            "ETH/USD@kraken": "2072.84",
-            "ETH/USD@uniswapV3": "2073.3025736907466",
-            "ETH/USDT@ftx": "2074",
-            "ETH/USDT@huobi": "2073.7650000000003",
-            "USDT/USD@bitfinex": "0.99976",
-            "USDT/USD@kraken": "0.9989",
-            "XTZ/USD@bitfinex": "2.0205",
-            "XTZ/USD@coinbasepro": "2.01",
-            "XTZ/USD@hitbtc": "2.018702",
-            "XTZ/USD@kraken": "2.0194",
-            "XTZ/USDT@binance": "2.02"
-          }
-        },
-        {
-          "age": 1653216568000,
-          "date": "2022-05-22T10:49:28.000Z",
-          "price": 1.973737,
-          "priceStr": "1973737000000000000",
-          "traces": {
-            "BTC/USD@bitstamp": "30193.51",
-            "BTC/USD@bittrex": "30177.092",
-            "BTC/USD@coinbasepro": "30183.91",
-            "BTC/USD@gemini": "30190.97",
-            "BTC/USD@kraken": "30187.6",
-            "BTC/USDT@binance": "30225",
-            "ETH/BTC@binance": "0.067241",
-            "ETH/USD@bitstamp": "2029.76",
-            "ETH/USD@coinbasepro": "2030.21",
-            "ETH/USD@ftx": "2030.4",
-            "ETH/USD@gemini": "2030.4",
-            "ETH/USD@kraken": "2029.86",
-            "ETH/USD@uniswapV3": "2028.945117446325",
-            "ETH/USDT@ftx": "2032.9",
-            "ETH/USDT@huobi": "2032.6750000000002",
-            "USDT/USD@bitfinex": "1",
-            "USDT/USD@kraken": "0.9988",
-            "XTZ/USD@bitfinex": "1.9782",
-            "XTZ/USD@coinbasepro": "1.97",
-            "XTZ/USD@hitbtc": "1.973737",
-            "XTZ/USD@kraken": "1.9752",
-            "XTZ/USDT@binance": "1.974"
-          }
-        },
-        {
-          "age": 1653148244000,
-          "date": "2022-05-21T15:50:44.000Z",
-          "price": 1.83,
-          "priceStr": "1830000000000000000",
-          "traces": {
-            "binance": "1.8303592021",
-            "bitfinex": "1.8318000000",
-            "coinbase": "1.8300000000",
-            "hitbtc": "1.8252610000",
-            "kraken": "1.8297000000"
-          }
         }
       ]
     },
     {
       "address": "0xd27fa2361bc2cfb9a591fb289244c538e190684b",
       "data": [
+        {
+          "age": 1653757469000,
+          "date": "2022-05-28T17:04:29.000Z",
+          "price": 1.9342,
+          "priceStr": "1934200000000000000",
+          "traces": {
+            "binance": "1.9304558221",
+            "bitfinex": "1.9342000000",
+            "coinbase": "1.9400000000",
+            "hitbtc": "1.9296040000",
+            "kraken": "1.9423000000"
+          }
+        },
         {
           "age": 1653738267000,
           "date": "2022-05-28T11:44:27.000Z",
@@ -1399,21 +1412,6 @@
             "XTZ/USD@hitbtc": "1.960569",
             "XTZ/USD@kraken": "1.9595",
             "XTZ/USDT@binance": "1.959"
-          }
-        },
-        {
-          "age": 1653190416000,
-          "date": "2022-05-22T03:33:36.000Z",
-          "price": 1.8247,
-          "priceStr": "1824700000000000000",
-          "traces": {
-            "BTC/USD@coinbasepro": "29389",
-            "ETH/USD@coinbasepro": "1974.87",
-            "ETH/USD@gemini": "1976.51",
-            "ETH/USD@uniswapV3": "1975.0371618631375",
-            "USDT/USD@bitfinex": "0.99974",
-            "XTZ/USD@bitfinex": "1.8294",
-            "XTZ/USD@coinbasepro": "1.82"
           }
         }
       ]
@@ -2892,6 +2890,36 @@
       "address": "0x83e23c207a67a9f9cb680ce84869b91473403e7d",
       "data": [
         {
+          "age": 1653760144000,
+          "date": "2022-05-28T17:49:04.000Z",
+          "price": 1.931748,
+          "priceStr": "1931748000000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28877.45",
+            "BTC/USD@bittrex": "28874.348",
+            "BTC/USD@coinbasepro": "28870.54",
+            "BTC/USD@gemini": "28869.51",
+            "BTC/USD@kraken": "28871.6",
+            "BTC/USDT@binance": "28892.45",
+            "ETH/BTC@binance": "0.061477",
+            "ETH/USD@bitstamp": "1773.18",
+            "ETH/USD@coinbasepro": "1774.54",
+            "ETH/USD@ftx": "1773.9",
+            "ETH/USD@gemini": "1774.53",
+            "ETH/USD@kraken": "1774.38",
+            "ETH/USD@uniswapV3": "1772.7759080394935",
+            "ETH/USDT@ftx": "1775.5",
+            "ETH/USDT@huobi": "1775.955",
+            "USDT/USD@bitfinex": "0.99993",
+            "USDT/USD@kraken": "0.9989",
+            "XTZ/USD@bitfinex": "1.9315",
+            "XTZ/USD@coinbasepro": "1.94",
+            "XTZ/USD@hitbtc": "1.931748",
+            "XTZ/USD@kraken": "1.9261",
+            "XTZ/USDT@binance": "1.935"
+          }
+        },
+        {
           "age": 1653704828000,
           "date": "2022-05-28T02:27:08.000Z",
           "price": 1.8524893964,
@@ -3124,25 +3152,25 @@
             "XTZ/USD@kraken": "1.7226",
             "XTZ/USDT@binance": "1.723"
           }
-        },
-        {
-          "age": 1652972029000,
-          "date": "2022-05-19T14:53:49.000Z",
-          "price": 1.7281932803,
-          "priceStr": "1728193280300000000",
-          "traces": {
-            "binance": "1.7281932803",
-            "bitfinex": "1.7279000000",
-            "coinbase": "1.7300000000",
-            "hitbtc": "1.7375550000",
-            "kraken": "1.7258000000"
-          }
         }
       ]
     },
     {
       "address": "0x71ecff5261baa115dcb1d9335c88678324b8a987",
       "data": [
+        {
+          "age": 1653760135000,
+          "date": "2022-05-28T17:48:55.000Z",
+          "price": 1.9341,
+          "priceStr": "1934100000000000000",
+          "traces": {
+            "binance": "1.9318701690",
+            "bitfinex": "1.9341000000",
+            "coinbase": "1.9400000000",
+            "hitbtc": "1.9331000000",
+            "kraken": "1.9347000000"
+          }
+        },
         {
           "age": 1653598177000,
           "date": "2022-05-26T20:49:37.000Z",
@@ -3325,36 +3353,6 @@
             "coinbase": "1.7100000000",
             "hitbtc": "1.7015870000",
             "kraken": "1.6971000000"
-          }
-        },
-        {
-          "age": 1652845608000,
-          "date": "2022-05-18T03:46:48.000Z",
-          "price": 1.807,
-          "priceStr": "1807000000000000000",
-          "traces": {
-            "BTC/USD@bitstamp": "29830.25",
-            "BTC/USD@bittrex": "29830.031",
-            "BTC/USD@coinbasepro": "29823.49",
-            "BTC/USD@gemini": "29830.65",
-            "BTC/USD@kraken": "29828",
-            "BTC/USDT@binance": "29857.42",
-            "ETH/BTC@binance": "0.068317",
-            "ETH/USD@bitstamp": "2038.03",
-            "ETH/USD@coinbasepro": "2037.42",
-            "ETH/USD@ftx": "2037.5",
-            "ETH/USD@gemini": "2037.63",
-            "ETH/USD@kraken": "2036.99",
-            "ETH/USD@uniswapV3": "2038.1676024880664",
-            "ETH/USDT@ftx": "2040.5",
-            "ETH/USDT@huobi": "2039.7849999999999",
-            "USDT/USD@bitfinex": "0.9998",
-            "USDT/USD@kraken": "0.9988",
-            "XTZ/USD@bitfinex": "1.807",
-            "XTZ/USD@coinbasepro": "1.81",
-            "XTZ/USD@hitbtc": "1.803552",
-            "XTZ/USD@kraken": "1.809",
-            "XTZ/USDT@binance": "1.805"
           }
         }
       ]
@@ -3666,6 +3664,36 @@
       "address": "0xfbaf3a7eb4ec2962bd1847687e56aaee855f5d00",
       "data": [
         {
+          "age": 1653800690000,
+          "date": "2022-05-29T05:04:50.000Z",
+          "price": 1.9294,
+          "priceStr": "1929400000000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28918.15",
+            "BTC/USD@bittrex": "28908.787",
+            "BTC/USD@coinbasepro": "28915.89",
+            "BTC/USD@gemini": "28916.12",
+            "BTC/USD@kraken": "28915.5",
+            "BTC/USDT@binance": "28937.85",
+            "ETH/BTC@binance": "0.061312",
+            "ETH/USD@bitstamp": "1771.78",
+            "ETH/USD@coinbasepro": "1771.93",
+            "ETH/USD@ftx": "1771.7",
+            "ETH/USD@gemini": "1772.22",
+            "ETH/USD@kraken": "1772.69",
+            "ETH/USD@uniswapV3": "1773.0973539084553",
+            "ETH/USDT@ftx": "1773.8",
+            "ETH/USDT@huobi": "1773.855",
+            "USDT/USD@bitfinex": "1",
+            "USDT/USD@kraken": "0.9989",
+            "XTZ/USD@bitfinex": "1.93",
+            "XTZ/USD@coinbasepro": "1.93",
+            "XTZ/USD@hitbtc": "1.927189",
+            "XTZ/USD@kraken": "1.9294",
+            "XTZ/USDT@binance": "1.931"
+          }
+        },
+        {
           "age": 1653436071000,
           "date": "2022-05-24T23:47:51.000Z",
           "price": 2.105558,
@@ -3882,36 +3910,6 @@
             "XTZ/USD@hitbtc": "1.700575",
             "XTZ/USD@kraken": "1.7146",
             "XTZ/USDT@binance": "1.718"
-          }
-        },
-        {
-          "age": 1652288732000,
-          "date": "2022-05-11T17:05:32.000Z",
-          "price": 1.8776,
-          "priceStr": "1877600000000000000",
-          "traces": {
-            "BTC/USD@bitstamp": "30299.06",
-            "BTC/USD@bittrex": "30294.817",
-            "BTC/USD@coinbasepro": "30290",
-            "BTC/USD@gemini": "30301.3",
-            "BTC/USD@kraken": "30279.9",
-            "BTC/USDT@binance": "30345.76",
-            "ETH/BTC@binance": "0.0729",
-            "ETH/USD@bitstamp": "2207.09",
-            "ETH/USD@coinbasepro": "2206.26",
-            "ETH/USD@ftx": "2211.1",
-            "ETH/USD@gemini": "2210.06",
-            "ETH/USD@kraken": "2207.47",
-            "ETH/USD@uniswapV3": "2202.504771036558",
-            "ETH/USDT@ftx": "2212.6",
-            "ETH/USDT@huobi": "2213.11",
-            "USDT/USD@bitfinex": "1.0004",
-            "USDT/USD@kraken": "0.998",
-            "XTZ/USD@bitfinex": "1.8852",
-            "XTZ/USD@coinbasepro": "1.87",
-            "XTZ/USD@hitbtc": "1.880175",
-            "XTZ/USD@kraken": "1.8776",
-            "XTZ/USDT@binance": "1.878"
           }
         }
       ]
@@ -4727,6 +4725,36 @@
       "address": "0x4f95d9b4d842b2e2b1d1ac3f2cf548b93fd77c67",
       "data": [
         {
+          "age": 1653792898000,
+          "date": "2022-05-29T02:54:58.000Z",
+          "price": 1.9398,
+          "priceStr": "1939800000000000000",
+          "traces": {
+            "BTC/USD@bitstamp": "28874.84",
+            "BTC/USD@bittrex": "28871.964",
+            "BTC/USD@coinbasepro": "28874.79",
+            "BTC/USD@gemini": "28870",
+            "BTC/USD@kraken": "28872.1",
+            "BTC/USDT@binance": "28894.73",
+            "ETH/BTC@binance": "0.061134",
+            "ETH/USD@bitstamp": "1764.66",
+            "ETH/USD@coinbasepro": "1764.97",
+            "ETH/USD@ftx": "1764.5",
+            "ETH/USD@gemini": "1765.5",
+            "ETH/USD@kraken": "1764.42",
+            "ETH/USD@uniswapV3": "1764.553165550203",
+            "ETH/USDT@ftx": "1766.4",
+            "ETH/USDT@huobi": "1766.2649999999999",
+            "USDT/USD@bitfinex": "1",
+            "USDT/USD@kraken": "0.9989",
+            "XTZ/USD@bitfinex": "1.9402",
+            "XTZ/USD@coinbasepro": "1.94",
+            "XTZ/USD@hitbtc": "1.937545",
+            "XTZ/USD@kraken": "1.9398",
+            "XTZ/USDT@binance": "1.938"
+          }
+        },
+        {
           "age": 1653680644000,
           "date": "2022-05-27T19:44:04.000Z",
           "price": 1.7850343,
@@ -4995,36 +5023,6 @@
             "XTZ/USD@kraken": "1.8402",
             "XTZ/USDT@binance": "1.837"
           }
-        },
-        {
-          "age": 1652521689000,
-          "date": "2022-05-14T09:48:09.000Z",
-          "price": 1.7947,
-          "priceStr": "1794700000000000000",
-          "traces": {
-            "BTC/USD@bitstamp": "29371.59",
-            "BTC/USD@bittrex": "29362.387",
-            "BTC/USD@coinbasepro": "29362.29",
-            "BTC/USD@gemini": "29363.93",
-            "BTC/USD@kraken": "29367.6",
-            "BTC/USDT@binance": "29431.7",
-            "ETH/BTC@binance": "0.068829",
-            "ETH/USD@bitstamp": "2022.11",
-            "ETH/USD@coinbasepro": "2021.65",
-            "ETH/USD@ftx": "2021.7",
-            "ETH/USD@gemini": "2021.79",
-            "ETH/USD@kraken": "2022.51",
-            "ETH/USD@uniswapV3": "2020.636158698657",
-            "ETH/USDT@ftx": "2026.2",
-            "ETH/USDT@huobi": "2025.6750000000002",
-            "USDT/USD@bitfinex": "0.99987",
-            "USDT/USD@kraken": "0.9978",
-            "XTZ/USD@bitfinex": "1.7947",
-            "XTZ/USD@coinbasepro": "1.79",
-            "XTZ/USD@hitbtc": "1.795966",
-            "XTZ/USD@kraken": "1.7952",
-            "XTZ/USDT@binance": "1.796"
-          }
         }
       ]
     },
@@ -5118,6 +5116,36 @@
     {
       "address": "0xa8eb82456ed9bae55841529888cde9152468635a",
       "data": [
+        {
+          "age": 1653757466000,
+          "date": "2022-05-28T17:04:26.000Z",
+          "price": 1.9320659999999998,
+          "priceStr": "1932065999999999800",
+          "traces": {
+            "BTC/USD@bitstamp": "28894.42",
+            "BTC/USD@bittrex": "28892.346",
+            "BTC/USD@coinbasepro": "28889.64",
+            "BTC/USD@gemini": "28890.11",
+            "BTC/USD@kraken": "28899.5",
+            "BTC/USDT@binance": "28911.82",
+            "ETH/BTC@binance": "0.061415",
+            "ETH/USD@bitstamp": "1774.17",
+            "ETH/USD@coinbasepro": "1774.25",
+            "ETH/USD@ftx": "1775",
+            "ETH/USD@gemini": "1774.4",
+            "ETH/USD@kraken": "1773.99",
+            "ETH/USD@uniswapV3": "1769.4689525895228",
+            "ETH/USDT@ftx": "1776.5",
+            "ETH/USDT@huobi": "1776.105",
+            "USDT/USD@bitfinex": "0.99999",
+            "USDT/USD@kraken": "0.999",
+            "XTZ/USD@bitfinex": "1.9348",
+            "XTZ/USD@coinbasepro": "1.93",
+            "XTZ/USD@hitbtc": "1.92984",
+            "XTZ/USD@kraken": "1.9423",
+            "XTZ/USDT@binance": "1.934"
+          }
+        },
         {
           "age": 1653598173000,
           "date": "2022-05-26T20:49:33.000Z",
@@ -5318,19 +5346,6 @@
             "XTZ/USD@hitbtc": "1.831864",
             "XTZ/USD@kraken": "1.8278",
             "XTZ/USDT@binance": "1.831"
-          }
-        },
-        {
-          "age": 1652671791000,
-          "date": "2022-05-16T03:29:51.000Z",
-          "price": 1.839764,
-          "priceStr": "1839764000000000000",
-          "traces": {
-            "binance": "1.8374536847",
-            "bitfinex": "1.8379000000",
-            "coinbase": "1.8400000000",
-            "hitbtc": "1.8397640000",
-            "kraken": "1.8399000000"
           }
         }
       ]
