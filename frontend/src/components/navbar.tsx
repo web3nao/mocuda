@@ -45,12 +45,13 @@ export default observer(() => {
 						<HStack>
 							<HStack>
 								<Link onClick={() => router.goTo(routes.home)}>
-									<Img src={'/logo100.webp'} h={10} alt="logo" />
+									<Img src={'/logo100.webp'} h={10} w={10} alt="logo" />
 								</Link>
 								<Button
 									colorScheme="blue"
 									variant="ghost"
 									onClick={() => router.goTo(routes.home)}
+									display={{ base: 'none', md: 'inline-flex' }}
 								>
 									{t('title')}
 								</Button>
