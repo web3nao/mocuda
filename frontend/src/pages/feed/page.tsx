@@ -1,6 +1,7 @@
 import {
 	Avatar,
 	Box,
+	Button,
 	Center,
 	Divider,
 	Grid,
@@ -8,14 +9,30 @@ import {
 	Heading,
 	HStack,
 	Image,
+	Popover,
+	PopoverArrow,
+	PopoverBody,
+	PopoverCloseButton,
+	PopoverContent,
+	PopoverHeader,
+	PopoverTrigger,
 	SimpleGrid,
 	Skeleton,
 	Stack,
 	Stat,
 	StatLabel,
 	StatNumber,
+	Table,
+	TableCaption,
+	TableContainer,
+	Tbody,
+	Td,
 	Text,
+	Tfoot,
+	Th,
+	Thead,
 	Tooltip,
+	Tr,
 	useColorMode,
 	VStack,
 } from '@chakra-ui/react'
@@ -169,7 +186,42 @@ export default observer(() => {
 										>
 											<Center>
 												<VStack>
-													<Avatar src={makeBlockie(oracle.address)} />
+													<Popover>
+														<PopoverTrigger>
+															<Avatar
+																src={makeBlockie(oracle.address)}
+																cursor="pointer"
+															/>
+														</PopoverTrigger>
+														<PopoverContent>
+															<PopoverArrow />
+															<PopoverCloseButton />
+															<PopoverHeader>History</PopoverHeader>
+															<PopoverBody>
+																<TableContainer>
+																	<Table variant="simple">
+																		<Tbody>
+																			{oracle.data.map((data) => {
+																				return (
+																					<Tr>
+																						<Td>
+																							{formatDateTime(
+																								new Date(data.date),
+																							)}
+																						</Td>
+																						<Td isNumeric>
+																							{data.price.toFixed(2)}
+																						</Td>
+																					</Tr>
+																				)
+																			})}
+																		</Tbody>
+																	</Table>
+																</TableContainer>
+															</PopoverBody>
+														</PopoverContent>
+													</Popover>
+
 													<Text textAlign={'center'} fontSize={'xs'}>
 														{oracle.data[0].price.toFixed(2)}
 													</Text>
